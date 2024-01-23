@@ -65,9 +65,20 @@ gcloud compute ssh --project deep-learning-tests-411921 --zone asia-east1-c deep
 
 #### Port Foward Gcloud CLI -> Host-Maschine 
 ```shell
-cloud compute ssh VM_NAME --ssh-flag="-L LOCAL_PORT:REMOTE_PORT"
-# cloud compute ssh deeplearning-1-vm --ssh-flag="-L 7865:7865"
+# Option 1
+gcloud compute ssh deeplearning-1-vm --ssh-flag="-L 7865:7865"
+
+# Option 2
+gcloud compute ssh --ssh-flag="-L 4000:localhost:7865"  --zone "asia-east1-c" "deeplearning-1-vm"
+
+# Option 3
+gcloud compute ssh deeplearning-1-vm --zone=asia-east1-c -- -NL 4001:localhost:7865
 ```
 - VM_NAME durch den Namen Ihrer VM.
 - LOCAL_PORT durch den Port, den Sie auf Ihrer Host-Maschine verwenden möchten.
 - REMOTE_PORT durch den Port, der auf Ihrer VM geöffnet ist.
+
+#### Terminate Port Forward
+```shel
+- gcloud compute ssh deeplearning-1-vm --ssh-flag="-L 7865:7865" --terminate
+```
