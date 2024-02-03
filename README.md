@@ -29,6 +29,22 @@ gcloud compute scp --project deep-learning-tests-411921 --zone asia-east1-c --re
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
 ### SSH
 
 <br><br>
@@ -45,6 +61,29 @@ gcloud compute ssh --project deep-learning-tests-411921 --zone asia-east1-c deep
 gcloud compute ssh --project deep-learning-tests-411921 --zone asia-east1-c deeplearning-1-vm -- -L 8080:localhost:8080
 ```
 
+#### Store key with passphrase
+- This will save your passphrase that you do not have to enter it again eery time
+```shell
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/dein_private_key
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
 
 
 ### Networking
