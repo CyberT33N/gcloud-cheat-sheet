@@ -6,6 +6,56 @@
 
 
 
+# Install
+
+## Ubuntu
+
+Klar. Unter **Ubuntu** würde ich die offizielle APT-Methode von Google verwenden. ([Google Cloud Documentation][1])
+
+### 1. Voraussetzungen installieren
+
+```bash
+sudo apt update
+sudo apt install -y ca-certificates gnupg curl
+```
+
+### 2. Google-Repository-Schlüssel hinzufügen
+
+```bash
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg \
+  | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
+```
+
+### 3. Google-Cloud-Repository hinzufügen
+
+```bash
+echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" \
+  | sudo tee /etc/apt/sources.list.d/google-cloud-sdk.list
+```
+
+### 4. `gcloud` installieren
+
+```bash
+sudo apt update
+sudo apt install -y google-cloud-cli
+```
+
+### 5. Installation prüfen
+
+```bash
+gcloud version
+```
+
+Danach kannst du dich bei Google Cloud anmelden bzw. `gcloud` konfigurieren:
+
+```bash
+gcloud init
+```
+
+`gcloud init` führt dich durch die Anmeldung und die Auswahl bzw. Einrichtung eines Projekts. ([Google Cloud Documentation][2])
+
+Die offizielle Anleitung findest du hier: [Google Cloud CLI für Ubuntu installieren](https://docs.cloud.google.com/sdk/docs/install-sdk?hl=de&utm_source=chatgpt.com)
+
 
 
 
