@@ -8,6 +8,28 @@
 
 # Install
 
+
+## Windows
+
+```shell
+(New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe", "$env:Temp\GoogleCloudSDKInstaller.exe")
+
+& $env:Temp\GoogleCloudSDKInstaller.exe
+    
+```
+
+
+
+
+
+---
+
+
+
+
+
+
+
 ## Ubuntu
 
 Klar. Unter **Ubuntu** würde ich die offizielle APT-Methode von Google verwenden. ([Google Cloud Documentation][1])
