@@ -3,7 +3,7 @@
 ## Service Accounts
 
 ### IAM
-- docs\cli\iam\service-accounts\iam\overview.md
+- docs\cli\iam\service-accounts\iam-policy\overview.md
 
 ### create 
 ```shell
