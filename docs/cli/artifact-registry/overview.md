@@ -21,7 +21,10 @@ gcloud artifacts repositories list --project=test-go-builder-authority --locatio
 ```
 
 
-
+## Describe
+```shell
+gcloud artifacts repositories describe go-builder-staging-images --project=test-go-builder-authority --location=europe-west3 --format="yaml(name,format,dockerConfig,labels,vulnerabilityScanningConfig)"
+```
 
 
 ## Create
