@@ -1,6 +1,8 @@
 
 
-# List files
+# Files
+
+## list
 ```shell
 gcloud artifacts files list \
   --project="git-governance-release-broker" \
@@ -11,6 +13,27 @@ gcloud artifacts files list \
 
 
 
+
+-----
+
+# Docker
+
+## list 
+```shell
+gcloud artifacts docker images list europe-west3-docker.pkg.dev/test-go-builder-authority/go-builder-staging-images --include-tags
+```
+
+
+
+
+-----
+
+# Packages
+
+## list 
+```shell
+gcloud artifacts packages list --project=test-go-builder-authority --location=europe-west3 --repository=go-builder-staging-evidence --format="table(name)"
+```
 
 
 
