@@ -1,0 +1,4 @@
+# version
+```shell
+gcloud version
+```
