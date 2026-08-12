@@ -1,16 +1,6 @@
 # Artifact Repository
 
-# API
 
-## Enable
-```shell
-gcloud services enable artifactregistry.googleapis.com --project=test-go-builder-authority --quiet
-```
-
-
-
-
----
 
 # Repositories
 
