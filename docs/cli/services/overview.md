@@ -5,6 +5,12 @@
 gcloud run services list --project=git-governance-release-broker --region=europe-west3 2>&1; gcloud artifacts repositories list --project=git-governance-release-broker --location=europe-west3 2>&1
 ```
 
+## Describe
+```shell
+gcloud run services describe git-governance-release-broker --project=git-governance-release-broker --region=europe-west3 --format="yaml(spec.template.spec.containers[0].env)" 2>&1
+```
+
+
 ---
 
 ## Enable
