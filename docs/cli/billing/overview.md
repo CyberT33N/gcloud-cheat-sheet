@@ -1,8 +1,7 @@
 # Billing
 
 ## Accounts
+- docs\cli\billing\accounts\overview.md
 
-### List
-```shell
-gcloud billing accounts list
-```
+## Projects
+- docs\cli\billing\projects\overview.mddocs\cli\billing\projects\overview.md
