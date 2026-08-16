@@ -14,7 +14,7 @@ gcloud run services describe git-governance-release-broker --project=git-governa
 
 ## Update
 ```shell
-gcloud run services update git-governance-release-broker --region=europe-west3 --project=git-governance-release-broker --update-env-vars BROKER_ALLOWED_REPOSITORIES=github.com/t33n-software/git-governance,BROKER_APP_INSTALLATION_ID=xxxxxxxxxxxxxxxx
+gcloud run services update git-governance-release-broker --region=europe-west3 --project=git-governance-release-broker --update-env-vars "BROKER_ALLOWED_REPOSITORIES=github.com/t33n-software/git-governance,BROKER_APP_INSTALLATION_ID=xxxxxxxxxxxxxxx"
 ```
 
 
