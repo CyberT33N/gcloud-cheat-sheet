@@ -9,3 +9,11 @@ gcloud org-policies list --organization=xxxxxxxxxxxx --format="value(constraint)
 ```shell
 gcloud org-policies set-policy "C:\Users\denni\AppData\Local\Temp\org-policies\storage-publicAccessPrevention.yaml" 2>&1
 ```
+
+E.g.
+```yml
+name: organizations/xxxxxxxxxxxxx/policies/storage.publicAccessPrevention
+spec:
+  rules:
+  - enforce: true
+```
