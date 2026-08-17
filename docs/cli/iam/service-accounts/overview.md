@@ -18,5 +18,5 @@ gcloud iam service-accounts create gba-builder-staging-deployer --project=test-g
 #### list
 
 ```shell
-gcloud iam service-accounts keys list --iam-account=gba-builder-staging-deployer@cybert33n-go-builder-authority.iam.gserviceaccount.com --project=test-go-builder-authority --format="table(name.basename(),keyType,keyOrigin)"
+gcloud iam service-accounts keys list --iam-account=gba-builder-staging-deployer@cybertest-go-builder-authority.iam.gserviceaccount.com --project=test-go-builder-authority --format="table(name.basename(),keyType,keyOrigin)"
 ```
