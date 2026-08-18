@@ -7,6 +7,7 @@
 
 
 ### create
+- Notice there can we waiting time - Propagationsfenster 
 
 ```shell
 gcloud access-context-manager perimeters create dependency_authority --title="Dependency Authority" --policy=622707530139 "--resources=projects/xxxxxxxxxxx,projects/xxxxxxxxxxxxx,projects/xxxxxxxxxxxx,projects/xxxxxxxxxxxxxx,projects/xxxxxxxxxxxxxx" "--restricted-services=artifactregistry.googleapis.com,storage.googleapis.com,cloudkms.googleapis.com,logging.googleapis.com" --ingress-policies="C:\Users\test\AppData\Local\Temp\vpc-sc\ingress-admin.yaml" 2>&1 | Select-Object -Last 4 ; Write-Output "perimeter create exit=$LASTEXITCODE"
@@ -40,6 +41,8 @@ gcloud access-context-manager perimeters describe dependency_authority --policy=
 ---
 
 ### Update
+- Notice there can we waiting time - Propagationsfenster 
+
 ```shell
 gcloud access-context-manager perimeters update dependency_authority --policy=xxxxxxxxxxxxxx --set-ingress-policies="C:\Users\test\AppData\Local\Temp\vpc-sc\ingress-admin.yaml" 2>&1 
 ```
