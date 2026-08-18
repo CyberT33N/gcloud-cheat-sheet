@@ -26,6 +26,10 @@ gcloud config set account test@gmail.com --quiet ; gcloud projects add-iam-polic
 gcloud beta projects move test-software-dep-control --folder=xxxxxxxxxxxxxx --quiet 2>&1
 ```
 
+gcloud beta projects move ist gebrochen: Die Implementierung liest über die stillgelegte Resource-Manager-v1-API (403 für Owner und Admin gleichermaßen, bewiesen per Debug-Trace). Die Migration lief über die v3-REST-Methode projects.move mit derselben Identität (admin@test.software); das Zugriffstoken wurde nur prozessintern verwendet und nirgends ausgegeben oder persistiert. Gleiche Operation, gleiche Governance, funktionierender Transport.
+
+Gebundene Move-Vorbedingungen (offizielle v3-Dokumentation): auf einem parentlosen Projekt braucht der Aufrufer zusätzlich resourcemanager.projects.setIamPolicy und resourcemanager.projects.update — gelöst über roles/resourcemanager.projectIamAdmin + roles/editor für den Org-Admin (plus roles/logging.configWriter für die Sinks). Die zuvor vermutete Domain-Restriction war nicht der Blocker; sie blockierte auch die Logging-Service-Agents nicht.
+
 
 Alternative via REST:
 ```shell
