@@ -1,6 +1,14 @@
 
 # Repositories
 
+
+## Describe
+```shell
+gcloud artifacts repositories describe go-dependencies-intake --project=test-software-dep-intake --location=europe-west3 --format="yaml(mode,remoteRepositoryConfig)" 
+```
+
+---
+
 ## List
 ```shell
 gcloud artifacts repositories list --project=test-go-builder-authority --location=europe-west3 2>&1
