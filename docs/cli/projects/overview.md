@@ -12,6 +12,10 @@ foreach ($z in 'control','intake','quarantine','approved','evidence') { Write-Ou
 ---
 
 ## Move
+1. Run install beta
+- docs\cli\components\overview.md
+
+2. Then move:
 ```shell
 gcloud beta projects move test-software-dep-control --folder=xxxxxxxxxxxxxx --quiet 2>&1
 ```
