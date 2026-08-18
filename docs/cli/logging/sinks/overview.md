@@ -2,6 +2,14 @@
 
 ## Sinks
 
+### list
+
+```shell
+gcloud logging sinks list --project=test-software-dep-control 2>&1 
+```
+
+---
+
 ### create
 
 #### audit-to-evidence

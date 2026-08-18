@@ -23,3 +23,10 @@ ingress-admin.yaml
       - serviceName: "*"
 
 ```
+
+---
+
+### describe
+```shell
+gcloud access-context-manager perimeters describe dependency_authority --policy=xxxxxxxxxxxx --format="yaml(status.resources,status.restrictedServices,status.ingressPolicies,spec)" 2>&1 
+```
