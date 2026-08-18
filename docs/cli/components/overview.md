@@ -1,9 +1,20 @@
 # Components
 
+
+## Update
+```shell
+gcloud components update --quiet 2>&1
+```
+
+
+---
+
 ## List
 ```shell
 gcloud components list --filter="id=beta" --format="value(id,state.name)" 2>&1
 ```
+
+---
 
 ## Install
 
