@@ -6,6 +6,8 @@
 
 - [get-iam-policy](get-iam-policy/overview.md)
 - [add-iam-policy-binding](add-iam-policy-binding/overview.md)
+- [list](list/overview.md)
+- [remove-iam-policy-binding](remove-iam-policy-binding/overview.md)
 
 ### create 
 ```shell
