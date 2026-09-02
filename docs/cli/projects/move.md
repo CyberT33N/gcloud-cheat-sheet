@@ -3,7 +3,7 @@
 
 ## Move
 1. Run install beta
-- docs\cli\components\overview.md
+- [components](../components/overview.md)
 
 2. Set correct permission
 ```shell
@@ -16,9 +16,9 @@ gcloud config set account test@gmail.com --quiet ; gcloud projects add-iam-polic
 gcloud beta projects move test-software-dep-control --folder=xxxxxxxxxxxxxx --quiet 2>&1
 ```
 
-gcloud beta projects move ist gebrochen: Die Implementierung liest über die stillgelegte Resource-Manager-v1-API (403 für Owner und Admin gleichermaßen, bewiesen per Debug-Trace). Die Migration lief über die v3-REST-Methode projects.move mit derselben Identität (admin@test.software); das Zugriffstoken wurde nur prozessintern verwendet und nirgends ausgegeben oder persistiert. Gleiche Operation, gleiche Governance, funktionierender Transport.
+`gcloud beta projects move` is broken: the implementation reads through the deprecated Resource Manager v1 API (403 for owner and admin alike, proven via debug trace). The migration succeeded via the v3 REST method `projects.move` with the same identity (admin@test.software); the access token was used only in-process and was never printed or persisted. Same operation, same governance, working transport.
 
-Gebundene Move-Vorbedingungen (offizielle v3-Dokumentation): auf einem parentlosen Projekt braucht der Aufrufer zusätzlich resourcemanager.projects.setIamPolicy und resourcemanager.projects.update — gelöst über roles/resourcemanager.projectIamAdmin + roles/editor für den Org-Admin (plus roles/logging.configWriter für die Sinks). Die zuvor vermutete Domain-Restriction war nicht der Blocker; sie blockierte auch die Logging-Service-Agents nicht.
+Bound move preconditions (official v3 documentation): on a project without a parent, the caller additionally needs `resourcemanager.projects.setIamPolicy` and `resourcemanager.projects.update` — solved via `roles/resourcemanager.projectIamAdmin` + `roles/editor` for the org admin (plus `roles/logging.configWriter` for the sinks). The previously suspected domain restriction was not the blocker; it also did not block the logging service agents.
 
 
 Alternative via REST:

@@ -6,8 +6,10 @@
 
 #### Providers
 
-#####  OIDC
-docs\cli\iam\workload-identity-pools\providers\oidc\overview.md
+##### OIDC
+
+- [create-oidc](create-oidc/overview.md)
+- [update-oidc](update-oidc/overview.md)
 
 ##### Describe
 ```shell

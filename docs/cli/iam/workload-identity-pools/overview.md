@@ -17,4 +17,5 @@ gcloud iam workload-identity-pools create github-go-builder-pool --project=test-
 ---
 
 #### Providers
-docs\cli\iam\workload-identity-pools\providers\overview.md
+
+- [Providers](providers/overview.md)

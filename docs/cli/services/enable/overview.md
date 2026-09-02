@@ -42,5 +42,5 @@ gcloud services enable cloudkms.googleapis.com --project=test-go-builder-authori
 gcloud services enable accesscontextmanager.googleapis.com --project=test-go-builder-authority --quiet
 ```
 
-- https://console.cloud.google.com/apis/library/accesscontextmanager.googleapis.com?project=test-software-dep-control
+- [Google Cloud Console: accesscontextmanager.googleapis.com](https://console.cloud.google.com/apis/library/accesscontextmanager.googleapis.com?project=test-software-dep-control)
 

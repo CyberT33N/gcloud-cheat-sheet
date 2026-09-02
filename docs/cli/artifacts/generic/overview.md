@@ -1,6 +1,8 @@
+# Generic
 
-Download artifacts files and check something
-```shell
+Download artifacts files and check something:
+
+```bash
 #!/usr/bin/env bash
 set -euo pipefail
 

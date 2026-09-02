@@ -1,7 +1,11 @@
 # KMS
 
+[INTENT: NAVIGATION]
+
 ## Keyrings
-- docs\cli\kms\keyrings\overview.md
+
+- [Keyrings](keyrings/overview.md)
 
 ## Keys
-- docs\cli\kms\keys\overview.md
+
+- [Keys](keys/overview.md)

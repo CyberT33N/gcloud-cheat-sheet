@@ -2,12 +2,14 @@
 
 
 ## Create
-docs\cli\projects\create.md
+
+- [Create](create.md)
 
 ---
 
 ## Move
-docs\cli\projects\move.md
+
+- [Move](move.md)
 
 
 ---

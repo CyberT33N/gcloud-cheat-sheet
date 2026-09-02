@@ -1,7 +1,8 @@
-# Projects 
+# Logging
 
-## sinks
-- docs\cli\logging\sinks\overview.md
+## Sinks
+
+- [Sinks](sinks/overview.md)
 
 ## Read
 ```shell

@@ -3,7 +3,9 @@
 ## Service Accounts
 
 ### IAM
-- docs\cli\iam\service-accounts\iam-policy\overview.md
+
+- [get-iam-policy](get-iam-policy/overview.md)
+- [add-iam-policy-binding](add-iam-policy-binding/overview.md)
 
 ### create 
 ```shell

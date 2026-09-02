@@ -1,7 +1,11 @@
 # Access Context Manager
 
-## Policies
-- docs\cli\access-context-manager\policies\overview.md
+[INTENT: NAVIGATION]
 
-## perimeters
-- docs\cli\access-context-manager\perimeters\overview.md
+## Policies
+
+- [Policies](policies/overview.md)
+
+## Perimeters
+
+- [Perimeters](perimeters/overview.md)
