@@ -1,4 +1,0 @@
-# version
-```shell
-gcloud version
-```
