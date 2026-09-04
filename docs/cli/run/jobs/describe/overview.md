@@ -19,3 +19,11 @@ gcloud run jobs describe dep-intake-fetch --project=test-software-dep-intake --r
 ```
 
 A healthy job reports `"status": "True"` on the `Ready` condition with a current `lastTransitionTime`.
+
+## Network form read-back (Direct VPC egress)
+
+```shell
+gcloud run jobs describe <JOB_NAME> --project=<PROJECT_ID> --region=<REGION> --format="json(spec.template.metadata.annotations,status.conditions)"
+```
+
+The Direct VPC egress attachment of a job surfaces in the gcloud v1 presentation as annotations on the execution template — `run.googleapis.com/network-interfaces` (a JSON string carrying the network and subnetwork resource paths) and `run.googleapis.com/vpc-access-egress` — and NOT as a `vpcAccess` spec field. A projection on `spec.template.spec.template.spec.vpcAccess` therefore returns empty even on an attached job; the annotation projection is the correct proof form.

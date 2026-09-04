@@ -25,3 +25,11 @@ Proven output after activation:
 ```text
 projects/xxxxxxxxxxxx/services/run.googleapis.com
 ```
+
+### Multi-service filter (OR form)
+
+```shell
+gcloud services list --enabled --project=<PROJECT_ID> --filter="name:compute.googleapis.com OR name:dns.googleapis.com" --format="value(name)"
+```
+
+The filter language accepts `OR` between predicates, so one read proves a set of expected services; each matched service prints one line.
