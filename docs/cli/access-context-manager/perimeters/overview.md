@@ -46,3 +46,9 @@ gcloud access-context-manager perimeters describe dependency_authority --policy=
 ```shell
 gcloud access-context-manager perimeters update dependency_authority --policy=xxxxxxxxxxxxxx --set-ingress-policies="C:\Users\test\AppData\Local\Temp\vpc-sc\ingress-admin.yaml" 2>&1 
 ```
+
+### Update semantics and method selectors
+
+`--set-ingress-policies` replaces the whole ingress set of the perimeter — the file must carry every rule that must remain (for example the administration channel) plus the new rule; a file holding only the new rule drops the existing ones. The read-back over `describe` must prove the full intended rule set.
+
+A `methodSelectors` entry accepts `method` or `permission`. The permission form is rejected for Cloud Logging (`PERMISSION 'logging.logEntries.list' is not supported in logging.googleapis.com`); the restrictable form is the method `LoggingServiceV2.ListLogEntries` (see the supported service method restrictions). The platform validates fail-closed: an unsupported selector is rejected without changing the perimeter.

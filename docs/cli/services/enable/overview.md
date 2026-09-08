@@ -49,6 +49,11 @@ gcloud services enable accesscontextmanager.googleapis.com --project=test-go-bui
 gcloud services enable run.googleapis.com --project=test-software-dep-control --quiet
 ```
 
+### Cloud Identity
+```shell
+gcloud services enable cloudidentity.googleapis.com --project=test-software-dep-control --quiet
+```
+
 ## Architectural explanation
 
 `gcloud services enable` activates one API service on the target project through Service Usage; the caller needs `serviceusage.services.enable` (for example via a time-boxed `roles/serviceusage.serviceUsageAdmin` grant). The activation is asynchronous on the platform side — freshly enabled APIs and their service agents can take a few minutes to propagate, so the first dependent operation may fail transiently and is retried after a short wait. The read-back half is [list](../list/overview.md): the enabled service must appear there before dependent resources are created.
