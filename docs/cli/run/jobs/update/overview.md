@@ -27,3 +27,11 @@ gcloud run jobs update <JOB_NAME> --project=<PROJECT_ID> --region=<REGION> --net
 ```
 
 Architectural explanation: the Direct VPC egress form attaches the job to a VPC without a connector; `--vpc-egress=all-traffic` routes ALL outbound traffic through the attachment (the deprecated alias `all` exists — use `all-traffic`). The subnet must be /26 or larger. The update re-validates `iam.serviceAccounts.actAs` on the attached service account, so the caller needs that grant (for example a time-boxed SA-scoped `roles/iam.serviceAccountUser` binding) even when the service account itself does not change. The read-back runs over [describe](../describe/overview.md): in the gcloud v1 presentation the attachment surfaces as the template annotations `run.googleapis.com/network-interfaces` and `run.googleapis.com/vpc-access-egress`, not as a spec field.
+
+## Image and environment update form
+
+```shell
+gcloud run jobs update <JOB_NAME> --project=<PROJECT_ID> --region=<REGION> --image=<REGION>-docker.pkg.dev/<PROJECT_ID>/<REPOSITORY>/<IMAGE>@sha256:<DIGEST> --update-env-vars="^;^<KEY>=<VALUE>;<KEY>=<VALUE>"
+```
+
+Architectural explanation: the `--image` form re-binds the job to a new immutable digest reference, and `--update-env-vars` merges the named variables into the execution template (the `^;^` prefix sets `;` as the delimiter, so values may carry commas and other separator-sensitive content). The update re-validates `iam.serviceAccounts.actAs` on the attached service account even when the identity itself does not change: a caller without the actAs grant is rejected fail-closed with `PERMISSION_DENIED: Permission 'iam.serviceaccounts.actAs' denied`, and the rejected update mutates nothing (proven by the describe read-back of the unchanged job). The read-back runs over [describe](../describe/overview.md): the new image and the merged env bindings surface under `spec.template.spec.template.spec.containers[0]`, and the `Ready` condition re-evaluates at the new generation.
