@@ -10,7 +10,7 @@ gcloud iam service-accounts remove-iam-policy-binding <SERVICE_ACCOUNT_EMAIL> --
 
 ## Architectural explanation
 
-The removal targets exactly the member form that was granted; the read-back over [get-iam-policy](../get-iam-policy/overview.md) proves the policy afterwards. Ordering rule for time-boxed (just-in-time) administration: the identity performing service-account-level IAM changes needs `iam.serviceAccounts.setIamPolicy` (for example via project-level `roles/iam.serviceAccountAdmin`). Remove service-account-level bindings first and the project-level administration role last — removing the administration role first strands the service-account-level bindings behind `PERMISSION_DENIED`.
+The removal targets exactly the member form that was granted; the read-back over [get-iam-policy](../get-iam-policy/overview.md) proves the policy afterwards. Ordering rule for time-boxed (just-in-time) administration: the identity performing service-account-level IAM changes needs `iam.serviceAccounts.setIamPolicy` (for example via project-level `roles/iam.serviceAccountAdmin`). Remove service-account-level bindings first and the project-level administration role last — removing the administration role first strands the service-account-level bindings behind `PERMISSION_DENIED`. The mutation's policy echo can be suppressed with the output-mode flag `--format=none`; the independent read-back stays the proof (verified in the controller-activation window).
 
 ## Verified example
 
