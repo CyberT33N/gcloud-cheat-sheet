@@ -27,3 +27,12 @@ gcloud run jobs describe <JOB_NAME> --project=<PROJECT_ID> --region=<REGION> --f
 ```
 
 The Direct VPC egress attachment of a job surfaces in the gcloud v1 presentation as annotations on the execution template — `run.googleapis.com/network-interfaces` (a JSON string carrying the network and subnetwork resource paths) and `run.googleapis.com/vpc-access-egress` — and NOT as a `vpcAccess` spec field. A projection on `spec.template.spec.template.spec.vpcAccess` therefore returns empty even on an attached job; the annotation projection is the correct proof form.
+
+## Spec projection paths (the ExecutionSpec layering)
+
+The v2 job resource nests the task specification under two template layers with the ExecutionSpec between them: `spec.template.spec.template.spec`. Proven projection paths (proven against the live job resource):
+
+- the container image: `spec.template.spec.template.spec.containers[0].image`
+- the execution identity: `spec.template.spec.template.spec.serviceAccountName` (the field is `serviceAccountName`, never `serviceAccount`)
+
+A projection that misses the middle ExecutionSpec layer (for example `spec.template.spec.containers` or a top-level `spec.template.spec.serviceAccount`) resolves nothing and returns empty even on a healthy job.
