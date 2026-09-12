@@ -1,0 +1,42 @@
+# `roles/compute.orgSecurityPolicyAdmin` — `compute` permissions
+
+`roles/compute.orgSecurityPolicyAdmin` grants 34 permissions in the `compute` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`compute.firewallPolicies.cloneRules`](../../../../../../permissions/compute/firewallPolicies/overview.md)
+- [`compute.firewallPolicies.copyRules`](../../../../../../permissions/compute/firewallPolicies/overview.md)
+- [`compute.firewallPolicies.create`](../../../../../../permissions/compute/firewallPolicies/overview.md)
+- [`compute.firewallPolicies.createTagBinding`](../../../../../../permissions/compute/firewallPolicies/overview.md)
+- [`compute.firewallPolicies.delete`](../../../../../../permissions/compute/firewallPolicies/overview.md)
+- [`compute.firewallPolicies.deleteTagBinding`](../../../../../../permissions/compute/firewallPolicies/overview.md)
+- [`compute.firewallPolicies.get`](../../../../../../permissions/compute/firewallPolicies/overview.md)
+- [`compute.firewallPolicies.getIamPolicy`](../../../../../../permissions/compute/firewallPolicies/overview.md)
+- [`compute.firewallPolicies.list`](../../../../../../permissions/compute/firewallPolicies/overview.md)
+- [`compute.firewallPolicies.listEffectiveTags`](../../../../../../permissions/compute/firewallPolicies/overview.md)
+- [`compute.firewallPolicies.listTagBindings`](../../../../../../permissions/compute/firewallPolicies/overview.md)
+- [`compute.firewallPolicies.move`](../../../../../../permissions/compute/firewallPolicies/overview.md)
+- [`compute.firewallPolicies.setIamPolicy`](../../../../../../permissions/compute/firewallPolicies/overview.md)
+- [`compute.firewallPolicies.update`](../../../../../../permissions/compute/firewallPolicies/overview.md)
+- [`compute.firewallPolicies.use`](../../../../../../permissions/compute/firewallPolicies/overview.md)
+- [`compute.globalOperations.get`](../../../../../../permissions/compute/globalOperations/overview.md)
+- [`compute.globalOperations.getIamPolicy`](../../../../../../permissions/compute/globalOperations/overview.md)
+- [`compute.globalOperations.list`](../../../../../../permissions/compute/globalOperations/overview.md)
+- [`compute.globalOperations.setIamPolicy`](../../../../../../permissions/compute/globalOperations/overview.md)
+- [`compute.projects.get`](../../../../../../permissions/compute/projects/overview.md)
+- [`compute.securityPolicies.addAssociation`](../../../../../../permissions/compute/securityPolicies/overview.md)
+- [`compute.securityPolicies.copyRules`](../../../../../../permissions/compute/securityPolicies/overview.md)
+- [`compute.securityPolicies.create`](../../../../../../permissions/compute/securityPolicies/overview.md)
+- [`compute.securityPolicies.createTagBinding`](../../../../../../permissions/compute/securityPolicies/overview.md)
+- [`compute.securityPolicies.delete`](../../../../../../permissions/compute/securityPolicies/overview.md)
+- [`compute.securityPolicies.deleteTagBinding`](../../../../../../permissions/compute/securityPolicies/overview.md)
+- [`compute.securityPolicies.get`](../../../../../../permissions/compute/securityPolicies/overview.md)
+- [`compute.securityPolicies.list`](../../../../../../permissions/compute/securityPolicies/overview.md)
+- [`compute.securityPolicies.listEffectiveTags`](../../../../../../permissions/compute/securityPolicies/overview.md)
+- [`compute.securityPolicies.listTagBindings`](../../../../../../permissions/compute/securityPolicies/overview.md)
+- [`compute.securityPolicies.move`](../../../../../../permissions/compute/securityPolicies/overview.md)
+- [`compute.securityPolicies.removeAssociation`](../../../../../../permissions/compute/securityPolicies/overview.md)
+- [`compute.securityPolicies.update`](../../../../../../permissions/compute/securityPolicies/overview.md)
+- [`compute.securityPolicies.use`](../../../../../../permissions/compute/securityPolicies/overview.md)
+
+Role: [`roles/compute.orgSecurityPolicyAdmin`](../../overview.md)

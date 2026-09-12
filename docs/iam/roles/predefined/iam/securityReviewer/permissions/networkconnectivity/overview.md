@@ -1,0 +1,35 @@
+# `roles/iam.securityReviewer` — `networkconnectivity` permissions
+
+`roles/iam.securityReviewer` grants 27 permissions in the `networkconnectivity` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`networkconnectivity.gatewayAdvertisedRoutes.list`](../../../../../../permissions/networkconnectivity/gatewayAdvertisedRoutes/overview.md)
+- [`networkconnectivity.groups.getIamPolicy`](../../../../../../permissions/networkconnectivity/groups/overview.md)
+- [`networkconnectivity.groups.list`](../../../../../../permissions/networkconnectivity/groups/overview.md)
+- [`networkconnectivity.hubRouteTables.getIamPolicy`](../../../../../../permissions/networkconnectivity/hubRouteTables/overview.md)
+- [`networkconnectivity.hubRouteTables.list`](../../../../../../permissions/networkconnectivity/hubRouteTables/overview.md)
+- [`networkconnectivity.hubRoutes.getIamPolicy`](../../../../../../permissions/networkconnectivity/hubRoutes/overview.md)
+- [`networkconnectivity.hubRoutes.list`](../../../../../../permissions/networkconnectivity/hubRoutes/overview.md)
+- [`networkconnectivity.hubs.getIamPolicy`](../../../../../../permissions/networkconnectivity/hubs/overview.md)
+- [`networkconnectivity.hubs.list`](../../../../../../permissions/networkconnectivity/hubs/overview.md)
+- [`networkconnectivity.internalRanges.getIamPolicy`](../../../../../../permissions/networkconnectivity/internalRanges/overview.md)
+- [`networkconnectivity.internalRanges.list`](../../../../../../permissions/networkconnectivity/internalRanges/overview.md)
+- [`networkconnectivity.locations.list`](../../../../../../permissions/networkconnectivity/locations/overview.md)
+- [`networkconnectivity.multicloudDataTransferConfigs.list`](../../../../../../permissions/networkconnectivity/multicloudDataTransferConfigs/overview.md)
+- [`networkconnectivity.multicloudDataTransferDestinations.list`](../../../../../../permissions/networkconnectivity/multicloudDataTransferDestinations/overview.md)
+- [`networkconnectivity.multicloudDataTransferSupportedServices.list`](../../../../../../permissions/networkconnectivity/multicloudDataTransferSupportedServices/overview.md)
+- [`networkconnectivity.operations.list`](../../../../../../permissions/networkconnectivity/operations/overview.md)
+- [`networkconnectivity.policyBasedRoutes.getIamPolicy`](../../../../../../permissions/networkconnectivity/policyBasedRoutes/overview.md)
+- [`networkconnectivity.policyBasedRoutes.list`](../../../../../../permissions/networkconnectivity/policyBasedRoutes/overview.md)
+- [`networkconnectivity.pscAuthorizationPolicies.list`](../../../../../../permissions/networkconnectivity/pscAuthorizationPolicies/overview.md)
+- [`networkconnectivity.regionalEndpoints.list`](../../../../../../permissions/networkconnectivity/regionalEndpoints/overview.md)
+- [`networkconnectivity.remoteTransportProfiles.list`](../../../../../../permissions/networkconnectivity/remoteTransportProfiles/overview.md)
+- [`networkconnectivity.serviceClasses.list`](../../../../../../permissions/networkconnectivity/serviceClasses/overview.md)
+- [`networkconnectivity.serviceConnectionMaps.list`](../../../../../../permissions/networkconnectivity/serviceConnectionMaps/overview.md)
+- [`networkconnectivity.serviceConnectionPolicies.list`](../../../../../../permissions/networkconnectivity/serviceConnectionPolicies/overview.md)
+- [`networkconnectivity.spokes.getIamPolicy`](../../../../../../permissions/networkconnectivity/spokes/overview.md)
+- [`networkconnectivity.spokes.list`](../../../../../../permissions/networkconnectivity/spokes/overview.md)
+- [`networkconnectivity.transports.list`](../../../../../../permissions/networkconnectivity/transports/overview.md)
+
+Role: [`roles/iam.securityReviewer`](../../overview.md)

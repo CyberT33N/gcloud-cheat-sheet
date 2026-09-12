@@ -1,0 +1,43 @@
+# `roles/designcenter.serviceAgent` — `config` permissions
+
+`roles/designcenter.serviceAgent` grants 35 permissions in the `config` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`config.deploymentgrouprevisions.get`](../../../../../../permissions/config/deploymentgrouprevisions/overview.md)
+- [`config.deploymentgrouprevisions.list`](../../../../../../permissions/config/deploymentgrouprevisions/overview.md)
+- [`config.deploymentgroups.create`](../../../../../../permissions/config/deploymentgroups/overview.md)
+- [`config.deploymentgroups.delete`](../../../../../../permissions/config/deploymentgroups/overview.md)
+- [`config.deploymentgroups.deprovision`](../../../../../../permissions/config/deploymentgroups/overview.md)
+- [`config.deploymentgroups.get`](../../../../../../permissions/config/deploymentgroups/overview.md)
+- [`config.deploymentgroups.list`](../../../../../../permissions/config/deploymentgroups/overview.md)
+- [`config.deploymentgroups.provision`](../../../../../../permissions/config/deploymentgroups/overview.md)
+- [`config.deploymentgroups.update`](../../../../../../permissions/config/deploymentgroups/overview.md)
+- [`config.deployments.create`](../../../../../../permissions/config/deployments/overview.md)
+- [`config.deployments.delete`](../../../../../../permissions/config/deployments/overview.md)
+- [`config.deployments.get`](../../../../../../permissions/config/deployments/overview.md)
+- [`config.deployments.getState`](../../../../../../permissions/config/deployments/overview.md)
+- [`config.deployments.list`](../../../../../../permissions/config/deployments/overview.md)
+- [`config.deployments.lock`](../../../../../../permissions/config/deployments/overview.md)
+- [`config.deployments.unlock`](../../../../../../permissions/config/deployments/overview.md)
+- [`config.deployments.update`](../../../../../../permissions/config/deployments/overview.md)
+- [`config.locations.get`](../../../../../../permissions/config/locations/overview.md)
+- [`config.locations.list`](../../../../../../permissions/config/locations/overview.md)
+- [`config.operations.cancel`](../../../../../../permissions/config/operations/overview.md)
+- [`config.operations.delete`](../../../../../../permissions/config/operations/overview.md)
+- [`config.operations.get`](../../../../../../permissions/config/operations/overview.md)
+- [`config.operations.list`](../../../../../../permissions/config/operations/overview.md)
+- [`config.previews.create`](../../../../../../permissions/config/previews/overview.md)
+- [`config.previews.delete`](../../../../../../permissions/config/previews/overview.md)
+- [`config.previews.export`](../../../../../../permissions/config/previews/overview.md)
+- [`config.previews.get`](../../../../../../permissions/config/previews/overview.md)
+- [`config.previews.list`](../../../../../../permissions/config/previews/overview.md)
+- [`config.resources.get`](../../../../../../permissions/config/resources/overview.md)
+- [`config.resources.list`](../../../../../../permissions/config/resources/overview.md)
+- [`config.revisions.get`](../../../../../../permissions/config/revisions/overview.md)
+- [`config.revisions.getState`](../../../../../../permissions/config/revisions/overview.md)
+- [`config.revisions.list`](../../../../../../permissions/config/revisions/overview.md)
+- [`config.terraformversions.get`](../../../../../../permissions/config/terraformversions/overview.md)
+- [`config.terraformversions.list`](../../../../../../permissions/config/terraformversions/overview.md)
+
+Role: [`roles/designcenter.serviceAgent`](../../overview.md)

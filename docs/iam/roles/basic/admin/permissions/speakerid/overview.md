@@ -1,0 +1,19 @@
+# `roles/admin` — `speakerid` permissions
+
+`roles/admin` grants 11 permissions in the `speakerid` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`speakerid.phrases.create`](../../../../../permissions/speakerid/phrases/overview.md)
+- [`speakerid.phrases.delete`](../../../../../permissions/speakerid/phrases/overview.md)
+- [`speakerid.phrases.get`](../../../../../permissions/speakerid/phrases/overview.md)
+- [`speakerid.phrases.list`](../../../../../permissions/speakerid/phrases/overview.md)
+- [`speakerid.settings.get`](../../../../../permissions/speakerid/settings/overview.md)
+- [`speakerid.settings.update`](../../../../../permissions/speakerid/settings/overview.md)
+- [`speakerid.speakers.create`](../../../../../permissions/speakerid/speakers/overview.md)
+- [`speakerid.speakers.delete`](../../../../../permissions/speakerid/speakers/overview.md)
+- [`speakerid.speakers.get`](../../../../../permissions/speakerid/speakers/overview.md)
+- [`speakerid.speakers.list`](../../../../../permissions/speakerid/speakers/overview.md)
+- [`speakerid.speakers.verify`](../../../../../permissions/speakerid/speakers/overview.md)
+
+Role: [`roles/admin`](../../overview.md)

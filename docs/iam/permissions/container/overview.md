@@ -1,0 +1,79 @@
+# `container`
+
+## Child areas
+
+| Area | Leaf groups | Permissions |
+| --- | --- | --- |
+| [apiServices](apiServices/overview.md) | 1 | 7 |
+| [auditSinks](auditSinks/overview.md) | 1 | 5 |
+| [backendConfigs](backendConfigs/overview.md) | 1 | 5 |
+| [bindings](bindings/overview.md) | 1 | 5 |
+| [certificateSigningRequests](certificateSigningRequests/overview.md) | 1 | 8 |
+| [clusterRoleBindings](clusterRoleBindings/overview.md) | 1 | 5 |
+| [clusterRoles](clusterRoles/overview.md) | 1 | 7 |
+| [clusters](clusters/overview.md) | 1 | 12 |
+| [componentStatuses](componentStatuses/overview.md) | 1 | 2 |
+| [configMaps](configMaps/overview.md) | 1 | 5 |
+| [controllerRevisions](controllerRevisions/overview.md) | 1 | 5 |
+| [cronJobs](cronJobs/overview.md) | 1 | 7 |
+| [csiDrivers](csiDrivers/overview.md) | 1 | 5 |
+| [csiNodeInfos](csiNodeInfos/overview.md) | 1 | 5 |
+| [csiNodes](csiNodes/overview.md) | 1 | 5 |
+| [customResourceDefinitions](customResourceDefinitions/overview.md) | 1 | 7 |
+| [daemonSets](daemonSets/overview.md) | 1 | 7 |
+| [deployments](deployments/overview.md) | 1 | 10 |
+| [endpoints](endpoints/overview.md) | 1 | 5 |
+| [endpointSlices](endpointSlices/overview.md) | 1 | 5 |
+| [events](events/overview.md) | 1 | 5 |
+| [frontendConfigs](frontendConfigs/overview.md) | 1 | 5 |
+| [horizontalPodAutoscalers](horizontalPodAutoscalers/overview.md) | 1 | 7 |
+| [hostServiceAgent](hostServiceAgent/overview.md) | 1 | 1 |
+| [ingresses](ingresses/overview.md) | 1 | 7 |
+| [initializerConfigurations](initializerConfigurations/overview.md) | 1 | 5 |
+| [jobs](jobs/overview.md) | 1 | 7 |
+| [leases](leases/overview.md) | 1 | 5 |
+| [limitRanges](limitRanges/overview.md) | 1 | 5 |
+| [localSubjectAccessReviews](localSubjectAccessReviews/overview.md) | 1 | 2 |
+| [managedCertificates](managedCertificates/overview.md) | 1 | 5 |
+| [mutatingWebhookConfigurations](mutatingWebhookConfigurations/overview.md) | 1 | 5 |
+| [namespaces](namespaces/overview.md) | 1 | 8 |
+| [networkPolicies](networkPolicies/overview.md) | 1 | 5 |
+| [nodes](nodes/overview.md) | 1 | 8 |
+| [operations](operations/overview.md) | 1 | 2 |
+| [persistentVolumeClaims](persistentVolumeClaims/overview.md) | 1 | 7 |
+| [persistentVolumes](persistentVolumes/overview.md) | 1 | 7 |
+| [petSets](petSets/overview.md) | 1 | 6 |
+| [podDisruptionBudgets](podDisruptionBudgets/overview.md) | 1 | 7 |
+| [podPresets](podPresets/overview.md) | 1 | 5 |
+| [pods](pods/overview.md) | 1 | 14 |
+| [podSecurityPolicies](podSecurityPolicies/overview.md) | 1 | 6 |
+| [podTemplates](podTemplates/overview.md) | 1 | 5 |
+| [priorityClasses](priorityClasses/overview.md) | 1 | 5 |
+| [replicaSets](replicaSets/overview.md) | 1 | 9 |
+| [replicationControllers](replicationControllers/overview.md) | 1 | 9 |
+| [resourceQuotas](resourceQuotas/overview.md) | 1 | 7 |
+| [roleBindings](roleBindings/overview.md) | 1 | 5 |
+| [roles](roles/overview.md) | 1 | 7 |
+| [runtimeClasses](runtimeClasses/overview.md) | 1 | 5 |
+| [scheduledJobs](scheduledJobs/overview.md) | 1 | 6 |
+| [secrets](secrets/overview.md) | 1 | 5 |
+| [selfSubjectAccessReviews](selfSubjectAccessReviews/overview.md) | 1 | 2 |
+| [selfSubjectRulesReviews](selfSubjectRulesReviews/overview.md) | 1 | 1 |
+| [serviceAccounts](serviceAccounts/overview.md) | 1 | 6 |
+| [services](services/overview.md) | 1 | 8 |
+| [statefulSets](statefulSets/overview.md) | 1 | 9 |
+| [storageClasses](storageClasses/overview.md) | 1 | 5 |
+| [storageStates](storageStates/overview.md) | 1 | 7 |
+| [storageVersionMigrations](storageVersionMigrations/overview.md) | 1 | 7 |
+| [subjectAccessReviews](subjectAccessReviews/overview.md) | 1 | 2 |
+| [thirdPartyObjects](thirdPartyObjects/overview.md) | 1 | 5 |
+| [thirdPartyResources](thirdPartyResources/overview.md) | 1 | 5 |
+| [tokenReviews](tokenReviews/overview.md) | 1 | 1 |
+| [updateInfos](updateInfos/overview.md) | 1 | 5 |
+| [validatingWebhookConfigurations](validatingWebhookConfigurations/overview.md) | 1 | 5 |
+| [volumeAttachments](volumeAttachments/overview.md) | 1 | 7 |
+| [volumeSnapshotClasses](volumeSnapshotClasses/overview.md) | 1 | 5 |
+| [volumeSnapshotContents](volumeSnapshotContents/overview.md) | 1 | 7 |
+| [volumeSnapshots](volumeSnapshots/overview.md) | 1 | 7 |
+
+Catalog: [IAM permissions](../overview.md)

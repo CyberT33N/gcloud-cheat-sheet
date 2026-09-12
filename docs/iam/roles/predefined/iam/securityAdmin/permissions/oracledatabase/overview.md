@@ -1,0 +1,42 @@
+# `roles/iam.securityAdmin` — `oracledatabase` permissions
+
+`roles/iam.securityAdmin` grants 34 permissions in the `oracledatabase` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`oracledatabase.autonomousDatabaseBackups.list`](../../../../../../permissions/oracledatabase/autonomousDatabaseBackups/overview.md)
+- [`oracledatabase.autonomousDatabaseCharacterSets.list`](../../../../../../permissions/oracledatabase/autonomousDatabaseCharacterSets/overview.md)
+- [`oracledatabase.autonomousDatabases.list`](../../../../../../permissions/oracledatabase/autonomousDatabases/overview.md)
+- [`oracledatabase.autonomousDbVersions.list`](../../../../../../permissions/oracledatabase/autonomousDbVersions/overview.md)
+- [`oracledatabase.cloudExadataInfrastructures.list`](../../../../../../permissions/oracledatabase/cloudExadataInfrastructures/overview.md)
+- [`oracledatabase.cloudVmClusters.list`](../../../../../../permissions/oracledatabase/cloudVmClusters/overview.md)
+- [`oracledatabase.databaseCharacterSets.list`](../../../../../../permissions/oracledatabase/databaseCharacterSets/overview.md)
+- [`oracledatabase.databases.list`](../../../../../../permissions/oracledatabase/databases/overview.md)
+- [`oracledatabase.dbNodes.list`](../../../../../../permissions/oracledatabase/dbNodes/overview.md)
+- [`oracledatabase.dbServers.list`](../../../../../../permissions/oracledatabase/dbServers/overview.md)
+- [`oracledatabase.dbSystemComputePerformances.list`](../../../../../../permissions/oracledatabase/dbSystemComputePerformances/overview.md)
+- [`oracledatabase.dbSystemInitialStorageSizes.list`](../../../../../../permissions/oracledatabase/dbSystemInitialStorageSizes/overview.md)
+- [`oracledatabase.dbSystemShapes.list`](../../../../../../permissions/oracledatabase/dbSystemShapes/overview.md)
+- [`oracledatabase.dbSystems.list`](../../../../../../permissions/oracledatabase/dbSystems/overview.md)
+- [`oracledatabase.dbVersions.list`](../../../../../../permissions/oracledatabase/dbVersions/overview.md)
+- [`oracledatabase.entitlements.list`](../../../../../../permissions/oracledatabase/entitlements/overview.md)
+- [`oracledatabase.exadbVmClusters.list`](../../../../../../permissions/oracledatabase/exadbVmClusters/overview.md)
+- [`oracledatabase.exascaleDbStorageVaults.list`](../../../../../../permissions/oracledatabase/exascaleDbStorageVaults/overview.md)
+- [`oracledatabase.flexComponents.list`](../../../../../../permissions/oracledatabase/flexComponents/overview.md)
+- [`oracledatabase.giVersions.list`](../../../../../../permissions/oracledatabase/giVersions/overview.md)
+- [`oracledatabase.goldenGateConnectionAssignments.list`](../../../../../../permissions/oracledatabase/goldenGateConnectionAssignments/overview.md)
+- [`oracledatabase.goldenGateConnectionTypes.list`](../../../../../../permissions/oracledatabase/goldenGateConnectionTypes/overview.md)
+- [`oracledatabase.goldenGateConnections.list`](../../../../../../permissions/oracledatabase/goldenGateConnections/overview.md)
+- [`oracledatabase.goldenGateDeploymentEnvironments.list`](../../../../../../permissions/oracledatabase/goldenGateDeploymentEnvironments/overview.md)
+- [`oracledatabase.goldenGateDeploymentTypes.list`](../../../../../../permissions/oracledatabase/goldenGateDeploymentTypes/overview.md)
+- [`oracledatabase.goldenGateDeploymentVersions.list`](../../../../../../permissions/oracledatabase/goldenGateDeploymentVersions/overview.md)
+- [`oracledatabase.goldenGateDeployments.list`](../../../../../../permissions/oracledatabase/goldenGateDeployments/overview.md)
+- [`oracledatabase.locations.list`](../../../../../../permissions/oracledatabase/locations/overview.md)
+- [`oracledatabase.minorVersions.list`](../../../../../../permissions/oracledatabase/minorVersions/overview.md)
+- [`oracledatabase.odbNetworks.list`](../../../../../../permissions/oracledatabase/odbNetworks/overview.md)
+- [`oracledatabase.odbSubnets.list`](../../../../../../permissions/oracledatabase/odbSubnets/overview.md)
+- [`oracledatabase.operations.list`](../../../../../../permissions/oracledatabase/operations/overview.md)
+- [`oracledatabase.pluggableDatabases.list`](../../../../../../permissions/oracledatabase/pluggableDatabases/overview.md)
+- [`oracledatabase.systemVersions.list`](../../../../../../permissions/oracledatabase/systemVersions/overview.md)
+
+Role: [`roles/iam.securityAdmin`](../../overview.md)

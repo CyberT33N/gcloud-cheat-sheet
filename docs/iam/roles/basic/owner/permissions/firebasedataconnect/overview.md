@@ -1,0 +1,43 @@
+# `roles/owner` — `firebasedataconnect` permissions
+
+`roles/owner` grants 35 permissions in the `firebasedataconnect` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`firebasedataconnect.connectorRevisions.delete`](../../../../../permissions/firebasedataconnect/connectorRevisions/overview.md)
+- [`firebasedataconnect.connectorRevisions.get`](../../../../../permissions/firebasedataconnect/connectorRevisions/overview.md)
+- [`firebasedataconnect.connectorRevisions.list`](../../../../../permissions/firebasedataconnect/connectorRevisions/overview.md)
+- [`firebasedataconnect.connectors.create`](../../../../../permissions/firebasedataconnect/connectors/overview.md)
+- [`firebasedataconnect.connectors.delete`](../../../../../permissions/firebasedataconnect/connectors/overview.md)
+- [`firebasedataconnect.connectors.get`](../../../../../permissions/firebasedataconnect/connectors/overview.md)
+- [`firebasedataconnect.connectors.impersonateMutation`](../../../../../permissions/firebasedataconnect/connectors/overview.md)
+- [`firebasedataconnect.connectors.impersonateQuery`](../../../../../permissions/firebasedataconnect/connectors/overview.md)
+- [`firebasedataconnect.connectors.list`](../../../../../permissions/firebasedataconnect/connectors/overview.md)
+- [`firebasedataconnect.connectors.update`](../../../../../permissions/firebasedataconnect/connectors/overview.md)
+- [`firebasedataconnect.locations.get`](../../../../../permissions/firebasedataconnect/locations/overview.md)
+- [`firebasedataconnect.locations.list`](../../../../../permissions/firebasedataconnect/locations/overview.md)
+- [`firebasedataconnect.operations.cancel`](../../../../../permissions/firebasedataconnect/operations/overview.md)
+- [`firebasedataconnect.operations.delete`](../../../../../permissions/firebasedataconnect/operations/overview.md)
+- [`firebasedataconnect.operations.get`](../../../../../permissions/firebasedataconnect/operations/overview.md)
+- [`firebasedataconnect.operations.list`](../../../../../permissions/firebasedataconnect/operations/overview.md)
+- [`firebasedataconnect.schemaRevisions.delete`](../../../../../permissions/firebasedataconnect/schemaRevisions/overview.md)
+- [`firebasedataconnect.schemaRevisions.get`](../../../../../permissions/firebasedataconnect/schemaRevisions/overview.md)
+- [`firebasedataconnect.schemaRevisions.list`](../../../../../permissions/firebasedataconnect/schemaRevisions/overview.md)
+- [`firebasedataconnect.schemas.create`](../../../../../permissions/firebasedataconnect/schemas/overview.md)
+- [`firebasedataconnect.schemas.delete`](../../../../../permissions/firebasedataconnect/schemas/overview.md)
+- [`firebasedataconnect.schemas.get`](../../../../../permissions/firebasedataconnect/schemas/overview.md)
+- [`firebasedataconnect.schemas.list`](../../../../../permissions/firebasedataconnect/schemas/overview.md)
+- [`firebasedataconnect.schemas.migrate`](../../../../../permissions/firebasedataconnect/schemas/overview.md)
+- [`firebasedataconnect.schemas.update`](../../../../../permissions/firebasedataconnect/schemas/overview.md)
+- [`firebasedataconnect.services.create`](../../../../../permissions/firebasedataconnect/services/overview.md)
+- [`firebasedataconnect.services.delete`](../../../../../permissions/firebasedataconnect/services/overview.md)
+- [`firebasedataconnect.services.executeGraphql`](../../../../../permissions/firebasedataconnect/services/overview.md)
+- [`firebasedataconnect.services.executeGraphqlRead`](../../../../../permissions/firebasedataconnect/services/overview.md)
+- [`firebasedataconnect.services.generateQuery`](../../../../../permissions/firebasedataconnect/services/overview.md)
+- [`firebasedataconnect.services.generateSchema`](../../../../../permissions/firebasedataconnect/services/overview.md)
+- [`firebasedataconnect.services.get`](../../../../../permissions/firebasedataconnect/services/overview.md)
+- [`firebasedataconnect.services.introspectGraphql`](../../../../../permissions/firebasedataconnect/services/overview.md)
+- [`firebasedataconnect.services.list`](../../../../../permissions/firebasedataconnect/services/overview.md)
+- [`firebasedataconnect.services.update`](../../../../../permissions/firebasedataconnect/services/overview.md)
+
+Role: [`roles/owner`](../../overview.md)

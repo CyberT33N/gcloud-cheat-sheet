@@ -1,0 +1,34 @@
+# `roles/bigtable.viewer` — `bigtable` permissions
+
+`roles/bigtable.viewer` grants 26 permissions in the `bigtable` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`bigtable.appProfiles.get`](../../../../../../permissions/bigtable/appProfiles/overview.md)
+- [`bigtable.appProfiles.list`](../../../../../../permissions/bigtable/appProfiles/overview.md)
+- [`bigtable.authorizedViews.get`](../../../../../../permissions/bigtable/authorizedViews/overview.md)
+- [`bigtable.authorizedViews.list`](../../../../../../permissions/bigtable/authorizedViews/overview.md)
+- [`bigtable.backups.get`](../../../../../../permissions/bigtable/backups/overview.md)
+- [`bigtable.backups.list`](../../../../../../permissions/bigtable/backups/overview.md)
+- [`bigtable.clusters.get`](../../../../../../permissions/bigtable/clusters/overview.md)
+- [`bigtable.clusters.list`](../../../../../../permissions/bigtable/clusters/overview.md)
+- [`bigtable.hotTablets.list`](../../../../../../permissions/bigtable/hotTablets/overview.md)
+- [`bigtable.instances.get`](../../../../../../permissions/bigtable/instances/overview.md)
+- [`bigtable.instances.list`](../../../../../../permissions/bigtable/instances/overview.md)
+- [`bigtable.instances.listEffectiveTags`](../../../../../../permissions/bigtable/instances/overview.md)
+- [`bigtable.instances.listTagBindings`](../../../../../../permissions/bigtable/instances/overview.md)
+- [`bigtable.locations.list`](../../../../../../permissions/bigtable/locations/overview.md)
+- [`bigtable.logicalViews.get`](../../../../../../permissions/bigtable/logicalViews/overview.md)
+- [`bigtable.logicalViews.list`](../../../../../../permissions/bigtable/logicalViews/overview.md)
+- [`bigtable.materializedViews.get`](../../../../../../permissions/bigtable/materializedViews/overview.md)
+- [`bigtable.materializedViews.list`](../../../../../../permissions/bigtable/materializedViews/overview.md)
+- [`bigtable.memoryLayers.get`](../../../../../../permissions/bigtable/memoryLayers/overview.md)
+- [`bigtable.memoryLayers.list`](../../../../../../permissions/bigtable/memoryLayers/overview.md)
+- [`bigtable.schemaBundles.get`](../../../../../../permissions/bigtable/schemaBundles/overview.md)
+- [`bigtable.schemaBundles.list`](../../../../../../permissions/bigtable/schemaBundles/overview.md)
+- [`bigtable.tables.checkConsistency`](../../../../../../permissions/bigtable/tables/overview.md)
+- [`bigtable.tables.generateConsistencyToken`](../../../../../../permissions/bigtable/tables/overview.md)
+- [`bigtable.tables.get`](../../../../../../permissions/bigtable/tables/overview.md)
+- [`bigtable.tables.list`](../../../../../../permissions/bigtable/tables/overview.md)
+
+Role: [`roles/bigtable.viewer`](../../overview.md)

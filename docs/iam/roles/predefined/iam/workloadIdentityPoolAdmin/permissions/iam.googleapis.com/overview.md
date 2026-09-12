@@ -1,0 +1,43 @@
+# `roles/iam.workloadIdentityPoolAdmin` — `iam.googleapis.com` permissions
+
+`roles/iam.workloadIdentityPoolAdmin` grants 35 permissions in the `iam.googleapis.com` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`iam.googleapis.com/workloadIdentityPoolManagedIdentities.create`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolManagedIdentities/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolManagedIdentities.delete`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolManagedIdentities/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolManagedIdentities.get`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolManagedIdentities/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolManagedIdentities.getAttestationRules`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolManagedIdentities/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolManagedIdentities.list`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolManagedIdentities/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolManagedIdentities.setAttestationRules`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolManagedIdentities/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolManagedIdentities.undelete`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolManagedIdentities/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolManagedIdentities.update`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolManagedIdentities/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolNamespaces.create`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolNamespaces/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolNamespaces.delete`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolNamespaces/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolNamespaces.get`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolNamespaces/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolNamespaces.list`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolNamespaces/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolNamespaces.undelete`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolNamespaces/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolNamespaces.update`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolNamespaces/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolProviderKeys.create`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolProviderKeys/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolProviderKeys.delete`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolProviderKeys/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolProviderKeys.get`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolProviderKeys/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolProviderKeys.list`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolProviderKeys/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolProviderKeys.undelete`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolProviderKeys/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolProviders.create`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolProviders/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolProviders.delete`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolProviders/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolProviders.get`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolProviders/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolProviders.list`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolProviders/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolProviders.undelete`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolProviders/overview.md)
+- [`iam.googleapis.com/workloadIdentityPoolProviders.update`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPoolProviders/overview.md)
+- [`iam.googleapis.com/workloadIdentityPools.create`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPools/overview.md)
+- [`iam.googleapis.com/workloadIdentityPools.delete`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPools/overview.md)
+- [`iam.googleapis.com/workloadIdentityPools.get`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPools/overview.md)
+- [`iam.googleapis.com/workloadIdentityPools.getAttestationRules`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPools/overview.md)
+- [`iam.googleapis.com/workloadIdentityPools.getIamPolicy`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPools/overview.md)
+- [`iam.googleapis.com/workloadIdentityPools.list`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPools/overview.md)
+- [`iam.googleapis.com/workloadIdentityPools.setAttestationRules`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPools/overview.md)
+- [`iam.googleapis.com/workloadIdentityPools.setIamPolicy`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPools/overview.md)
+- [`iam.googleapis.com/workloadIdentityPools.undelete`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPools/overview.md)
+- [`iam.googleapis.com/workloadIdentityPools.update`](../../../../../../permissions/iam.googleapis.com/workloadIdentityPools/overview.md)
+
+Role: [`roles/iam.workloadIdentityPoolAdmin`](../../overview.md)

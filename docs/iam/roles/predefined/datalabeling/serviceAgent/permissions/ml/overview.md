@@ -1,0 +1,42 @@
+# `roles/datalabeling.serviceAgent` — `ml` permissions
+
+`roles/datalabeling.serviceAgent` grants 34 permissions in the `ml` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`ml.jobs.create`](../../../../../../permissions/ml/jobs/overview.md)
+- [`ml.jobs.get`](../../../../../../permissions/ml/jobs/overview.md)
+- [`ml.jobs.getIamPolicy`](../../../../../../permissions/ml/jobs/overview.md)
+- [`ml.jobs.list`](../../../../../../permissions/ml/jobs/overview.md)
+- [`ml.locations.get`](../../../../../../permissions/ml/locations/overview.md)
+- [`ml.locations.list`](../../../../../../permissions/ml/locations/overview.md)
+- [`ml.models.create`](../../../../../../permissions/ml/models/overview.md)
+- [`ml.models.delete`](../../../../../../permissions/ml/models/overview.md)
+- [`ml.models.get`](../../../../../../permissions/ml/models/overview.md)
+- [`ml.models.getIamPolicy`](../../../../../../permissions/ml/models/overview.md)
+- [`ml.models.list`](../../../../../../permissions/ml/models/overview.md)
+- [`ml.models.predict`](../../../../../../permissions/ml/models/overview.md)
+- [`ml.models.setIamPolicy`](../../../../../../permissions/ml/models/overview.md)
+- [`ml.models.update`](../../../../../../permissions/ml/models/overview.md)
+- [`ml.operations.get`](../../../../../../permissions/ml/operations/overview.md)
+- [`ml.operations.list`](../../../../../../permissions/ml/operations/overview.md)
+- [`ml.projects.getConfig`](../../../../../../permissions/ml/projects/overview.md)
+- [`ml.studies.create`](../../../../../../permissions/ml/studies/overview.md)
+- [`ml.studies.delete`](../../../../../../permissions/ml/studies/overview.md)
+- [`ml.studies.get`](../../../../../../permissions/ml/studies/overview.md)
+- [`ml.studies.getIamPolicy`](../../../../../../permissions/ml/studies/overview.md)
+- [`ml.studies.list`](../../../../../../permissions/ml/studies/overview.md)
+- [`ml.studies.setIamPolicy`](../../../../../../permissions/ml/studies/overview.md)
+- [`ml.trials.create`](../../../../../../permissions/ml/trials/overview.md)
+- [`ml.trials.delete`](../../../../../../permissions/ml/trials/overview.md)
+- [`ml.trials.get`](../../../../../../permissions/ml/trials/overview.md)
+- [`ml.trials.list`](../../../../../../permissions/ml/trials/overview.md)
+- [`ml.trials.update`](../../../../../../permissions/ml/trials/overview.md)
+- [`ml.versions.create`](../../../../../../permissions/ml/versions/overview.md)
+- [`ml.versions.delete`](../../../../../../permissions/ml/versions/overview.md)
+- [`ml.versions.get`](../../../../../../permissions/ml/versions/overview.md)
+- [`ml.versions.list`](../../../../../../permissions/ml/versions/overview.md)
+- [`ml.versions.predict`](../../../../../../permissions/ml/versions/overview.md)
+- [`ml.versions.update`](../../../../../../permissions/ml/versions/overview.md)
+
+Role: [`roles/datalabeling.serviceAgent`](../../overview.md)

@@ -1,0 +1,40 @@
+# `roles/viewer` — `managedkafka` permissions
+
+`roles/viewer` grants 32 permissions in the `managedkafka` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`managedkafka.acls.get`](../../../../../permissions/managedkafka/acls/overview.md)
+- [`managedkafka.acls.list`](../../../../../permissions/managedkafka/acls/overview.md)
+- [`managedkafka.clusters.get`](../../../../../permissions/managedkafka/clusters/overview.md)
+- [`managedkafka.clusters.list`](../../../../../permissions/managedkafka/clusters/overview.md)
+- [`managedkafka.config.get`](../../../../../permissions/managedkafka/config/overview.md)
+- [`managedkafka.connectClusters.get`](../../../../../permissions/managedkafka/connectClusters/overview.md)
+- [`managedkafka.connectClusters.list`](../../../../../permissions/managedkafka/connectClusters/overview.md)
+- [`managedkafka.connectors.get`](../../../../../permissions/managedkafka/connectors/overview.md)
+- [`managedkafka.connectors.list`](../../../../../permissions/managedkafka/connectors/overview.md)
+- [`managedkafka.consumerGroups.get`](../../../../../permissions/managedkafka/consumerGroups/overview.md)
+- [`managedkafka.consumerGroups.list`](../../../../../permissions/managedkafka/consumerGroups/overview.md)
+- [`managedkafka.contexts.get`](../../../../../permissions/managedkafka/contexts/overview.md)
+- [`managedkafka.contexts.list`](../../../../../permissions/managedkafka/contexts/overview.md)
+- [`managedkafka.locations.get`](../../../../../permissions/managedkafka/locations/overview.md)
+- [`managedkafka.locations.list`](../../../../../permissions/managedkafka/locations/overview.md)
+- [`managedkafka.mode.get`](../../../../../permissions/managedkafka/mode/overview.md)
+- [`managedkafka.operations.get`](../../../../../permissions/managedkafka/operations/overview.md)
+- [`managedkafka.operations.list`](../../../../../permissions/managedkafka/operations/overview.md)
+- [`managedkafka.schemaRegistries.get`](../../../../../permissions/managedkafka/schemaRegistries/overview.md)
+- [`managedkafka.schemaRegistries.list`](../../../../../permissions/managedkafka/schemaRegistries/overview.md)
+- [`managedkafka.schemas.get`](../../../../../permissions/managedkafka/schemas/overview.md)
+- [`managedkafka.schemas.listSubjects`](../../../../../permissions/managedkafka/schemas/overview.md)
+- [`managedkafka.schemas.listTypes`](../../../../../permissions/managedkafka/schemas/overview.md)
+- [`managedkafka.schemas.listVersions`](../../../../../permissions/managedkafka/schemas/overview.md)
+- [`managedkafka.subjects.list`](../../../../../permissions/managedkafka/subjects/overview.md)
+- [`managedkafka.subjects.lookup`](../../../../../permissions/managedkafka/subjects/overview.md)
+- [`managedkafka.topics.get`](../../../../../permissions/managedkafka/topics/overview.md)
+- [`managedkafka.topics.list`](../../../../../permissions/managedkafka/topics/overview.md)
+- [`managedkafka.versions.checkCompatibility`](../../../../../permissions/managedkafka/versions/overview.md)
+- [`managedkafka.versions.get`](../../../../../permissions/managedkafka/versions/overview.md)
+- [`managedkafka.versions.list`](../../../../../permissions/managedkafka/versions/overview.md)
+- [`managedkafka.versions.referencedby`](../../../../../permissions/managedkafka/versions/overview.md)
+
+Role: [`roles/viewer`](../../overview.md)

@@ -1,0 +1,12 @@
+# `roles/advisorynotifications.admin` — `advisorynotifications` permissions
+
+`roles/advisorynotifications.admin` grants 4 permissions in the `advisorynotifications` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`advisorynotifications.notifications.get`](../../../../../../permissions/advisorynotifications/notifications/overview.md)
+- [`advisorynotifications.notifications.list`](../../../../../../permissions/advisorynotifications/notifications/overview.md)
+- [`advisorynotifications.settings.get`](../../../../../../permissions/advisorynotifications/settings/overview.md)
+- [`advisorynotifications.settings.update`](../../../../../../permissions/advisorynotifications/settings/overview.md)
+
+Role: [`roles/advisorynotifications.admin`](../../overview.md)

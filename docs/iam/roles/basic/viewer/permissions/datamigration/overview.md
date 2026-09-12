@@ -1,0 +1,36 @@
+# `roles/viewer` — `datamigration` permissions
+
+`roles/viewer` grants 28 permissions in the `datamigration` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`datamigration.connectionprofiles.get`](../../../../../permissions/datamigration/connectionprofiles/overview.md)
+- [`datamigration.connectionprofiles.getIamPolicy`](../../../../../permissions/datamigration/connectionprofiles/overview.md)
+- [`datamigration.connectionprofiles.list`](../../../../../permissions/datamigration/connectionprofiles/overview.md)
+- [`datamigration.connectionprofiles.listEffectiveTags`](../../../../../permissions/datamigration/connectionprofiles/overview.md)
+- [`datamigration.connectionprofiles.listTagBindings`](../../../../../permissions/datamigration/connectionprofiles/overview.md)
+- [`datamigration.conversionworkspaces.get`](../../../../../permissions/datamigration/conversionworkspaces/overview.md)
+- [`datamigration.conversionworkspaces.getIamPolicy`](../../../../../permissions/datamigration/conversionworkspaces/overview.md)
+- [`datamigration.conversionworkspaces.list`](../../../../../permissions/datamigration/conversionworkspaces/overview.md)
+- [`datamigration.locations.fetchStaticIps`](../../../../../permissions/datamigration/locations/overview.md)
+- [`datamigration.locations.get`](../../../../../permissions/datamigration/locations/overview.md)
+- [`datamigration.locations.list`](../../../../../permissions/datamigration/locations/overview.md)
+- [`datamigration.mappingrules.getIamPolicy`](../../../../../permissions/datamigration/mappingrules/overview.md)
+- [`datamigration.migrationjobs.fetchSourceObjects`](../../../../../permissions/datamigration/migrationjobs/overview.md)
+- [`datamigration.migrationjobs.get`](../../../../../permissions/datamigration/migrationjobs/overview.md)
+- [`datamigration.migrationjobs.getIamPolicy`](../../../../../permissions/datamigration/migrationjobs/overview.md)
+- [`datamigration.migrationjobs.list`](../../../../../permissions/datamigration/migrationjobs/overview.md)
+- [`datamigration.migrationjobs.listEffectiveTags`](../../../../../permissions/datamigration/migrationjobs/overview.md)
+- [`datamigration.migrationjobs.listTagBindings`](../../../../../permissions/datamigration/migrationjobs/overview.md)
+- [`datamigration.migrationjobs.verify`](../../../../../permissions/datamigration/migrationjobs/overview.md)
+- [`datamigration.objects.get`](../../../../../permissions/datamigration/objects/overview.md)
+- [`datamigration.objects.list`](../../../../../permissions/datamigration/objects/overview.md)
+- [`datamigration.operations.get`](../../../../../permissions/datamigration/operations/overview.md)
+- [`datamigration.operations.list`](../../../../../permissions/datamigration/operations/overview.md)
+- [`datamigration.privateconnections.get`](../../../../../permissions/datamigration/privateconnections/overview.md)
+- [`datamigration.privateconnections.getIamPolicy`](../../../../../permissions/datamigration/privateconnections/overview.md)
+- [`datamigration.privateconnections.list`](../../../../../permissions/datamigration/privateconnections/overview.md)
+- [`datamigration.privateconnections.listEffectiveTags`](../../../../../permissions/datamigration/privateconnections/overview.md)
+- [`datamigration.privateconnections.listTagBindings`](../../../../../permissions/datamigration/privateconnections/overview.md)
+
+Role: [`roles/viewer`](../../overview.md)

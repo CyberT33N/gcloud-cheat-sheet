@@ -1,0 +1,41 @@
+# `roles/apigee.securityViewer` — `apigee` permissions
+
+`roles/apigee.securityViewer` grants 33 permissions in the `apigee` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`apigee.addonsconfig.get`](../../../../../../permissions/apigee/addonsconfig/overview.md)
+- [`apigee.entitlements.get`](../../../../../../permissions/apigee/entitlements/overview.md)
+- [`apigee.envgroupattachments.get`](../../../../../../permissions/apigee/envgroupattachments/overview.md)
+- [`apigee.envgroupattachments.list`](../../../../../../permissions/apigee/envgroupattachments/overview.md)
+- [`apigee.envgroups.get`](../../../../../../permissions/apigee/envgroups/overview.md)
+- [`apigee.envgroups.list`](../../../../../../permissions/apigee/envgroups/overview.md)
+- [`apigee.environments.get`](../../../../../../permissions/apigee/environments/overview.md)
+- [`apigee.environments.list`](../../../../../../permissions/apigee/environments/overview.md)
+- [`apigee.hostsecurityreports.get`](../../../../../../permissions/apigee/hostsecurityreports/overview.md)
+- [`apigee.hostsecurityreports.list`](../../../../../../permissions/apigee/hostsecurityreports/overview.md)
+- [`apigee.organizations.get`](../../../../../../permissions/apigee/organizations/overview.md)
+- [`apigee.organizations.list`](../../../../../../permissions/apigee/organizations/overview.md)
+- [`apigee.projectorganizations.get`](../../../../../../permissions/apigee/projectorganizations/overview.md)
+- [`apigee.securityActions.get`](../../../../../../permissions/apigee/securityActions/overview.md)
+- [`apigee.securityActions.list`](../../../../../../permissions/apigee/securityActions/overview.md)
+- [`apigee.securityActionsConfig.get`](../../../../../../permissions/apigee/securityActionsConfig/overview.md)
+- [`apigee.securityAssessmentResults.compute`](../../../../../../permissions/apigee/securityAssessmentResults/overview.md)
+- [`apigee.securityFeedback.get`](../../../../../../permissions/apigee/securityFeedback/overview.md)
+- [`apigee.securityFeedback.list`](../../../../../../permissions/apigee/securityFeedback/overview.md)
+- [`apigee.securityIncidents.get`](../../../../../../permissions/apigee/securityIncidents/overview.md)
+- [`apigee.securityIncidents.list`](../../../../../../permissions/apigee/securityIncidents/overview.md)
+- [`apigee.securityMonitoringConditions.get`](../../../../../../permissions/apigee/securityMonitoringConditions/overview.md)
+- [`apigee.securityMonitoringConditions.list`](../../../../../../permissions/apigee/securityMonitoringConditions/overview.md)
+- [`apigee.securityProfileEnvironments.computeScore`](../../../../../../permissions/apigee/securityProfileEnvironments/overview.md)
+- [`apigee.securityProfiles.get`](../../../../../../permissions/apigee/securityProfiles/overview.md)
+- [`apigee.securityProfiles.list`](../../../../../../permissions/apigee/securityProfiles/overview.md)
+- [`apigee.securityProfilesV2.get`](../../../../../../permissions/apigee/securityProfilesV2/overview.md)
+- [`apigee.securityProfilesV2.list`](../../../../../../permissions/apigee/securityProfilesV2/overview.md)
+- [`apigee.securitySettings.get`](../../../../../../permissions/apigee/securitySettings/overview.md)
+- [`apigee.securityStats.queryTabularStats`](../../../../../../permissions/apigee/securityStats/overview.md)
+- [`apigee.securityStats.queryTimeSeriesStats`](../../../../../../permissions/apigee/securityStats/overview.md)
+- [`apigee.securityreports.get`](../../../../../../permissions/apigee/securityreports/overview.md)
+- [`apigee.securityreports.list`](../../../../../../permissions/apigee/securityreports/overview.md)
+
+Role: [`roles/apigee.securityViewer`](../../overview.md)

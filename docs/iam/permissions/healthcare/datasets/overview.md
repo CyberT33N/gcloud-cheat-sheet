@@ -1,0 +1,159 @@
+# `datasets`
+
+Permission group of the central IAM permission catalog. The permissions below exist exactly once globally; roles reference them.
+
+## Permissions
+
+### `healthcare.datasets.create`
+
+Granted by 5 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/healthcare.datasetAdmin`](../../../roles/predefined/healthcare/datasetAdmin/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `healthcare.datasets.deidentify`
+
+Granted by 5 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/healthcare.datasetAdmin`](../../../roles/predefined/healthcare/datasetAdmin/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `healthcare.datasets.delete`
+
+Granted by 5 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/healthcare.datasetAdmin`](../../../roles/predefined/healthcare/datasetAdmin/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `healthcare.datasets.get`
+
+Granted by 37 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/healthcare.annotationEditor`](../../../roles/predefined/healthcare/annotationEditor/overview.md)
+- [`roles/healthcare.annotationReader`](../../../roles/predefined/healthcare/annotationReader/overview.md)
+- [`roles/healthcare.annotationStoreAdmin`](../../../roles/predefined/healthcare/annotationStoreAdmin/overview.md)
+- [`roles/healthcare.annotationStoreViewer`](../../../roles/predefined/healthcare/annotationStoreViewer/overview.md)
+- [`roles/healthcare.attributeDefinitionEditor`](../../../roles/predefined/healthcare/attributeDefinitionEditor/overview.md)
+- [`roles/healthcare.attributeDefinitionReader`](../../../roles/predefined/healthcare/attributeDefinitionReader/overview.md)
+- [`roles/healthcare.consentArtifactAdmin`](../../../roles/predefined/healthcare/consentArtifactAdmin/overview.md)
+- [`roles/healthcare.consentArtifactEditor`](../../../roles/predefined/healthcare/consentArtifactEditor/overview.md)
+- [`roles/healthcare.consentArtifactReader`](../../../roles/predefined/healthcare/consentArtifactReader/overview.md)
+- [`roles/healthcare.consentEditor`](../../../roles/predefined/healthcare/consentEditor/overview.md)
+- [`roles/healthcare.consentReader`](../../../roles/predefined/healthcare/consentReader/overview.md)
+- [`roles/healthcare.consentStoreAdmin`](../../../roles/predefined/healthcare/consentStoreAdmin/overview.md)
+- [`roles/healthcare.consentStoreViewer`](../../../roles/predefined/healthcare/consentStoreViewer/overview.md)
+- [`roles/healthcare.datasetAdmin`](../../../roles/predefined/healthcare/datasetAdmin/overview.md)
+- [`roles/healthcare.datasetViewer`](../../../roles/predefined/healthcare/datasetViewer/overview.md)
+- [`roles/healthcare.dicomEditor`](../../../roles/predefined/healthcare/dicomEditor/overview.md)
+- [`roles/healthcare.dicomStoreAdmin`](../../../roles/predefined/healthcare/dicomStoreAdmin/overview.md)
+- [`roles/healthcare.dicomStoreViewer`](../../../roles/predefined/healthcare/dicomStoreViewer/overview.md)
+- [`roles/healthcare.dicomViewer`](../../../roles/predefined/healthcare/dicomViewer/overview.md)
+- [`roles/healthcare.fhirResourceEditor`](../../../roles/predefined/healthcare/fhirResourceEditor/overview.md)
+- [`roles/healthcare.fhirResourceReader`](../../../roles/predefined/healthcare/fhirResourceReader/overview.md)
+- [`roles/healthcare.fhirStoreAdmin`](../../../roles/predefined/healthcare/fhirStoreAdmin/overview.md)
+- [`roles/healthcare.fhirStoreViewer`](../../../roles/predefined/healthcare/fhirStoreViewer/overview.md)
+- [`roles/healthcare.hl7V2Consumer`](../../../roles/predefined/healthcare/hl7V2Consumer/overview.md)
+- [`roles/healthcare.hl7V2Editor`](../../../roles/predefined/healthcare/hl7V2Editor/overview.md)
+- [`roles/healthcare.hl7V2Ingest`](../../../roles/predefined/healthcare/hl7V2Ingest/overview.md)
+- [`roles/healthcare.hl7V2StoreAdmin`](../../../roles/predefined/healthcare/hl7V2StoreAdmin/overview.md)
+- [`roles/healthcare.hl7V2StoreViewer`](../../../roles/predefined/healthcare/hl7V2StoreViewer/overview.md)
+- [`roles/healthcare.userDataMappingEditor`](../../../roles/predefined/healthcare/userDataMappingEditor/overview.md)
+- [`roles/healthcare.userDataMappingReader`](../../../roles/predefined/healthcare/userDataMappingReader/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `healthcare.datasets.getIamPolicy`
+
+Granted by 11 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/healthcare.datasetAdmin`](../../../roles/predefined/healthcare/datasetAdmin/overview.md)
+- [`roles/iam.securityAdmin`](../../../roles/predefined/iam/securityAdmin/overview.md)
+- [`roles/iam.securityAuditor`](../../../roles/predefined/iam/securityAuditor/overview.md)
+- [`roles/iam.securityReviewer`](../../../roles/predefined/iam/securityReviewer/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `healthcare.datasets.list`
+
+Granted by 40 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/healthcare.annotationEditor`](../../../roles/predefined/healthcare/annotationEditor/overview.md)
+- [`roles/healthcare.annotationReader`](../../../roles/predefined/healthcare/annotationReader/overview.md)
+- [`roles/healthcare.annotationStoreAdmin`](../../../roles/predefined/healthcare/annotationStoreAdmin/overview.md)
+- [`roles/healthcare.annotationStoreViewer`](../../../roles/predefined/healthcare/annotationStoreViewer/overview.md)
+- [`roles/healthcare.attributeDefinitionEditor`](../../../roles/predefined/healthcare/attributeDefinitionEditor/overview.md)
+- [`roles/healthcare.attributeDefinitionReader`](../../../roles/predefined/healthcare/attributeDefinitionReader/overview.md)
+- [`roles/healthcare.consentArtifactAdmin`](../../../roles/predefined/healthcare/consentArtifactAdmin/overview.md)
+- [`roles/healthcare.consentArtifactEditor`](../../../roles/predefined/healthcare/consentArtifactEditor/overview.md)
+- [`roles/healthcare.consentArtifactReader`](../../../roles/predefined/healthcare/consentArtifactReader/overview.md)
+- [`roles/healthcare.consentEditor`](../../../roles/predefined/healthcare/consentEditor/overview.md)
+- [`roles/healthcare.consentReader`](../../../roles/predefined/healthcare/consentReader/overview.md)
+- [`roles/healthcare.consentStoreAdmin`](../../../roles/predefined/healthcare/consentStoreAdmin/overview.md)
+- [`roles/healthcare.consentStoreViewer`](../../../roles/predefined/healthcare/consentStoreViewer/overview.md)
+- [`roles/healthcare.datasetAdmin`](../../../roles/predefined/healthcare/datasetAdmin/overview.md)
+- [`roles/healthcare.datasetViewer`](../../../roles/predefined/healthcare/datasetViewer/overview.md)
+- [`roles/healthcare.dicomEditor`](../../../roles/predefined/healthcare/dicomEditor/overview.md)
+- [`roles/healthcare.dicomStoreAdmin`](../../../roles/predefined/healthcare/dicomStoreAdmin/overview.md)
+- [`roles/healthcare.dicomStoreViewer`](../../../roles/predefined/healthcare/dicomStoreViewer/overview.md)
+- [`roles/healthcare.dicomViewer`](../../../roles/predefined/healthcare/dicomViewer/overview.md)
+- [`roles/healthcare.fhirResourceEditor`](../../../roles/predefined/healthcare/fhirResourceEditor/overview.md)
+- [`roles/healthcare.fhirResourceReader`](../../../roles/predefined/healthcare/fhirResourceReader/overview.md)
+- [`roles/healthcare.fhirStoreAdmin`](../../../roles/predefined/healthcare/fhirStoreAdmin/overview.md)
+- [`roles/healthcare.fhirStoreViewer`](../../../roles/predefined/healthcare/fhirStoreViewer/overview.md)
+- [`roles/healthcare.hl7V2Consumer`](../../../roles/predefined/healthcare/hl7V2Consumer/overview.md)
+- [`roles/healthcare.hl7V2Editor`](../../../roles/predefined/healthcare/hl7V2Editor/overview.md)
+- [`roles/healthcare.hl7V2Ingest`](../../../roles/predefined/healthcare/hl7V2Ingest/overview.md)
+- [`roles/healthcare.hl7V2StoreAdmin`](../../../roles/predefined/healthcare/hl7V2StoreAdmin/overview.md)
+- [`roles/healthcare.hl7V2StoreViewer`](../../../roles/predefined/healthcare/hl7V2StoreViewer/overview.md)
+- [`roles/healthcare.userDataMappingEditor`](../../../roles/predefined/healthcare/userDataMappingEditor/overview.md)
+- [`roles/healthcare.userDataMappingReader`](../../../roles/predefined/healthcare/userDataMappingReader/overview.md)
+- [`roles/iam.securityAdmin`](../../../roles/predefined/iam/securityAdmin/overview.md)
+- [`roles/iam.securityAuditor`](../../../roles/predefined/iam/securityAuditor/overview.md)
+- [`roles/iam.securityReviewer`](../../../roles/predefined/iam/securityReviewer/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `healthcare.datasets.setIamPolicy`
+
+Granted by 4 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/healthcare.datasetAdmin`](../../../roles/predefined/healthcare/datasetAdmin/overview.md)
+- [`roles/iam.securityAdmin`](../../../roles/predefined/iam/securityAdmin/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+
+### `healthcare.datasets.update`
+
+Granted by 5 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/healthcare.datasetAdmin`](../../../roles/predefined/healthcare/datasetAdmin/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+Catalog: [IAM permissions](../../overview.md)

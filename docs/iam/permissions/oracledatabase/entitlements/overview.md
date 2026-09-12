@@ -1,0 +1,48 @@
+# `entitlements`
+
+Permission group of the central IAM permission catalog. The permissions below exist exactly once globally; roles reference them.
+
+## Permissions
+
+### `oracledatabase.entitlements.list`
+
+Granted by 36 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/iam.securityAdmin`](../../../roles/predefined/iam/securityAdmin/overview.md)
+- [`roles/iam.securityAuditor`](../../../roles/predefined/iam/securityAuditor/overview.md)
+- [`roles/iam.securityReviewer`](../../../roles/predefined/iam/securityReviewer/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/oracledatabase.admin`](../../../roles/predefined/oracledatabase/admin/overview.md)
+- [`roles/oracledatabase.autonomousDatabaseAdmin`](../../../roles/predefined/oracledatabase/autonomousDatabaseAdmin/overview.md)
+- [`roles/oracledatabase.autonomousDatabaseViewer`](../../../roles/predefined/oracledatabase/autonomousDatabaseViewer/overview.md)
+- [`roles/oracledatabase.cloudExadataInfrastructureAdmin`](../../../roles/predefined/oracledatabase/cloudExadataInfrastructureAdmin/overview.md)
+- [`roles/oracledatabase.cloudExadataInfrastructureUser`](../../../roles/predefined/oracledatabase/cloudExadataInfrastructureUser/overview.md)
+- [`roles/oracledatabase.cloudExadataInfrastructureViewer`](../../../roles/predefined/oracledatabase/cloudExadataInfrastructureViewer/overview.md)
+- [`roles/oracledatabase.cloudVmClusterAdmin`](../../../roles/predefined/oracledatabase/cloudVmClusterAdmin/overview.md)
+- [`roles/oracledatabase.cloudVmClusterViewer`](../../../roles/predefined/oracledatabase/cloudVmClusterViewer/overview.md)
+- [`roles/oracledatabase.databaseViewer`](../../../roles/predefined/oracledatabase/databaseViewer/overview.md)
+- [`roles/oracledatabase.dbSystemAdmin`](../../../roles/predefined/oracledatabase/dbSystemAdmin/overview.md)
+- [`roles/oracledatabase.dbSystemViewer`](../../../roles/predefined/oracledatabase/dbSystemViewer/overview.md)
+- [`roles/oracledatabase.exadbVmClusterAdmin`](../../../roles/predefined/oracledatabase/exadbVmClusterAdmin/overview.md)
+- [`roles/oracledatabase.exadbVmClusterViewer`](../../../roles/predefined/oracledatabase/exadbVmClusterViewer/overview.md)
+- [`roles/oracledatabase.exascaleDbStorageVaultAdmin`](../../../roles/predefined/oracledatabase/exascaleDbStorageVaultAdmin/overview.md)
+- [`roles/oracledatabase.exascaleDbStorageVaultUser`](../../../roles/predefined/oracledatabase/exascaleDbStorageVaultUser/overview.md)
+- [`roles/oracledatabase.exascaleDbStorageVaultViewer`](../../../roles/predefined/oracledatabase/exascaleDbStorageVaultViewer/overview.md)
+- [`roles/oracledatabase.goldenGateConnectionAdmin`](../../../roles/predefined/oracledatabase/goldenGateConnectionAdmin/overview.md)
+- [`roles/oracledatabase.goldenGateDeploymentAdmin`](../../../roles/predefined/oracledatabase/goldenGateDeploymentAdmin/overview.md)
+- [`roles/oracledatabase.networkAdmin`](../../../roles/predefined/oracledatabase/networkAdmin/overview.md)
+- [`roles/oracledatabase.odbNetworkAdmin`](../../../roles/predefined/oracledatabase/odbNetworkAdmin/overview.md)
+- [`roles/oracledatabase.odbNetworkViewer`](../../../roles/predefined/oracledatabase/odbNetworkViewer/overview.md)
+- [`roles/oracledatabase.odbSubnetAdmin`](../../../roles/predefined/oracledatabase/odbSubnetAdmin/overview.md)
+- [`roles/oracledatabase.odbSubnetUser`](../../../roles/predefined/oracledatabase/odbSubnetUser/overview.md)
+- [`roles/oracledatabase.odbSubnetViewer`](../../../roles/predefined/oracledatabase/odbSubnetViewer/overview.md)
+- [`roles/oracledatabase.pluggableDatabaseViewer`](../../../roles/predefined/oracledatabase/pluggableDatabaseViewer/overview.md)
+- [`roles/oracledatabase.viewer`](../../../roles/predefined/oracledatabase/viewer/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+Catalog: [IAM permissions](../../overview.md)

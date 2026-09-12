@@ -1,0 +1,41 @@
+# `roles/managedidentities.domainAdmin` — `managedidentities` permissions
+
+`roles/managedidentities.domainAdmin` grants 33 permissions in the `managedidentities` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`managedidentities.backups.create`](../../../../../../permissions/managedidentities/backups/overview.md)
+- [`managedidentities.backups.delete`](../../../../../../permissions/managedidentities/backups/overview.md)
+- [`managedidentities.backups.get`](../../../../../../permissions/managedidentities/backups/overview.md)
+- [`managedidentities.backups.getIamPolicy`](../../../../../../permissions/managedidentities/backups/overview.md)
+- [`managedidentities.backups.list`](../../../../../../permissions/managedidentities/backups/overview.md)
+- [`managedidentities.backups.setIamPolicy`](../../../../../../permissions/managedidentities/backups/overview.md)
+- [`managedidentities.backups.update`](../../../../../../permissions/managedidentities/backups/overview.md)
+- [`managedidentities.domains.attachTrust`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.checkMigrationPermission`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.createTagBinding`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.delete`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.deleteTagBinding`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.detachTrust`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.disableMigration`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.domainJoinMachine`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.enableMigration`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.extendSchema`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.get`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.getIamPolicy`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.listEffectiveTags`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.listTagBindings`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.reconfigureTrust`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.resetpassword`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.restore`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.update`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.updateLDAPSSettings`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.domains.validateTrust`](../../../../../../permissions/managedidentities/domains/overview.md)
+- [`managedidentities.locations.get`](../../../../../../permissions/managedidentities/locations/overview.md)
+- [`managedidentities.locations.list`](../../../../../../permissions/managedidentities/locations/overview.md)
+- [`managedidentities.operations.get`](../../../../../../permissions/managedidentities/operations/overview.md)
+- [`managedidentities.operations.list`](../../../../../../permissions/managedidentities/operations/overview.md)
+- [`managedidentities.sqlintegrations.get`](../../../../../../permissions/managedidentities/sqlintegrations/overview.md)
+- [`managedidentities.sqlintegrations.list`](../../../../../../permissions/managedidentities/sqlintegrations/overview.md)
+
+Role: [`roles/managedidentities.domainAdmin`](../../overview.md)

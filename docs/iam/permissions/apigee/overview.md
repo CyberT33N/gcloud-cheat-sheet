@@ -1,0 +1,85 @@
+# `apigee`
+
+## Child areas
+
+| Area | Leaf groups | Permissions |
+| --- | --- | --- |
+| [addonsconfig](addonsconfig/overview.md) | 1 | 2 |
+| [apiproductattributes](apiproductattributes/overview.md) | 1 | 5 |
+| [apiproducts](apiproducts/overview.md) | 1 | 5 |
+| [appgroupapps](appgroupapps/overview.md) | 1 | 5 |
+| [appgroupbalances](appgroupbalances/overview.md) | 1 | 3 |
+| [appgroupmonetizationconfigs](appgroupmonetizationconfigs/overview.md) | 1 | 2 |
+| [appgroups](appgroups/overview.md) | 1 | 5 |
+| [appgroupsubscriptions](appgroupsubscriptions/overview.md) | 1 | 4 |
+| [appkeys](appkeys/overview.md) | 1 | 4 |
+| [apps](apps/overview.md) | 1 | 2 |
+| [archivedeployments](archivedeployments/overview.md) | 1 | 7 |
+| [caches](caches/overview.md) | 1 | 2 |
+| [canaryevaluations](canaryevaluations/overview.md) | 1 | 2 |
+| [datacollectors](datacollectors/overview.md) | 1 | 5 |
+| [datalocation](datalocation/overview.md) | 1 | 1 |
+| [datastores](datastores/overview.md) | 1 | 5 |
+| [deployments](deployments/overview.md) | 1 | 8 |
+| [developerappattributes](developerappattributes/overview.md) | 1 | 5 |
+| [developerapps](developerapps/overview.md) | 1 | 5 |
+| [developerattributes](developerattributes/overview.md) | 1 | 5 |
+| [developerbalances](developerbalances/overview.md) | 1 | 3 |
+| [developermonetizationconfigs](developermonetizationconfigs/overview.md) | 1 | 2 |
+| [developers](developers/overview.md) | 1 | 5 |
+| [developersubscriptions](developersubscriptions/overview.md) | 1 | 4 |
+| [dnsZones](dnsZones/overview.md) | 1 | 4 |
+| [endpointattachments](endpointattachments/overview.md) | 1 | 4 |
+| [entitlements](entitlements/overview.md) | 1 | 1 |
+| [envgroupattachments](envgroupattachments/overview.md) | 1 | 4 |
+| [envgroups](envgroups/overview.md) | 1 | 5 |
+| [environments](environments/overview.md) | 1 | 10 |
+| [exports](exports/overview.md) | 1 | 3 |
+| [flowhooks](flowhooks/overview.md) | 1 | 4 |
+| [hostqueries](hostqueries/overview.md) | 1 | 3 |
+| [hostsecurityreports](hostsecurityreports/overview.md) | 1 | 3 |
+| [hoststats](hoststats/overview.md) | 1 | 1 |
+| [ingressconfigs](ingressconfigs/overview.md) | 1 | 1 |
+| [instanceattachments](instanceattachments/overview.md) | 1 | 4 |
+| [instances](instances/overview.md) | 1 | 6 |
+| [keystorealiases](keystorealiases/overview.md) | 1 | 7 |
+| [keystores](keystores/overview.md) | 1 | 5 |
+| [keyvaluemapentries](keyvaluemapentries/overview.md) | 1 | 5 |
+| [keyvaluemaps](keyvaluemaps/overview.md) | 1 | 5 |
+| [maskconfigs](maskconfigs/overview.md) | 1 | 2 |
+| [nataddresses](nataddresses/overview.md) | 1 | 5 |
+| [operations](operations/overview.md) | 1 | 2 |
+| [organizations](organizations/overview.md) | 1 | 5 |
+| [portals](portals/overview.md) | 1 | 5 |
+| [projectorganizations](projectorganizations/overview.md) | 1 | 1 |
+| [projects](projects/overview.md) | 1 | 3 |
+| [proxies](proxies/overview.md) | 1 | 5 |
+| [proxyrevisions](proxyrevisions/overview.md) | 1 | 6 |
+| [queries](queries/overview.md) | 1 | 3 |
+| [rateplans](rateplans/overview.md) | 1 | 5 |
+| [references](references/overview.md) | 1 | 5 |
+| [reports](reports/overview.md) | 1 | 5 |
+| [resourcefiles](resourcefiles/overview.md) | 1 | 5 |
+| [runtimeconfigs](runtimeconfigs/overview.md) | 1 | 1 |
+| [securityActions](securityActions/overview.md) | 1 | 4 |
+| [securityActionsConfig](securityActionsConfig/overview.md) | 1 | 2 |
+| [securityAssessmentResults](securityAssessmentResults/overview.md) | 1 | 1 |
+| [securityFeedback](securityFeedback/overview.md) | 1 | 5 |
+| [securityIncidents](securityIncidents/overview.md) | 1 | 3 |
+| [securityMonitoringConditions](securityMonitoringConditions/overview.md) | 1 | 5 |
+| [securityProfileEnvironments](securityProfileEnvironments/overview.md) | 1 | 3 |
+| [securityProfiles](securityProfiles/overview.md) | 1 | 5 |
+| [securityProfilesV2](securityProfilesV2/overview.md) | 1 | 5 |
+| [securityreports](securityreports/overview.md) | 1 | 3 |
+| [securitySettings](securitySettings/overview.md) | 1 | 2 |
+| [securityStats](securityStats/overview.md) | 1 | 2 |
+| [setupcontexts](setupcontexts/overview.md) | 1 | 2 |
+| [sharedflowrevisions](sharedflowrevisions/overview.md) | 1 | 6 |
+| [sharedflows](sharedflows/overview.md) | 1 | 4 |
+| [spaces](spaces/overview.md) | 1 | 7 |
+| [targetservers](targetservers/overview.md) | 1 | 5 |
+| [traceconfig](traceconfig/overview.md) | 1 | 2 |
+| [traceconfigoverrides](traceconfigoverrides/overview.md) | 1 | 5 |
+| [tracesessions](tracesessions/overview.md) | 1 | 4 |
+
+Catalog: [IAM permissions](../overview.md)

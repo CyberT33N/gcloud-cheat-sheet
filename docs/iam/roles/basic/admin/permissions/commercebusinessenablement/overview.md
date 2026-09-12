@@ -1,0 +1,41 @@
+# `roles/admin` — `commercebusinessenablement` permissions
+
+`roles/admin` grants 33 permissions in the `commercebusinessenablement` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`commercebusinessenablement.leadgenConfig.get`](../../../../../permissions/commercebusinessenablement/leadgenConfig/overview.md)
+- [`commercebusinessenablement.leadgenConfig.update`](../../../../../permissions/commercebusinessenablement/leadgenConfig/overview.md)
+- [`commercebusinessenablement.operations.cancel`](../../../../../permissions/commercebusinessenablement/operations/overview.md)
+- [`commercebusinessenablement.operations.delete`](../../../../../permissions/commercebusinessenablement/operations/overview.md)
+- [`commercebusinessenablement.operations.get`](../../../../../permissions/commercebusinessenablement/operations/overview.md)
+- [`commercebusinessenablement.operations.list`](../../../../../permissions/commercebusinessenablement/operations/overview.md)
+- [`commercebusinessenablement.partnerAccounts.get`](../../../../../permissions/commercebusinessenablement/partnerAccounts/overview.md)
+- [`commercebusinessenablement.partnerAccounts.list`](../../../../../permissions/commercebusinessenablement/partnerAccounts/overview.md)
+- [`commercebusinessenablement.partnerInfo.get`](../../../../../permissions/commercebusinessenablement/partnerInfo/overview.md)
+- [`commercebusinessenablement.paymentConfig.get`](../../../../../permissions/commercebusinessenablement/paymentConfig/overview.md)
+- [`commercebusinessenablement.paymentConfig.update`](../../../../../permissions/commercebusinessenablement/paymentConfig/overview.md)
+- [`commercebusinessenablement.refunds.cancel`](../../../../../permissions/commercebusinessenablement/refunds/overview.md)
+- [`commercebusinessenablement.refunds.create`](../../../../../permissions/commercebusinessenablement/refunds/overview.md)
+- [`commercebusinessenablement.refunds.delete`](../../../../../permissions/commercebusinessenablement/refunds/overview.md)
+- [`commercebusinessenablement.refunds.get`](../../../../../permissions/commercebusinessenablement/refunds/overview.md)
+- [`commercebusinessenablement.refunds.list`](../../../../../permissions/commercebusinessenablement/refunds/overview.md)
+- [`commercebusinessenablement.refunds.start`](../../../../../permissions/commercebusinessenablement/refunds/overview.md)
+- [`commercebusinessenablement.refunds.update`](../../../../../permissions/commercebusinessenablement/refunds/overview.md)
+- [`commercebusinessenablement.resellerConfig.get`](../../../../../permissions/commercebusinessenablement/resellerConfig/overview.md)
+- [`commercebusinessenablement.resellerConfig.update`](../../../../../permissions/commercebusinessenablement/resellerConfig/overview.md)
+- [`commercebusinessenablement.resellerDiscountConfig.get`](../../../../../permissions/commercebusinessenablement/resellerDiscountConfig/overview.md)
+- [`commercebusinessenablement.resellerDiscountOffers.cancel`](../../../../../permissions/commercebusinessenablement/resellerDiscountOffers/overview.md)
+- [`commercebusinessenablement.resellerDiscountOffers.create`](../../../../../permissions/commercebusinessenablement/resellerDiscountOffers/overview.md)
+- [`commercebusinessenablement.resellerDiscountOffers.list`](../../../../../permissions/commercebusinessenablement/resellerDiscountOffers/overview.md)
+- [`commercebusinessenablement.resellerPrivateOfferPlans.cancel`](../../../../../permissions/commercebusinessenablement/resellerPrivateOfferPlans/overview.md)
+- [`commercebusinessenablement.resellerPrivateOfferPlans.create`](../../../../../permissions/commercebusinessenablement/resellerPrivateOfferPlans/overview.md)
+- [`commercebusinessenablement.resellerPrivateOfferPlans.delete`](../../../../../permissions/commercebusinessenablement/resellerPrivateOfferPlans/overview.md)
+- [`commercebusinessenablement.resellerPrivateOfferPlans.get`](../../../../../permissions/commercebusinessenablement/resellerPrivateOfferPlans/overview.md)
+- [`commercebusinessenablement.resellerPrivateOfferPlans.list`](../../../../../permissions/commercebusinessenablement/resellerPrivateOfferPlans/overview.md)
+- [`commercebusinessenablement.resellerPrivateOfferPlans.publish`](../../../../../permissions/commercebusinessenablement/resellerPrivateOfferPlans/overview.md)
+- [`commercebusinessenablement.resellerPrivateOfferPlans.update`](../../../../../permissions/commercebusinessenablement/resellerPrivateOfferPlans/overview.md)
+- [`commercebusinessenablement.resellerRestrictions.list`](../../../../../permissions/commercebusinessenablement/resellerRestrictions/overview.md)
+- [`commercebusinessenablement.resellerRestrictions.update`](../../../../../permissions/commercebusinessenablement/resellerRestrictions/overview.md)
+
+Role: [`roles/admin`](../../overview.md)

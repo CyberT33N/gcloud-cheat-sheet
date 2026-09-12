@@ -1,0 +1,28 @@
+# `roles/iam.supportUser` — `commerceproducer` permissions
+
+`roles/iam.supportUser` grants 20 permissions in the `commerceproducer` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`commerceproducer.analyticsHubListingProductConfigs.get`](../../../../../../permissions/commerceproducer/analyticsHubListingProductConfigs/overview.md)
+- [`commerceproducer.analyticsHubListingProductConfigs.list`](../../../../../../permissions/commerceproducer/analyticsHubListingProductConfigs/overview.md)
+- [`commerceproducer.locations.get`](../../../../../../permissions/commerceproducer/locations/overview.md)
+- [`commerceproducer.locations.list`](../../../../../../permissions/commerceproducer/locations/overview.md)
+- [`commerceproducer.privateOfferDocuments.get`](../../../../../../permissions/commerceproducer/privateOfferDocuments/overview.md)
+- [`commerceproducer.privateOfferDocuments.list`](../../../../../../permissions/commerceproducer/privateOfferDocuments/overview.md)
+- [`commerceproducer.privateOffers.get`](../../../../../../permissions/commerceproducer/privateOffers/overview.md)
+- [`commerceproducer.privateOffers.list`](../../../../../../permissions/commerceproducer/privateOffers/overview.md)
+- [`commerceproducer.products.get`](../../../../../../permissions/commerceproducer/products/overview.md)
+- [`commerceproducer.products.list`](../../../../../../permissions/commerceproducer/products/overview.md)
+- [`commerceproducer.releases.get`](../../../../../../permissions/commerceproducer/releases/overview.md)
+- [`commerceproducer.releases.list`](../../../../../../permissions/commerceproducer/releases/overview.md)
+- [`commerceproducer.services.get`](../../../../../../permissions/commerceproducer/services/overview.md)
+- [`commerceproducer.services.list`](../../../../../../permissions/commerceproducer/services/overview.md)
+- [`commerceproducer.skuGroups.get`](../../../../../../permissions/commerceproducer/skuGroups/overview.md)
+- [`commerceproducer.skuGroups.list`](../../../../../../permissions/commerceproducer/skuGroups/overview.md)
+- [`commerceproducer.skus.get`](../../../../../../permissions/commerceproducer/skus/overview.md)
+- [`commerceproducer.skus.list`](../../../../../../permissions/commerceproducer/skus/overview.md)
+- [`commerceproducer.standardOffers.get`](../../../../../../permissions/commerceproducer/standardOffers/overview.md)
+- [`commerceproducer.standardOffers.list`](../../../../../../permissions/commerceproducer/standardOffers/overview.md)
+
+Role: [`roles/iam.supportUser`](../../overview.md)

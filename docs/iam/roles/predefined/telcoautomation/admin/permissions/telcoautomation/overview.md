@@ -1,0 +1,43 @@
+# `roles/telcoautomation.admin` — `telcoautomation` permissions
+
+`roles/telcoautomation.admin` grants 35 permissions in the `telcoautomation` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`telcoautomation.blueprints.approve`](../../../../../../permissions/telcoautomation/blueprints/overview.md)
+- [`telcoautomation.blueprints.create`](../../../../../../permissions/telcoautomation/blueprints/overview.md)
+- [`telcoautomation.blueprints.delete`](../../../../../../permissions/telcoautomation/blueprints/overview.md)
+- [`telcoautomation.blueprints.get`](../../../../../../permissions/telcoautomation/blueprints/overview.md)
+- [`telcoautomation.blueprints.list`](../../../../../../permissions/telcoautomation/blueprints/overview.md)
+- [`telcoautomation.blueprints.propose`](../../../../../../permissions/telcoautomation/blueprints/overview.md)
+- [`telcoautomation.blueprints.update`](../../../../../../permissions/telcoautomation/blueprints/overview.md)
+- [`telcoautomation.deployments.apply`](../../../../../../permissions/telcoautomation/deployments/overview.md)
+- [`telcoautomation.deployments.computeStatus`](../../../../../../permissions/telcoautomation/deployments/overview.md)
+- [`telcoautomation.deployments.create`](../../../../../../permissions/telcoautomation/deployments/overview.md)
+- [`telcoautomation.deployments.delete`](../../../../../../permissions/telcoautomation/deployments/overview.md)
+- [`telcoautomation.deployments.get`](../../../../../../permissions/telcoautomation/deployments/overview.md)
+- [`telcoautomation.deployments.list`](../../../../../../permissions/telcoautomation/deployments/overview.md)
+- [`telcoautomation.deployments.rollback`](../../../../../../permissions/telcoautomation/deployments/overview.md)
+- [`telcoautomation.deployments.update`](../../../../../../permissions/telcoautomation/deployments/overview.md)
+- [`telcoautomation.edgeSlms.create`](../../../../../../permissions/telcoautomation/edgeSlms/overview.md)
+- [`telcoautomation.edgeSlms.delete`](../../../../../../permissions/telcoautomation/edgeSlms/overview.md)
+- [`telcoautomation.edgeSlms.get`](../../../../../../permissions/telcoautomation/edgeSlms/overview.md)
+- [`telcoautomation.edgeSlms.list`](../../../../../../permissions/telcoautomation/edgeSlms/overview.md)
+- [`telcoautomation.hydratedDeployments.apply`](../../../../../../permissions/telcoautomation/hydratedDeployments/overview.md)
+- [`telcoautomation.hydratedDeployments.get`](../../../../../../permissions/telcoautomation/hydratedDeployments/overview.md)
+- [`telcoautomation.hydratedDeployments.list`](../../../../../../permissions/telcoautomation/hydratedDeployments/overview.md)
+- [`telcoautomation.hydratedDeployments.update`](../../../../../../permissions/telcoautomation/hydratedDeployments/overview.md)
+- [`telcoautomation.locations.get`](../../../../../../permissions/telcoautomation/locations/overview.md)
+- [`telcoautomation.locations.list`](../../../../../../permissions/telcoautomation/locations/overview.md)
+- [`telcoautomation.operations.cancel`](../../../../../../permissions/telcoautomation/operations/overview.md)
+- [`telcoautomation.operations.delete`](../../../../../../permissions/telcoautomation/operations/overview.md)
+- [`telcoautomation.operations.get`](../../../../../../permissions/telcoautomation/operations/overview.md)
+- [`telcoautomation.operations.list`](../../../../../../permissions/telcoautomation/operations/overview.md)
+- [`telcoautomation.orchestrationClusters.create`](../../../../../../permissions/telcoautomation/orchestrationClusters/overview.md)
+- [`telcoautomation.orchestrationClusters.delete`](../../../../../../permissions/telcoautomation/orchestrationClusters/overview.md)
+- [`telcoautomation.orchestrationClusters.get`](../../../../../../permissions/telcoautomation/orchestrationClusters/overview.md)
+- [`telcoautomation.orchestrationClusters.list`](../../../../../../permissions/telcoautomation/orchestrationClusters/overview.md)
+- [`telcoautomation.publicBlueprints.get`](../../../../../../permissions/telcoautomation/publicBlueprints/overview.md)
+- [`telcoautomation.publicBlueprints.list`](../../../../../../permissions/telcoautomation/publicBlueprints/overview.md)
+
+Role: [`roles/telcoautomation.admin`](../../overview.md)

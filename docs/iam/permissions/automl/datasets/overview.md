@@ -1,0 +1,160 @@
+# `datasets`
+
+Permission group of the central IAM permission catalog. The permissions below exist exactly once globally; roles reference them.
+
+## Permissions
+
+### `automl.datasets.create`
+
+Granted by 9 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/automl.admin`](../../../roles/predefined/automl/admin/overview.md)
+- [`roles/automl.editor`](../../../roles/predefined/automl/editor/overview.md)
+- [`roles/datalabeling.serviceAgent`](../../../roles/predefined/datalabeling/serviceAgent/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/firebase.admin`](../../../roles/predefined/firebase/admin/overview.md)
+- [`roles/firebase.developAdmin`](../../../roles/predefined/firebase/developAdmin/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `automl.datasets.delete`
+
+Granted by 9 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/automl.admin`](../../../roles/predefined/automl/admin/overview.md)
+- [`roles/automl.editor`](../../../roles/predefined/automl/editor/overview.md)
+- [`roles/datalabeling.serviceAgent`](../../../roles/predefined/datalabeling/serviceAgent/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/firebase.admin`](../../../roles/predefined/firebase/admin/overview.md)
+- [`roles/firebase.developAdmin`](../../../roles/predefined/firebase/developAdmin/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `automl.datasets.export`
+
+Granted by 14 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/aiplatform.serviceAgent`](../../../roles/predefined/aiplatform/serviceAgent/overview.md)
+- [`roles/automl.admin`](../../../roles/predefined/automl/admin/overview.md)
+- [`roles/automl.editor`](../../../roles/predefined/automl/editor/overview.md)
+- [`roles/cloudtranslate.serviceAgent`](../../../roles/predefined/cloudtranslate/serviceAgent/overview.md)
+- [`roles/datalabeling.serviceAgent`](../../../roles/predefined/datalabeling/serviceAgent/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/firebase.admin`](../../../roles/predefined/firebase/admin/overview.md)
+- [`roles/firebase.developAdmin`](../../../roles/predefined/firebase/developAdmin/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `automl.datasets.get`
+
+Granted by 18 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/aiplatform.serviceAgent`](../../../roles/predefined/aiplatform/serviceAgent/overview.md)
+- [`roles/automl.admin`](../../../roles/predefined/automl/admin/overview.md)
+- [`roles/automl.editor`](../../../roles/predefined/automl/editor/overview.md)
+- [`roles/automl.viewer`](../../../roles/predefined/automl/viewer/overview.md)
+- [`roles/cloudtranslate.serviceAgent`](../../../roles/predefined/cloudtranslate/serviceAgent/overview.md)
+- [`roles/datalabeling.serviceAgent`](../../../roles/predefined/datalabeling/serviceAgent/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/firebase.admin`](../../../roles/predefined/firebase/admin/overview.md)
+- [`roles/firebase.developAdmin`](../../../roles/predefined/firebase/developAdmin/overview.md)
+- [`roles/firebase.developViewer`](../../../roles/predefined/firebase/developViewer/overview.md)
+- [`roles/firebase.editor`](../../../roles/predefined/firebase/editor/overview.md)
+- [`roles/firebase.viewer`](../../../roles/predefined/firebase/viewer/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `automl.datasets.getIamPolicy`
+
+Granted by 13 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/automl.admin`](../../../roles/predefined/automl/admin/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/firebase.admin`](../../../roles/predefined/firebase/admin/overview.md)
+- [`roles/firebase.developAdmin`](../../../roles/predefined/firebase/developAdmin/overview.md)
+- [`roles/iam.securityAdmin`](../../../roles/predefined/iam/securityAdmin/overview.md)
+- [`roles/iam.securityAuditor`](../../../roles/predefined/iam/securityAuditor/overview.md)
+- [`roles/iam.securityReviewer`](../../../roles/predefined/iam/securityReviewer/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `automl.datasets.import`
+
+Granted by 9 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/automl.admin`](../../../roles/predefined/automl/admin/overview.md)
+- [`roles/automl.editor`](../../../roles/predefined/automl/editor/overview.md)
+- [`roles/datalabeling.serviceAgent`](../../../roles/predefined/datalabeling/serviceAgent/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/firebase.admin`](../../../roles/predefined/firebase/admin/overview.md)
+- [`roles/firebase.developAdmin`](../../../roles/predefined/firebase/developAdmin/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `automl.datasets.list`
+
+Granted by 21 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/aiplatform.serviceAgent`](../../../roles/predefined/aiplatform/serviceAgent/overview.md)
+- [`roles/automl.admin`](../../../roles/predefined/automl/admin/overview.md)
+- [`roles/automl.editor`](../../../roles/predefined/automl/editor/overview.md)
+- [`roles/automl.viewer`](../../../roles/predefined/automl/viewer/overview.md)
+- [`roles/cloudtranslate.serviceAgent`](../../../roles/predefined/cloudtranslate/serviceAgent/overview.md)
+- [`roles/datalabeling.serviceAgent`](../../../roles/predefined/datalabeling/serviceAgent/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/firebase.admin`](../../../roles/predefined/firebase/admin/overview.md)
+- [`roles/firebase.developAdmin`](../../../roles/predefined/firebase/developAdmin/overview.md)
+- [`roles/firebase.developViewer`](../../../roles/predefined/firebase/developViewer/overview.md)
+- [`roles/firebase.editor`](../../../roles/predefined/firebase/editor/overview.md)
+- [`roles/firebase.viewer`](../../../roles/predefined/firebase/viewer/overview.md)
+- [`roles/iam.securityAdmin`](../../../roles/predefined/iam/securityAdmin/overview.md)
+- [`roles/iam.securityAuditor`](../../../roles/predefined/iam/securityAuditor/overview.md)
+- [`roles/iam.securityReviewer`](../../../roles/predefined/iam/securityReviewer/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `automl.datasets.setIamPolicy`
+
+Granted by 6 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/automl.admin`](../../../roles/predefined/automl/admin/overview.md)
+- [`roles/firebase.admin`](../../../roles/predefined/firebase/admin/overview.md)
+- [`roles/firebase.developAdmin`](../../../roles/predefined/firebase/developAdmin/overview.md)
+- [`roles/iam.securityAdmin`](../../../roles/predefined/iam/securityAdmin/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+
+### `automl.datasets.update`
+
+Granted by 9 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/automl.admin`](../../../roles/predefined/automl/admin/overview.md)
+- [`roles/automl.editor`](../../../roles/predefined/automl/editor/overview.md)
+- [`roles/datalabeling.serviceAgent`](../../../roles/predefined/datalabeling/serviceAgent/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/firebase.admin`](../../../roles/predefined/firebase/admin/overview.md)
+- [`roles/firebase.developAdmin`](../../../roles/predefined/firebase/developAdmin/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+Catalog: [IAM permissions](../../overview.md)

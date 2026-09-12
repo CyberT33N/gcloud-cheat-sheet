@@ -1,0 +1,43 @@
+# `roles/admin` — `cloudbuild` permissions
+
+`roles/admin` grants 35 permissions in the `cloudbuild` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`cloudbuild.builds.approve`](../../../../../permissions/cloudbuild/builds/overview.md)
+- [`cloudbuild.builds.create`](../../../../../permissions/cloudbuild/builds/overview.md)
+- [`cloudbuild.builds.get`](../../../../../permissions/cloudbuild/builds/overview.md)
+- [`cloudbuild.builds.list`](../../../../../permissions/cloudbuild/builds/overview.md)
+- [`cloudbuild.builds.update`](../../../../../permissions/cloudbuild/builds/overview.md)
+- [`cloudbuild.connections.create`](../../../../../permissions/cloudbuild/connections/overview.md)
+- [`cloudbuild.connections.delete`](../../../../../permissions/cloudbuild/connections/overview.md)
+- [`cloudbuild.connections.fetchLinkableRepositories`](../../../../../permissions/cloudbuild/connections/overview.md)
+- [`cloudbuild.connections.get`](../../../../../permissions/cloudbuild/connections/overview.md)
+- [`cloudbuild.connections.getIamPolicy`](../../../../../permissions/cloudbuild/connections/overview.md)
+- [`cloudbuild.connections.list`](../../../../../permissions/cloudbuild/connections/overview.md)
+- [`cloudbuild.connections.setIamPolicy`](../../../../../permissions/cloudbuild/connections/overview.md)
+- [`cloudbuild.connections.update`](../../../../../permissions/cloudbuild/connections/overview.md)
+- [`cloudbuild.integrations.create`](../../../../../permissions/cloudbuild/integrations/overview.md)
+- [`cloudbuild.integrations.delete`](../../../../../permissions/cloudbuild/integrations/overview.md)
+- [`cloudbuild.integrations.get`](../../../../../permissions/cloudbuild/integrations/overview.md)
+- [`cloudbuild.integrations.list`](../../../../../permissions/cloudbuild/integrations/overview.md)
+- [`cloudbuild.integrations.update`](../../../../../permissions/cloudbuild/integrations/overview.md)
+- [`cloudbuild.locations.get`](../../../../../permissions/cloudbuild/locations/overview.md)
+- [`cloudbuild.locations.list`](../../../../../permissions/cloudbuild/locations/overview.md)
+- [`cloudbuild.operations.get`](../../../../../permissions/cloudbuild/operations/overview.md)
+- [`cloudbuild.operations.list`](../../../../../permissions/cloudbuild/operations/overview.md)
+- [`cloudbuild.repositories.accessReadToken`](../../../../../permissions/cloudbuild/repositories/overview.md)
+- [`cloudbuild.repositories.accessReadWriteToken`](../../../../../permissions/cloudbuild/repositories/overview.md)
+- [`cloudbuild.repositories.create`](../../../../../permissions/cloudbuild/repositories/overview.md)
+- [`cloudbuild.repositories.delete`](../../../../../permissions/cloudbuild/repositories/overview.md)
+- [`cloudbuild.repositories.fetchGitRefs`](../../../../../permissions/cloudbuild/repositories/overview.md)
+- [`cloudbuild.repositories.get`](../../../../../permissions/cloudbuild/repositories/overview.md)
+- [`cloudbuild.repositories.list`](../../../../../permissions/cloudbuild/repositories/overview.md)
+- [`cloudbuild.workerpools.create`](../../../../../permissions/cloudbuild/workerpools/overview.md)
+- [`cloudbuild.workerpools.delete`](../../../../../permissions/cloudbuild/workerpools/overview.md)
+- [`cloudbuild.workerpools.get`](../../../../../permissions/cloudbuild/workerpools/overview.md)
+- [`cloudbuild.workerpools.list`](../../../../../permissions/cloudbuild/workerpools/overview.md)
+- [`cloudbuild.workerpools.update`](../../../../../permissions/cloudbuild/workerpools/overview.md)
+- [`cloudbuild.workerpools.use`](../../../../../permissions/cloudbuild/workerpools/overview.md)
+
+Role: [`roles/admin`](../../overview.md)

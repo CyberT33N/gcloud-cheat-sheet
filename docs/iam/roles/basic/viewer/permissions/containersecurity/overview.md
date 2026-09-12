@@ -1,0 +1,10 @@
+# `roles/viewer` — `containersecurity` permissions
+
+`roles/viewer` grants 2 permissions in the `containersecurity` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`containersecurity.locations.get`](../../../../../permissions/containersecurity/locations/overview.md)
+- [`containersecurity.locations.list`](../../../../../permissions/containersecurity/locations/overview.md)
+
+Role: [`roles/viewer`](../../overview.md)

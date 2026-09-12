@@ -1,0 +1,18 @@
+# `roles/viewer` — `cloudtrace` permissions
+
+`roles/viewer` grants 10 permissions in the `cloudtrace` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`cloudtrace.insights.get`](../../../../../permissions/cloudtrace/insights/overview.md)
+- [`cloudtrace.insights.list`](../../../../../permissions/cloudtrace/insights/overview.md)
+- [`cloudtrace.stats.get`](../../../../../permissions/cloudtrace/stats/overview.md)
+- [`cloudtrace.tasks.create`](../../../../../permissions/cloudtrace/tasks/overview.md)
+- [`cloudtrace.tasks.get`](../../../../../permissions/cloudtrace/tasks/overview.md)
+- [`cloudtrace.tasks.list`](../../../../../permissions/cloudtrace/tasks/overview.md)
+- [`cloudtrace.traceScopes.get`](../../../../../permissions/cloudtrace/traceScopes/overview.md)
+- [`cloudtrace.traceScopes.list`](../../../../../permissions/cloudtrace/traceScopes/overview.md)
+- [`cloudtrace.traces.get`](../../../../../permissions/cloudtrace/traces/overview.md)
+- [`cloudtrace.traces.list`](../../../../../permissions/cloudtrace/traces/overview.md)
+
+Role: [`roles/viewer`](../../overview.md)

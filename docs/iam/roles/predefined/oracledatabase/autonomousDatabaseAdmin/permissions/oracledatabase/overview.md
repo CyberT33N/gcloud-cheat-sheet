@@ -1,0 +1,40 @@
+# `roles/oracledatabase.autonomousDatabaseAdmin` — `oracledatabase` permissions
+
+`roles/oracledatabase.autonomousDatabaseAdmin` grants 32 permissions in the `oracledatabase` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`oracledatabase.autonomousDatabaseBackups.clone`](../../../../../../permissions/oracledatabase/autonomousDatabaseBackups/overview.md)
+- [`oracledatabase.autonomousDatabaseBackups.create`](../../../../../../permissions/oracledatabase/autonomousDatabaseBackups/overview.md)
+- [`oracledatabase.autonomousDatabaseBackups.delete`](../../../../../../permissions/oracledatabase/autonomousDatabaseBackups/overview.md)
+- [`oracledatabase.autonomousDatabaseBackups.get`](../../../../../../permissions/oracledatabase/autonomousDatabaseBackups/overview.md)
+- [`oracledatabase.autonomousDatabaseBackups.list`](../../../../../../permissions/oracledatabase/autonomousDatabaseBackups/overview.md)
+- [`oracledatabase.autonomousDatabaseCharacterSets.list`](../../../../../../permissions/oracledatabase/autonomousDatabaseCharacterSets/overview.md)
+- [`oracledatabase.autonomousDatabases.clone`](../../../../../../permissions/oracledatabase/autonomousDatabases/overview.md)
+- [`oracledatabase.autonomousDatabases.create`](../../../../../../permissions/oracledatabase/autonomousDatabases/overview.md)
+- [`oracledatabase.autonomousDatabases.delete`](../../../../../../permissions/oracledatabase/autonomousDatabases/overview.md)
+- [`oracledatabase.autonomousDatabases.failover`](../../../../../../permissions/oracledatabase/autonomousDatabases/overview.md)
+- [`oracledatabase.autonomousDatabases.generateWallet`](../../../../../../permissions/oracledatabase/autonomousDatabases/overview.md)
+- [`oracledatabase.autonomousDatabases.get`](../../../../../../permissions/oracledatabase/autonomousDatabases/overview.md)
+- [`oracledatabase.autonomousDatabases.list`](../../../../../../permissions/oracledatabase/autonomousDatabases/overview.md)
+- [`oracledatabase.autonomousDatabases.listRefreshableClones`](../../../../../../permissions/oracledatabase/autonomousDatabases/overview.md)
+- [`oracledatabase.autonomousDatabases.refresh`](../../../../../../permissions/oracledatabase/autonomousDatabases/overview.md)
+- [`oracledatabase.autonomousDatabases.restart`](../../../../../../permissions/oracledatabase/autonomousDatabases/overview.md)
+- [`oracledatabase.autonomousDatabases.restore`](../../../../../../permissions/oracledatabase/autonomousDatabases/overview.md)
+- [`oracledatabase.autonomousDatabases.start`](../../../../../../permissions/oracledatabase/autonomousDatabases/overview.md)
+- [`oracledatabase.autonomousDatabases.stop`](../../../../../../permissions/oracledatabase/autonomousDatabases/overview.md)
+- [`oracledatabase.autonomousDatabases.switchover`](../../../../../../permissions/oracledatabase/autonomousDatabases/overview.md)
+- [`oracledatabase.autonomousDatabases.update`](../../../../../../permissions/oracledatabase/autonomousDatabases/overview.md)
+- [`oracledatabase.autonomousDbVersions.list`](../../../../../../permissions/oracledatabase/autonomousDbVersions/overview.md)
+- [`oracledatabase.entitlements.list`](../../../../../../permissions/oracledatabase/entitlements/overview.md)
+- [`oracledatabase.locations.get`](../../../../../../permissions/oracledatabase/locations/overview.md)
+- [`oracledatabase.locations.list`](../../../../../../permissions/oracledatabase/locations/overview.md)
+- [`oracledatabase.odbSubnets.get`](../../../../../../permissions/oracledatabase/odbSubnets/overview.md)
+- [`oracledatabase.odbSubnets.list`](../../../../../../permissions/oracledatabase/odbSubnets/overview.md)
+- [`oracledatabase.odbSubnets.use`](../../../../../../permissions/oracledatabase/odbSubnets/overview.md)
+- [`oracledatabase.operations.cancel`](../../../../../../permissions/oracledatabase/operations/overview.md)
+- [`oracledatabase.operations.delete`](../../../../../../permissions/oracledatabase/operations/overview.md)
+- [`oracledatabase.operations.get`](../../../../../../permissions/oracledatabase/operations/overview.md)
+- [`oracledatabase.operations.list`](../../../../../../permissions/oracledatabase/operations/overview.md)
+
+Role: [`roles/oracledatabase.autonomousDatabaseAdmin`](../../overview.md)

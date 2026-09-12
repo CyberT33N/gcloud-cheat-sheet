@@ -1,0 +1,38 @@
+# `roles/securitycentermanagement.settingsEditor` — `securitycentermanagement` permissions
+
+`roles/securitycentermanagement.settingsEditor` grants 30 permissions in the `securitycentermanagement` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`securitycentermanagement.billingMetadata.get`](../../../../../../permissions/securitycentermanagement/billingMetadata/overview.md)
+- [`securitycentermanagement.effectiveEventThreatDetectionCustomModules.get`](../../../../../../permissions/securitycentermanagement/effectiveEventThreatDetectionCustomModules/overview.md)
+- [`securitycentermanagement.effectiveEventThreatDetectionCustomModules.list`](../../../../../../permissions/securitycentermanagement/effectiveEventThreatDetectionCustomModules/overview.md)
+- [`securitycentermanagement.effectiveSecurityHealthAnalyticsCustomModules.get`](../../../../../../permissions/securitycentermanagement/effectiveSecurityHealthAnalyticsCustomModules/overview.md)
+- [`securitycentermanagement.effectiveSecurityHealthAnalyticsCustomModules.list`](../../../../../../permissions/securitycentermanagement/effectiveSecurityHealthAnalyticsCustomModules/overview.md)
+- [`securitycentermanagement.eventThreatDetectionCustomModules.create`](../../../../../../permissions/securitycentermanagement/eventThreatDetectionCustomModules/overview.md)
+- [`securitycentermanagement.eventThreatDetectionCustomModules.delete`](../../../../../../permissions/securitycentermanagement/eventThreatDetectionCustomModules/overview.md)
+- [`securitycentermanagement.eventThreatDetectionCustomModules.get`](../../../../../../permissions/securitycentermanagement/eventThreatDetectionCustomModules/overview.md)
+- [`securitycentermanagement.eventThreatDetectionCustomModules.list`](../../../../../../permissions/securitycentermanagement/eventThreatDetectionCustomModules/overview.md)
+- [`securitycentermanagement.eventThreatDetectionCustomModules.update`](../../../../../../permissions/securitycentermanagement/eventThreatDetectionCustomModules/overview.md)
+- [`securitycentermanagement.eventThreatDetectionCustomModules.validate`](../../../../../../permissions/securitycentermanagement/eventThreatDetectionCustomModules/overview.md)
+- [`securitycentermanagement.locations.get`](../../../../../../permissions/securitycentermanagement/locations/overview.md)
+- [`securitycentermanagement.locations.list`](../../../../../../permissions/securitycentermanagement/locations/overview.md)
+- [`securitycentermanagement.securityCenterServices.get`](../../../../../../permissions/securitycentermanagement/securityCenterServices/overview.md)
+- [`securitycentermanagement.securityCenterServices.list`](../../../../../../permissions/securitycentermanagement/securityCenterServices/overview.md)
+- [`securitycentermanagement.securityCenterServices.update`](../../../../../../permissions/securitycentermanagement/securityCenterServices/overview.md)
+- [`securitycentermanagement.securityCommandCenter.activate`](../../../../../../permissions/securitycentermanagement/securityCommandCenter/overview.md)
+- [`securitycentermanagement.securityCommandCenter.checkActivationOperation`](../../../../../../permissions/securitycentermanagement/securityCommandCenter/overview.md)
+- [`securitycentermanagement.securityCommandCenter.checkEligibility`](../../../../../../permissions/securitycentermanagement/securityCommandCenter/overview.md)
+- [`securitycentermanagement.securityCommandCenter.checkOnboardingStatus`](../../../../../../permissions/securitycentermanagement/securityCommandCenter/overview.md)
+- [`securitycentermanagement.securityCommandCenter.generateServiceAccounts`](../../../../../../permissions/securitycentermanagement/securityCommandCenter/overview.md)
+- [`securitycentermanagement.securityCommandCenter.get`](../../../../../../permissions/securitycentermanagement/securityCommandCenter/overview.md)
+- [`securitycentermanagement.securityCommandCenter.update`](../../../../../../permissions/securitycentermanagement/securityCommandCenter/overview.md)
+- [`securitycentermanagement.securityHealthAnalyticsCustomModules.create`](../../../../../../permissions/securitycentermanagement/securityHealthAnalyticsCustomModules/overview.md)
+- [`securitycentermanagement.securityHealthAnalyticsCustomModules.delete`](../../../../../../permissions/securitycentermanagement/securityHealthAnalyticsCustomModules/overview.md)
+- [`securitycentermanagement.securityHealthAnalyticsCustomModules.get`](../../../../../../permissions/securitycentermanagement/securityHealthAnalyticsCustomModules/overview.md)
+- [`securitycentermanagement.securityHealthAnalyticsCustomModules.list`](../../../../../../permissions/securitycentermanagement/securityHealthAnalyticsCustomModules/overview.md)
+- [`securitycentermanagement.securityHealthAnalyticsCustomModules.simulate`](../../../../../../permissions/securitycentermanagement/securityHealthAnalyticsCustomModules/overview.md)
+- [`securitycentermanagement.securityHealthAnalyticsCustomModules.test`](../../../../../../permissions/securitycentermanagement/securityHealthAnalyticsCustomModules/overview.md)
+- [`securitycentermanagement.securityHealthAnalyticsCustomModules.update`](../../../../../../permissions/securitycentermanagement/securityHealthAnalyticsCustomModules/overview.md)
+
+Role: [`roles/securitycentermanagement.settingsEditor`](../../overview.md)

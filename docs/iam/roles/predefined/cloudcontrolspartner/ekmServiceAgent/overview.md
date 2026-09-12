@@ -1,0 +1,35 @@
+# `roles/cloudcontrolspartner.ekmServiceAgent`
+
+Gives Cloud Controls Partner service agent permission to list EKM connections, get EKM connection status, and provide EKM diagnostic information.
+
+## Role details
+
+| Property | Value |
+| --- | --- |
+| Role ID | `roles/cloudcontrolspartner.ekmServiceAgent` |
+| Title | Cloud Controls Partner EKM Service Agent |
+| Type | Predefined role |
+| Launch stage | `GA` |
+| Included permissions | 4 |
+| Service | [cloudcontrolspartner](../overview.md) |
+
+## Permissions
+
+`roles/cloudcontrolspartner.ekmServiceAgent` grants 4 permissions across 1 services. Each service page lists exactly the permissions this role grants on that service and links every permission to its canonical page in the [central permission catalog](../../../../permissions/overview.md).
+
+| Service | Permissions |
+| --- | --- |
+| [cloudkms](permissions/cloudkms/overview.md) | 4 |
+
+## Inspect this role live
+
+```shell
+gcloud iam roles describe roles/cloudcontrolspartner.ekmServiceAgent --format="value(includedPermissions)"
+```
+
+See [iam roles describe](../../../../../cli/iam/roles/describe/overview.md) for the verified command reference.
+
+## Official documentation
+
+- [IAM roles and permissions index](https://cloud.google.com/iam/docs/understanding-roles)
+- [Roles overview](https://cloud.google.com/iam/docs/roles-overview)

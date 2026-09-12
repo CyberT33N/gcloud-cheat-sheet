@@ -1,0 +1,10 @@
+# `roles/networkservices.serviceExtensionsAdmin` — `serviceusage` permissions
+
+`roles/networkservices.serviceExtensionsAdmin` grants 2 permissions in the `serviceusage` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`serviceusage.quotas.get`](../../../../../../permissions/serviceusage/quotas/overview.md)
+- [`serviceusage.services.get`](../../../../../../permissions/serviceusage/services/overview.md)
+
+Role: [`roles/networkservices.serviceExtensionsAdmin`](../../overview.md)

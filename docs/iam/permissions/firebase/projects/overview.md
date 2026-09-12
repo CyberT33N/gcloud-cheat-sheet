@@ -1,0 +1,110 @@
+# `projects`
+
+Permission group of the central IAM permission catalog. The permissions below exist exactly once globally; roles reference them.
+
+## Permissions
+
+### `firebase.projects.delete`
+
+Granted by 4 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/firebase.admin`](../../../roles/predefined/firebase/admin/overview.md)
+- [`roles/firebase.managementServiceAgent`](../../../roles/predefined/firebase/managementServiceAgent/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+
+### `firebase.projects.get`
+
+Granted by 74 roles:
+
+- [`roles/actions.Admin`](../../../roles/predefined/actions/Admin/overview.md)
+- [`roles/actions.Viewer`](../../../roles/predefined/actions/Viewer/overview.md)
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/cloudconfig.admin`](../../../roles/predefined/cloudconfig/admin/overview.md)
+- [`roles/cloudconfig.viewer`](../../../roles/predefined/cloudconfig/viewer/overview.md)
+- [`roles/clouddeploymentmanager.serviceAgent`](../../../roles/predefined/clouddeploymentmanager/serviceAgent/overview.md)
+- [`roles/cloudtestservice.testAdmin`](../../../roles/predefined/cloudtestservice/testAdmin/overview.md)
+- [`roles/cloudtestservice.testViewer`](../../../roles/predefined/cloudtestservice/testViewer/overview.md)
+- [`roles/composer.serviceAgent`](../../../roles/predefined/composer/serviceAgent/overview.md)
+- [`roles/dataflow.serviceAgent`](../../../roles/predefined/dataflow/serviceAgent/overview.md)
+- [`roles/datafusion.serviceAgent`](../../../roles/predefined/datafusion/serviceAgent/overview.md)
+- [`roles/datapipelines.serviceAgent`](../../../roles/predefined/datapipelines/serviceAgent/overview.md)
+- [`roles/dataplex.serviceAgent`](../../../roles/predefined/dataplex/serviceAgent/overview.md)
+- [`roles/dataproc.serviceAgent`](../../../roles/predefined/dataproc/serviceAgent/overview.md)
+- [`roles/dlp.serviceAgent`](../../../roles/predefined/dlp/serviceAgent/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/firebase.admin`](../../../roles/predefined/firebase/admin/overview.md)
+- [`roles/firebase.analyticsAdmin`](../../../roles/predefined/firebase/analyticsAdmin/overview.md)
+- [`roles/firebase.analyticsViewer`](../../../roles/predefined/firebase/analyticsViewer/overview.md)
+- [`roles/firebase.developAdmin`](../../../roles/predefined/firebase/developAdmin/overview.md)
+- [`roles/firebase.developViewer`](../../../roles/predefined/firebase/developViewer/overview.md)
+- [`roles/firebase.editor`](../../../roles/predefined/firebase/editor/overview.md)
+- [`roles/firebase.growthAdmin`](../../../roles/predefined/firebase/growthAdmin/overview.md)
+- [`roles/firebase.growthViewer`](../../../roles/predefined/firebase/growthViewer/overview.md)
+- [`roles/firebase.managementServiceAgent`](../../../roles/predefined/firebase/managementServiceAgent/overview.md)
+- [`roles/firebase.qualityAdmin`](../../../roles/predefined/firebase/qualityAdmin/overview.md)
+- [`roles/firebase.qualityViewer`](../../../roles/predefined/firebase/qualityViewer/overview.md)
+- [`roles/firebase.sdkAdminServiceAgent`](../../../roles/predefined/firebase/sdkAdminServiceAgent/overview.md)
+- [`roles/firebase.viewer`](../../../roles/predefined/firebase/viewer/overview.md)
+- [`roles/firebaseabt.admin`](../../../roles/predefined/firebaseabt/admin/overview.md)
+- [`roles/firebaseabt.viewer`](../../../roles/predefined/firebaseabt/viewer/overview.md)
+- [`roles/firebaseappdistro.admin`](../../../roles/predefined/firebaseappdistro/admin/overview.md)
+- [`roles/firebaseappdistro.viewer`](../../../roles/predefined/firebaseappdistro/viewer/overview.md)
+- [`roles/firebaseauth.admin`](../../../roles/predefined/firebaseauth/admin/overview.md)
+- [`roles/firebaseauth.editor`](../../../roles/predefined/firebaseauth/editor/overview.md)
+- [`roles/firebaseauth.viewer`](../../../roles/predefined/firebaseauth/viewer/overview.md)
+- [`roles/firebasecloudmessaging.viewer`](../../../roles/predefined/firebasecloudmessaging/viewer/overview.md)
+- [`roles/firebasecrashlytics.admin`](../../../roles/predefined/firebasecrashlytics/admin/overview.md)
+- [`roles/firebasecrashlytics.viewer`](../../../roles/predefined/firebasecrashlytics/viewer/overview.md)
+- [`roles/firebasedatabase.admin`](../../../roles/predefined/firebasedatabase/admin/overview.md)
+- [`roles/firebasedatabase.viewer`](../../../roles/predefined/firebasedatabase/viewer/overview.md)
+- [`roles/firebasedynamiclinks.admin`](../../../roles/predefined/firebasedynamiclinks/admin/overview.md)
+- [`roles/firebasedynamiclinks.editor`](../../../roles/predefined/firebasedynamiclinks/editor/overview.md)
+- [`roles/firebasedynamiclinks.viewer`](../../../roles/predefined/firebasedynamiclinks/viewer/overview.md)
+- [`roles/firebaseextensions.developer`](../../../roles/predefined/firebaseextensions/developer/overview.md)
+- [`roles/firebaseextensions.editor`](../../../roles/predefined/firebaseextensions/editor/overview.md)
+- [`roles/firebaseextensions.viewer`](../../../roles/predefined/firebaseextensions/viewer/overview.md)
+- [`roles/firebaseextensionspublisher.admin`](../../../roles/predefined/firebaseextensionspublisher/admin/overview.md)
+- [`roles/firebaseextensionspublisher.extensionsAdmin`](../../../roles/predefined/firebaseextensionspublisher/extensionsAdmin/overview.md)
+- [`roles/firebaseextensionspublisher.extensionsViewer`](../../../roles/predefined/firebaseextensionspublisher/extensionsViewer/overview.md)
+- [`roles/firebaseextensionspublisher.viewer`](../../../roles/predefined/firebaseextensionspublisher/viewer/overview.md)
+- [`roles/firebasehosting.admin`](../../../roles/predefined/firebasehosting/admin/overview.md)
+- [`roles/firebasehosting.viewer`](../../../roles/predefined/firebasehosting/viewer/overview.md)
+- [`roles/firebaseinappmessaging.admin`](../../../roles/predefined/firebaseinappmessaging/admin/overview.md)
+- [`roles/firebaseinappmessaging.viewer`](../../../roles/predefined/firebaseinappmessaging/viewer/overview.md)
+- [`roles/firebaseml.admin`](../../../roles/predefined/firebaseml/admin/overview.md)
+- [`roles/firebaseml.viewer`](../../../roles/predefined/firebaseml/viewer/overview.md)
+- [`roles/firebasenotifications.admin`](../../../roles/predefined/firebasenotifications/admin/overview.md)
+- [`roles/firebasenotifications.viewer`](../../../roles/predefined/firebasenotifications/viewer/overview.md)
+- [`roles/firebaseperformance.admin`](../../../roles/predefined/firebaseperformance/admin/overview.md)
+- [`roles/firebaseperformance.viewer`](../../../roles/predefined/firebaseperformance/viewer/overview.md)
+- [`roles/firebasestorage.admin`](../../../roles/predefined/firebasestorage/admin/overview.md)
+- [`roles/iam.databasesAdmin`](../../../roles/predefined/iam/databasesAdmin/overview.md)
+- [`roles/iam.infrastructureAdmin`](../../../roles/predefined/iam/infrastructureAdmin/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/identitytoolkit.editor`](../../../roles/predefined/identitytoolkit/editor/overview.md)
+- [`roles/ml.serviceAgent`](../../../roles/predefined/ml/serviceAgent/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/storage.admin`](../../../roles/predefined/storage/admin/overview.md)
+- [`roles/storage.hmacKeyAdmin`](../../../roles/predefined/storage/hmacKeyAdmin/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/visualinspection.serviceAgent`](../../../roles/predefined/visualinspection/serviceAgent/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `firebase.projects.update`
+
+Granted by 10 roles:
+
+- [`roles/actions.Admin`](../../../roles/predefined/actions/Admin/overview.md)
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/clouddeploymentmanager.serviceAgent`](../../../roles/predefined/clouddeploymentmanager/serviceAgent/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/firebase.admin`](../../../roles/predefined/firebase/admin/overview.md)
+- [`roles/firebase.editor`](../../../roles/predefined/firebase/editor/overview.md)
+- [`roles/firebase.managementServiceAgent`](../../../roles/predefined/firebase/managementServiceAgent/overview.md)
+- [`roles/firebase.sdkAdminServiceAgent`](../../../roles/predefined/firebase/sdkAdminServiceAgent/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+Catalog: [IAM permissions](../../overview.md)

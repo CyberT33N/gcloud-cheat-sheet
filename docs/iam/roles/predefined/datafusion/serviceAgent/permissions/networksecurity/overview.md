@@ -1,0 +1,42 @@
+# `roles/datafusion.serviceAgent` — `networksecurity` permissions
+
+`roles/datafusion.serviceAgent` grants 34 permissions in the `networksecurity` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`networksecurity.addressGroups.get`](../../../../../../permissions/networksecurity/addressGroups/overview.md)
+- [`networksecurity.addressGroups.list`](../../../../../../permissions/networksecurity/addressGroups/overview.md)
+- [`networksecurity.authorizationPolicies.get`](../../../../../../permissions/networksecurity/authorizationPolicies/overview.md)
+- [`networksecurity.authorizationPolicies.list`](../../../../../../permissions/networksecurity/authorizationPolicies/overview.md)
+- [`networksecurity.authzPolicies.get`](../../../../../../permissions/networksecurity/authzPolicies/overview.md)
+- [`networksecurity.authzPolicies.list`](../../../../../../permissions/networksecurity/authzPolicies/overview.md)
+- [`networksecurity.clientTlsPolicies.get`](../../../../../../permissions/networksecurity/clientTlsPolicies/overview.md)
+- [`networksecurity.clientTlsPolicies.list`](../../../../../../permissions/networksecurity/clientTlsPolicies/overview.md)
+- [`networksecurity.firewallEndpointAssociations.get`](../../../../../../permissions/networksecurity/firewallEndpointAssociations/overview.md)
+- [`networksecurity.firewallEndpointAssociations.list`](../../../../../../permissions/networksecurity/firewallEndpointAssociations/overview.md)
+- [`networksecurity.firewallEndpoints.get`](../../../../../../permissions/networksecurity/firewallEndpoints/overview.md)
+- [`networksecurity.firewallEndpoints.list`](../../../../../../permissions/networksecurity/firewallEndpoints/overview.md)
+- [`networksecurity.gatewaySecurityPolicies.get`](../../../../../../permissions/networksecurity/gatewaySecurityPolicies/overview.md)
+- [`networksecurity.gatewaySecurityPolicies.list`](../../../../../../permissions/networksecurity/gatewaySecurityPolicies/overview.md)
+- [`networksecurity.gatewaySecurityPolicyRules.get`](../../../../../../permissions/networksecurity/gatewaySecurityPolicyRules/overview.md)
+- [`networksecurity.gatewaySecurityPolicyRules.list`](../../../../../../permissions/networksecurity/gatewaySecurityPolicyRules/overview.md)
+- [`networksecurity.locations.get`](../../../../../../permissions/networksecurity/locations/overview.md)
+- [`networksecurity.locations.list`](../../../../../../permissions/networksecurity/locations/overview.md)
+- [`networksecurity.operations.get`](../../../../../../permissions/networksecurity/operations/overview.md)
+- [`networksecurity.operations.list`](../../../../../../permissions/networksecurity/operations/overview.md)
+- [`networksecurity.sacAttachments.get`](../../../../../../permissions/networksecurity/sacAttachments/overview.md)
+- [`networksecurity.sacAttachments.list`](../../../../../../permissions/networksecurity/sacAttachments/overview.md)
+- [`networksecurity.sacRealms.get`](../../../../../../permissions/networksecurity/sacRealms/overview.md)
+- [`networksecurity.sacRealms.list`](../../../../../../permissions/networksecurity/sacRealms/overview.md)
+- [`networksecurity.securityProfileGroups.get`](../../../../../../permissions/networksecurity/securityProfileGroups/overview.md)
+- [`networksecurity.securityProfileGroups.list`](../../../../../../permissions/networksecurity/securityProfileGroups/overview.md)
+- [`networksecurity.securityProfiles.get`](../../../../../../permissions/networksecurity/securityProfiles/overview.md)
+- [`networksecurity.securityProfiles.list`](../../../../../../permissions/networksecurity/securityProfiles/overview.md)
+- [`networksecurity.serverTlsPolicies.get`](../../../../../../permissions/networksecurity/serverTlsPolicies/overview.md)
+- [`networksecurity.serverTlsPolicies.list`](../../../../../../permissions/networksecurity/serverTlsPolicies/overview.md)
+- [`networksecurity.tlsInspectionPolicies.get`](../../../../../../permissions/networksecurity/tlsInspectionPolicies/overview.md)
+- [`networksecurity.tlsInspectionPolicies.list`](../../../../../../permissions/networksecurity/tlsInspectionPolicies/overview.md)
+- [`networksecurity.urlLists.get`](../../../../../../permissions/networksecurity/urlLists/overview.md)
+- [`networksecurity.urlLists.list`](../../../../../../permissions/networksecurity/urlLists/overview.md)
+
+Role: [`roles/datafusion.serviceAgent`](../../overview.md)

@@ -1,0 +1,41 @@
+# `roles/networkconnectivity.serviceAgent` — `compute` permissions
+
+`roles/networkconnectivity.serviceAgent` grants 33 permissions in the `compute` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`compute.addresses.create`](../../../../../../permissions/compute/addresses/overview.md)
+- [`compute.addresses.createInternal`](../../../../../../permissions/compute/addresses/overview.md)
+- [`compute.addresses.delete`](../../../../../../permissions/compute/addresses/overview.md)
+- [`compute.addresses.deleteInternal`](../../../../../../permissions/compute/addresses/overview.md)
+- [`compute.addresses.get`](../../../../../../permissions/compute/addresses/overview.md)
+- [`compute.addresses.setLabels`](../../../../../../permissions/compute/addresses/overview.md)
+- [`compute.addresses.use`](../../../../../../permissions/compute/addresses/overview.md)
+- [`compute.forwardingRules.create`](../../../../../../permissions/compute/forwardingRules/overview.md)
+- [`compute.forwardingRules.delete`](../../../../../../permissions/compute/forwardingRules/overview.md)
+- [`compute.forwardingRules.get`](../../../../../../permissions/compute/forwardingRules/overview.md)
+- [`compute.forwardingRules.pscCreate`](../../../../../../permissions/compute/forwardingRules/overview.md)
+- [`compute.forwardingRules.pscDelete`](../../../../../../permissions/compute/forwardingRules/overview.md)
+- [`compute.forwardingRules.pscSetLabels`](../../../../../../permissions/compute/forwardingRules/overview.md)
+- [`compute.forwardingRules.pscUpdate`](../../../../../../permissions/compute/forwardingRules/overview.md)
+- [`compute.forwardingRules.setLabels`](../../../../../../permissions/compute/forwardingRules/overview.md)
+- [`compute.instances.get`](../../../../../../permissions/compute/instances/overview.md)
+- [`compute.interconnectAttachments.get`](../../../../../../permissions/compute/interconnectAttachments/overview.md)
+- [`compute.networks.get`](../../../../../../permissions/compute/networks/overview.md)
+- [`compute.networks.updatePolicy`](../../../../../../permissions/compute/networks/overview.md)
+- [`compute.networks.use`](../../../../../../permissions/compute/networks/overview.md)
+- [`compute.projects.get`](../../../../../../permissions/compute/projects/overview.md)
+- [`compute.regionOperations.get`](../../../../../../permissions/compute/regionOperations/overview.md)
+- [`compute.routers.get`](../../../../../../permissions/compute/routers/overview.md)
+- [`compute.serviceAttachments.get`](../../../../../../permissions/compute/serviceAttachments/overview.md)
+- [`compute.serviceAttachments.update`](../../../../../../permissions/compute/serviceAttachments/overview.md)
+- [`compute.subnetworks.create`](../../../../../../permissions/compute/subnetworks/overview.md)
+- [`compute.subnetworks.delete`](../../../../../../permissions/compute/subnetworks/overview.md)
+- [`compute.subnetworks.get`](../../../../../../permissions/compute/subnetworks/overview.md)
+- [`compute.subnetworks.getIamPolicy`](../../../../../../permissions/compute/subnetworks/overview.md)
+- [`compute.subnetworks.list`](../../../../../../permissions/compute/subnetworks/overview.md)
+- [`compute.subnetworks.setIamPolicy`](../../../../../../permissions/compute/subnetworks/overview.md)
+- [`compute.subnetworks.use`](../../../../../../permissions/compute/subnetworks/overview.md)
+- [`compute.vpnTunnels.get`](../../../../../../permissions/compute/vpnTunnels/overview.md)
+
+Role: [`roles/networkconnectivity.serviceAgent`](../../overview.md)

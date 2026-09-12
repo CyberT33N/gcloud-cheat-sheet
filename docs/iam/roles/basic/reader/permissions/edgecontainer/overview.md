@@ -1,0 +1,43 @@
+# `roles/reader` — `edgecontainer` permissions
+
+`roles/reader` grants 35 permissions in the `edgecontainer` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`edgecontainer.apikeys.get`](../../../../../permissions/edgecontainer/apikeys/overview.md)
+- [`edgecontainer.apikeys.list`](../../../../../permissions/edgecontainer/apikeys/overview.md)
+- [`edgecontainer.clusters.generateAccessToken`](../../../../../permissions/edgecontainer/clusters/overview.md)
+- [`edgecontainer.clusters.get`](../../../../../permissions/edgecontainer/clusters/overview.md)
+- [`edgecontainer.clusters.getIamPolicy`](../../../../../permissions/edgecontainer/clusters/overview.md)
+- [`edgecontainer.clusters.list`](../../../../../permissions/edgecontainer/clusters/overview.md)
+- [`edgecontainer.identityproviders.get`](../../../../../permissions/edgecontainer/identityproviders/overview.md)
+- [`edgecontainer.identityproviders.list`](../../../../../permissions/edgecontainer/identityproviders/overview.md)
+- [`edgecontainer.locations.get`](../../../../../permissions/edgecontainer/locations/overview.md)
+- [`edgecontainer.locations.list`](../../../../../permissions/edgecontainer/locations/overview.md)
+- [`edgecontainer.machines.get`](../../../../../permissions/edgecontainer/machines/overview.md)
+- [`edgecontainer.machines.getIamPolicy`](../../../../../permissions/edgecontainer/machines/overview.md)
+- [`edgecontainer.machines.list`](../../../../../permissions/edgecontainer/machines/overview.md)
+- [`edgecontainer.nodePools.get`](../../../../../permissions/edgecontainer/nodePools/overview.md)
+- [`edgecontainer.nodePools.getIamPolicy`](../../../../../permissions/edgecontainer/nodePools/overview.md)
+- [`edgecontainer.nodePools.list`](../../../../../permissions/edgecontainer/nodePools/overview.md)
+- [`edgecontainer.operations.get`](../../../../../permissions/edgecontainer/operations/overview.md)
+- [`edgecontainer.operations.list`](../../../../../permissions/edgecontainer/operations/overview.md)
+- [`edgecontainer.serverconfig.get`](../../../../../permissions/edgecontainer/serverconfig/overview.md)
+- [`edgecontainer.serviceaccounts.describekey`](../../../../../permissions/edgecontainer/serviceaccounts/overview.md)
+- [`edgecontainer.serviceaccounts.generatekey`](../../../../../permissions/edgecontainer/serviceaccounts/overview.md)
+- [`edgecontainer.serviceaccounts.get`](../../../../../permissions/edgecontainer/serviceaccounts/overview.md)
+- [`edgecontainer.serviceaccounts.list`](../../../../../permissions/edgecontainer/serviceaccounts/overview.md)
+- [`edgecontainer.serviceaccounts.listkeys`](../../../../../permissions/edgecontainer/serviceaccounts/overview.md)
+- [`edgecontainer.vpnConnections.get`](../../../../../permissions/edgecontainer/vpnConnections/overview.md)
+- [`edgecontainer.vpnConnections.getIamPolicy`](../../../../../permissions/edgecontainer/vpnConnections/overview.md)
+- [`edgecontainer.vpnConnections.list`](../../../../../permissions/edgecontainer/vpnConnections/overview.md)
+- [`edgecontainer.zonalProjects.get`](../../../../../permissions/edgecontainer/zonalProjects/overview.md)
+- [`edgecontainer.zonalProjects.list`](../../../../../permissions/edgecontainer/zonalProjects/overview.md)
+- [`edgecontainer.zonalservices.get`](../../../../../permissions/edgecontainer/zonalservices/overview.md)
+- [`edgecontainer.zonalservices.list`](../../../../../permissions/edgecontainer/zonalservices/overview.md)
+- [`edgecontainer.zones.get`](../../../../../permissions/edgecontainer/zones/overview.md)
+- [`edgecontainer.zones.getZoneIamPolicy`](../../../../../permissions/edgecontainer/zones/overview.md)
+- [`edgecontainer.zones.list`](../../../../../permissions/edgecontainer/zones/overview.md)
+- [`edgecontainer.zones.listRoles`](../../../../../permissions/edgecontainer/zones/overview.md)
+
+Role: [`roles/reader`](../../overview.md)

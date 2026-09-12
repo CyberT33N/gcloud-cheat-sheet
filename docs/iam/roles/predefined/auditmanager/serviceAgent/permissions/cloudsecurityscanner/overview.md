@@ -1,0 +1,10 @@
+# `roles/auditmanager.serviceAgent` — `cloudsecurityscanner` permissions
+
+`roles/auditmanager.serviceAgent` grants 2 permissions in the `cloudsecurityscanner` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`cloudsecurityscanner.scans.get`](../../../../../../permissions/cloudsecurityscanner/scans/overview.md)
+- [`cloudsecurityscanner.scans.list`](../../../../../../permissions/cloudsecurityscanner/scans/overview.md)
+
+Role: [`roles/auditmanager.serviceAgent`](../../overview.md)

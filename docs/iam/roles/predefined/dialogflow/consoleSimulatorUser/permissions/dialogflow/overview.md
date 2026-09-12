@@ -1,0 +1,36 @@
+# `roles/dialogflow.consoleSimulatorUser` — `dialogflow` permissions
+
+`roles/dialogflow.consoleSimulatorUser` grants 28 permissions in the `dialogflow` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`dialogflow.companionAgents.create`](../../../../../../permissions/dialogflow/companionAgents/overview.md)
+- [`dialogflow.companionAgents.delete`](../../../../../../permissions/dialogflow/companionAgents/overview.md)
+- [`dialogflow.companionAgents.get`](../../../../../../permissions/dialogflow/companionAgents/overview.md)
+- [`dialogflow.companionAgents.list`](../../../../../../permissions/dialogflow/companionAgents/overview.md)
+- [`dialogflow.companionAgents.update`](../../../../../../permissions/dialogflow/companionAgents/overview.md)
+- [`dialogflow.conversationModels.get`](../../../../../../permissions/dialogflow/conversationModels/overview.md)
+- [`dialogflow.conversationModels.list`](../../../../../../permissions/dialogflow/conversationModels/overview.md)
+- [`dialogflow.conversationProfiles.get`](../../../../../../permissions/dialogflow/conversationProfiles/overview.md)
+- [`dialogflow.conversationProfiles.list`](../../../../../../permissions/dialogflow/conversationProfiles/overview.md)
+- [`dialogflow.conversations.addPhoneNumber`](../../../../../../permissions/dialogflow/conversations/overview.md)
+- [`dialogflow.conversations.complete`](../../../../../../permissions/dialogflow/conversations/overview.md)
+- [`dialogflow.conversations.create`](../../../../../../permissions/dialogflow/conversations/overview.md)
+- [`dialogflow.conversations.get`](../../../../../../permissions/dialogflow/conversations/overview.md)
+- [`dialogflow.conversations.list`](../../../../../../permissions/dialogflow/conversations/overview.md)
+- [`dialogflow.conversations.update`](../../../../../../permissions/dialogflow/conversations/overview.md)
+- [`dialogflow.documents.get`](../../../../../../permissions/dialogflow/documents/overview.md)
+- [`dialogflow.documents.list`](../../../../../../permissions/dialogflow/documents/overview.md)
+- [`dialogflow.interactionMonitoringAlerts.ack`](../../../../../../permissions/dialogflow/interactionMonitoringAlerts/overview.md)
+- [`dialogflow.interactionMonitoringAlerts.get`](../../../../../../permissions/dialogflow/interactionMonitoringAlerts/overview.md)
+- [`dialogflow.knowledgeBases.get`](../../../../../../permissions/dialogflow/knowledgeBases/overview.md)
+- [`dialogflow.knowledgeBases.list`](../../../../../../permissions/dialogflow/knowledgeBases/overview.md)
+- [`dialogflow.participants.analyzeContent`](../../../../../../permissions/dialogflow/participants/overview.md)
+- [`dialogflow.participants.create`](../../../../../../permissions/dialogflow/participants/overview.md)
+- [`dialogflow.participants.get`](../../../../../../permissions/dialogflow/participants/overview.md)
+- [`dialogflow.participants.list`](../../../../../../permissions/dialogflow/participants/overview.md)
+- [`dialogflow.participants.suggest`](../../../../../../permissions/dialogflow/participants/overview.md)
+- [`dialogflow.participants.update`](../../../../../../permissions/dialogflow/participants/overview.md)
+- [`dialogflow.sessions.detectIntent`](../../../../../../permissions/dialogflow/sessions/overview.md)
+
+Role: [`roles/dialogflow.consoleSimulatorUser`](../../overview.md)

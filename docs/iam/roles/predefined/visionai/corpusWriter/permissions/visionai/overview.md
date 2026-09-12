@@ -1,0 +1,41 @@
+# `roles/visionai.corpusWriter` — `visionai` permissions
+
+`roles/visionai.corpusWriter` grants 33 permissions in the `visionai` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`visionai.annotations.create`](../../../../../../permissions/visionai/annotations/overview.md)
+- [`visionai.annotations.delete`](../../../../../../permissions/visionai/annotations/overview.md)
+- [`visionai.annotations.get`](../../../../../../permissions/visionai/annotations/overview.md)
+- [`visionai.annotations.list`](../../../../../../permissions/visionai/annotations/overview.md)
+- [`visionai.annotations.update`](../../../../../../permissions/visionai/annotations/overview.md)
+- [`visionai.assets.analyze`](../../../../../../permissions/visionai/assets/overview.md)
+- [`visionai.assets.clip`](../../../../../../permissions/visionai/assets/overview.md)
+- [`visionai.assets.create`](../../../../../../permissions/visionai/assets/overview.md)
+- [`visionai.assets.delete`](../../../../../../permissions/visionai/assets/overview.md)
+- [`visionai.assets.generateHlsUri`](../../../../../../permissions/visionai/assets/overview.md)
+- [`visionai.assets.get`](../../../../../../permissions/visionai/assets/overview.md)
+- [`visionai.assets.index`](../../../../../../permissions/visionai/assets/overview.md)
+- [`visionai.assets.ingest`](../../../../../../permissions/visionai/assets/overview.md)
+- [`visionai.assets.list`](../../../../../../permissions/visionai/assets/overview.md)
+- [`visionai.assets.removeIndex`](../../../../../../permissions/visionai/assets/overview.md)
+- [`visionai.assets.search`](../../../../../../permissions/visionai/assets/overview.md)
+- [`visionai.assets.update`](../../../../../../permissions/visionai/assets/overview.md)
+- [`visionai.assets.upload`](../../../../../../permissions/visionai/assets/overview.md)
+- [`visionai.corpora.analyze`](../../../../../../permissions/visionai/corpora/overview.md)
+- [`visionai.corpora.delete`](../../../../../../permissions/visionai/corpora/overview.md)
+- [`visionai.corpora.import`](../../../../../../permissions/visionai/corpora/overview.md)
+- [`visionai.corpora.update`](../../../../../../permissions/visionai/corpora/overview.md)
+- [`visionai.dataSchemas.create`](../../../../../../permissions/visionai/dataSchemas/overview.md)
+- [`visionai.dataSchemas.delete`](../../../../../../permissions/visionai/dataSchemas/overview.md)
+- [`visionai.dataSchemas.update`](../../../../../../permissions/visionai/dataSchemas/overview.md)
+- [`visionai.indexes.create`](../../../../../../permissions/visionai/indexes/overview.md)
+- [`visionai.indexes.delete`](../../../../../../permissions/visionai/indexes/overview.md)
+- [`visionai.indexes.update`](../../../../../../permissions/visionai/indexes/overview.md)
+- [`visionai.operations.get`](../../../../../../permissions/visionai/operations/overview.md)
+- [`visionai.operations.list`](../../../../../../permissions/visionai/operations/overview.md)
+- [`visionai.searchConfigs.create`](../../../../../../permissions/visionai/searchConfigs/overview.md)
+- [`visionai.searchConfigs.delete`](../../../../../../permissions/visionai/searchConfigs/overview.md)
+- [`visionai.searchConfigs.update`](../../../../../../permissions/visionai/searchConfigs/overview.md)
+
+Role: [`roles/visionai.corpusWriter`](../../overview.md)

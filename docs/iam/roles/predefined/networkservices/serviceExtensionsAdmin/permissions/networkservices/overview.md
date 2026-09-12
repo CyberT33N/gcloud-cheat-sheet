@@ -1,0 +1,41 @@
+# `roles/networkservices.serviceExtensionsAdmin` — `networkservices` permissions
+
+`roles/networkservices.serviceExtensionsAdmin` grants 33 permissions in the `networkservices` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`networkservices.authzExtensions.create`](../../../../../../permissions/networkservices/authzExtensions/overview.md)
+- [`networkservices.authzExtensions.delete`](../../../../../../permissions/networkservices/authzExtensions/overview.md)
+- [`networkservices.authzExtensions.get`](../../../../../../permissions/networkservices/authzExtensions/overview.md)
+- [`networkservices.authzExtensions.list`](../../../../../../permissions/networkservices/authzExtensions/overview.md)
+- [`networkservices.authzExtensions.update`](../../../../../../permissions/networkservices/authzExtensions/overview.md)
+- [`networkservices.authzExtensions.use`](../../../../../../permissions/networkservices/authzExtensions/overview.md)
+- [`networkservices.lbEdgeExtensions.create`](../../../../../../permissions/networkservices/lbEdgeExtensions/overview.md)
+- [`networkservices.lbEdgeExtensions.delete`](../../../../../../permissions/networkservices/lbEdgeExtensions/overview.md)
+- [`networkservices.lbEdgeExtensions.get`](../../../../../../permissions/networkservices/lbEdgeExtensions/overview.md)
+- [`networkservices.lbEdgeExtensions.list`](../../../../../../permissions/networkservices/lbEdgeExtensions/overview.md)
+- [`networkservices.lbEdgeExtensions.update`](../../../../../../permissions/networkservices/lbEdgeExtensions/overview.md)
+- [`networkservices.lbRouteExtensions.create`](../../../../../../permissions/networkservices/lbRouteExtensions/overview.md)
+- [`networkservices.lbRouteExtensions.delete`](../../../../../../permissions/networkservices/lbRouteExtensions/overview.md)
+- [`networkservices.lbRouteExtensions.get`](../../../../../../permissions/networkservices/lbRouteExtensions/overview.md)
+- [`networkservices.lbRouteExtensions.list`](../../../../../../permissions/networkservices/lbRouteExtensions/overview.md)
+- [`networkservices.lbRouteExtensions.update`](../../../../../../permissions/networkservices/lbRouteExtensions/overview.md)
+- [`networkservices.lbTrafficExtensions.create`](../../../../../../permissions/networkservices/lbTrafficExtensions/overview.md)
+- [`networkservices.lbTrafficExtensions.delete`](../../../../../../permissions/networkservices/lbTrafficExtensions/overview.md)
+- [`networkservices.lbTrafficExtensions.get`](../../../../../../permissions/networkservices/lbTrafficExtensions/overview.md)
+- [`networkservices.lbTrafficExtensions.list`](../../../../../../permissions/networkservices/lbTrafficExtensions/overview.md)
+- [`networkservices.lbTrafficExtensions.update`](../../../../../../permissions/networkservices/lbTrafficExtensions/overview.md)
+- [`networkservices.operations.get`](../../../../../../permissions/networkservices/operations/overview.md)
+- [`networkservices.swpSecurityExtensions.create`](../../../../../../permissions/networkservices/swpSecurityExtensions/overview.md)
+- [`networkservices.swpSecurityExtensions.delete`](../../../../../../permissions/networkservices/swpSecurityExtensions/overview.md)
+- [`networkservices.swpSecurityExtensions.get`](../../../../../../permissions/networkservices/swpSecurityExtensions/overview.md)
+- [`networkservices.swpSecurityExtensions.list`](../../../../../../permissions/networkservices/swpSecurityExtensions/overview.md)
+- [`networkservices.swpSecurityExtensions.update`](../../../../../../permissions/networkservices/swpSecurityExtensions/overview.md)
+- [`networkservices.wasmPlugins.create`](../../../../../../permissions/networkservices/wasmPlugins/overview.md)
+- [`networkservices.wasmPlugins.delete`](../../../../../../permissions/networkservices/wasmPlugins/overview.md)
+- [`networkservices.wasmPlugins.get`](../../../../../../permissions/networkservices/wasmPlugins/overview.md)
+- [`networkservices.wasmPlugins.list`](../../../../../../permissions/networkservices/wasmPlugins/overview.md)
+- [`networkservices.wasmPlugins.update`](../../../../../../permissions/networkservices/wasmPlugins/overview.md)
+- [`networkservices.wasmPlugins.use`](../../../../../../permissions/networkservices/wasmPlugins/overview.md)
+
+Role: [`roles/networkservices.serviceExtensionsAdmin`](../../overview.md)

@@ -1,0 +1,33 @@
+# `featurecontrols`
+
+Permission group of the central IAM permission catalog. The permissions below exist exactly once globally; roles reference them.
+
+## Permissions
+
+### `dataprocessing.featurecontrols.list`
+
+Granted by 13 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/dataprocessing.admin`](../../../roles/predefined/dataprocessing/admin/overview.md)
+- [`roles/dataprocessing.editor`](../../../roles/predefined/dataprocessing/editor/overview.md)
+- [`roles/dataprocessing.viewer`](../../../roles/predefined/dataprocessing/viewer/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/iam.securityAdmin`](../../../roles/predefined/iam/securityAdmin/overview.md)
+- [`roles/iam.securityAuditor`](../../../roles/predefined/iam/securityAuditor/overview.md)
+- [`roles/iam.securityReviewer`](../../../roles/predefined/iam/securityReviewer/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `dataprocessing.featurecontrols.update`
+
+Granted by 3 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/dataprocessing.admin`](../../../roles/predefined/dataprocessing/admin/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+
+Catalog: [IAM permissions](../../overview.md)

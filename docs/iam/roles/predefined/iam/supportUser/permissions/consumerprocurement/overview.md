@@ -1,0 +1,22 @@
+# `roles/iam.supportUser` — `consumerprocurement` permissions
+
+`roles/iam.supportUser` grants 14 permissions in the `consumerprocurement` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`consumerprocurement.accounts.get`](../../../../../../permissions/consumerprocurement/accounts/overview.md)
+- [`consumerprocurement.accounts.list`](../../../../../../permissions/consumerprocurement/accounts/overview.md)
+- [`consumerprocurement.consents.check`](../../../../../../permissions/consumerprocurement/consents/overview.md)
+- [`consumerprocurement.consents.list`](../../../../../../permissions/consumerprocurement/consents/overview.md)
+- [`consumerprocurement.entitlements.get`](../../../../../../permissions/consumerprocurement/entitlements/overview.md)
+- [`consumerprocurement.entitlements.list`](../../../../../../permissions/consumerprocurement/entitlements/overview.md)
+- [`consumerprocurement.freeTrials.get`](../../../../../../permissions/consumerprocurement/freeTrials/overview.md)
+- [`consumerprocurement.freeTrials.list`](../../../../../../permissions/consumerprocurement/freeTrials/overview.md)
+- [`consumerprocurement.licensePools.enumerateLicensedUsers`](../../../../../../permissions/consumerprocurement/licensePools/overview.md)
+- [`consumerprocurement.licensePools.get`](../../../../../../permissions/consumerprocurement/licensePools/overview.md)
+- [`consumerprocurement.orderAttributions.get`](../../../../../../permissions/consumerprocurement/orderAttributions/overview.md)
+- [`consumerprocurement.orderAttributions.list`](../../../../../../permissions/consumerprocurement/orderAttributions/overview.md)
+- [`consumerprocurement.orders.get`](../../../../../../permissions/consumerprocurement/orders/overview.md)
+- [`consumerprocurement.orders.list`](../../../../../../permissions/consumerprocurement/orders/overview.md)
+
+Role: [`roles/iam.supportUser`](../../overview.md)

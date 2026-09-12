@@ -1,0 +1,16 @@
+# `roles/binaryauthorization.attestorsAdmin` — `binaryauthorization` permissions
+
+`roles/binaryauthorization.attestorsAdmin` grants 8 permissions in the `binaryauthorization` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`binaryauthorization.attestors.create`](../../../../../../permissions/binaryauthorization/attestors/overview.md)
+- [`binaryauthorization.attestors.delete`](../../../../../../permissions/binaryauthorization/attestors/overview.md)
+- [`binaryauthorization.attestors.get`](../../../../../../permissions/binaryauthorization/attestors/overview.md)
+- [`binaryauthorization.attestors.getIamPolicy`](../../../../../../permissions/binaryauthorization/attestors/overview.md)
+- [`binaryauthorization.attestors.list`](../../../../../../permissions/binaryauthorization/attestors/overview.md)
+- [`binaryauthorization.attestors.setIamPolicy`](../../../../../../permissions/binaryauthorization/attestors/overview.md)
+- [`binaryauthorization.attestors.update`](../../../../../../permissions/binaryauthorization/attestors/overview.md)
+- [`binaryauthorization.attestors.verifyImageAttested`](../../../../../../permissions/binaryauthorization/attestors/overview.md)
+
+Role: [`roles/binaryauthorization.attestorsAdmin`](../../overview.md)

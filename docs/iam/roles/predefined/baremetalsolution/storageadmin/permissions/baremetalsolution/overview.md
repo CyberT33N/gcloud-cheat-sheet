@@ -1,0 +1,42 @@
+# `roles/baremetalsolution.storageadmin` — `baremetalsolution` permissions
+
+`roles/baremetalsolution.storageadmin` grants 34 permissions in the `baremetalsolution` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`baremetalsolution.luns.create`](../../../../../../permissions/baremetalsolution/luns/overview.md)
+- [`baremetalsolution.luns.delete`](../../../../../../permissions/baremetalsolution/luns/overview.md)
+- [`baremetalsolution.luns.evict`](../../../../../../permissions/baremetalsolution/luns/overview.md)
+- [`baremetalsolution.luns.get`](../../../../../../permissions/baremetalsolution/luns/overview.md)
+- [`baremetalsolution.luns.list`](../../../../../../permissions/baremetalsolution/luns/overview.md)
+- [`baremetalsolution.luns.update`](../../../../../../permissions/baremetalsolution/luns/overview.md)
+- [`baremetalsolution.nfsshares.create`](../../../../../../permissions/baremetalsolution/nfsshares/overview.md)
+- [`baremetalsolution.nfsshares.delete`](../../../../../../permissions/baremetalsolution/nfsshares/overview.md)
+- [`baremetalsolution.nfsshares.get`](../../../../../../permissions/baremetalsolution/nfsshares/overview.md)
+- [`baremetalsolution.nfsshares.list`](../../../../../../permissions/baremetalsolution/nfsshares/overview.md)
+- [`baremetalsolution.nfsshares.rename`](../../../../../../permissions/baremetalsolution/nfsshares/overview.md)
+- [`baremetalsolution.nfsshares.update`](../../../../../../permissions/baremetalsolution/nfsshares/overview.md)
+- [`baremetalsolution.operations.get`](../../../../../../permissions/baremetalsolution/operations/overview.md)
+- [`baremetalsolution.pods.list`](../../../../../../permissions/baremetalsolution/pods/overview.md)
+- [`baremetalsolution.snapshotschedulepolicies.create`](../../../../../../permissions/baremetalsolution/snapshotschedulepolicies/overview.md)
+- [`baremetalsolution.snapshotschedulepolicies.delete`](../../../../../../permissions/baremetalsolution/snapshotschedulepolicies/overview.md)
+- [`baremetalsolution.snapshotschedulepolicies.get`](../../../../../../permissions/baremetalsolution/snapshotschedulepolicies/overview.md)
+- [`baremetalsolution.snapshotschedulepolicies.list`](../../../../../../permissions/baremetalsolution/snapshotschedulepolicies/overview.md)
+- [`baremetalsolution.snapshotschedulepolicies.update`](../../../../../../permissions/baremetalsolution/snapshotschedulepolicies/overview.md)
+- [`baremetalsolution.storageaggregatepools.list`](../../../../../../permissions/baremetalsolution/storageaggregatepools/overview.md)
+- [`baremetalsolution.volumequotas.list`](../../../../../../permissions/baremetalsolution/volumequotas/overview.md)
+- [`baremetalsolution.volumes.create`](../../../../../../permissions/baremetalsolution/volumes/overview.md)
+- [`baremetalsolution.volumes.delete`](../../../../../../permissions/baremetalsolution/volumes/overview.md)
+- [`baremetalsolution.volumes.evict`](../../../../../../permissions/baremetalsolution/volumes/overview.md)
+- [`baremetalsolution.volumes.get`](../../../../../../permissions/baremetalsolution/volumes/overview.md)
+- [`baremetalsolution.volumes.list`](../../../../../../permissions/baremetalsolution/volumes/overview.md)
+- [`baremetalsolution.volumes.rename`](../../../../../../permissions/baremetalsolution/volumes/overview.md)
+- [`baremetalsolution.volumes.resize`](../../../../../../permissions/baremetalsolution/volumes/overview.md)
+- [`baremetalsolution.volumes.update`](../../../../../../permissions/baremetalsolution/volumes/overview.md)
+- [`baremetalsolution.volumesnapshots.create`](../../../../../../permissions/baremetalsolution/volumesnapshots/overview.md)
+- [`baremetalsolution.volumesnapshots.delete`](../../../../../../permissions/baremetalsolution/volumesnapshots/overview.md)
+- [`baremetalsolution.volumesnapshots.get`](../../../../../../permissions/baremetalsolution/volumesnapshots/overview.md)
+- [`baremetalsolution.volumesnapshots.list`](../../../../../../permissions/baremetalsolution/volumesnapshots/overview.md)
+- [`baremetalsolution.volumesnapshots.restore`](../../../../../../permissions/baremetalsolution/volumesnapshots/overview.md)
+
+Role: [`roles/baremetalsolution.storageadmin`](../../overview.md)

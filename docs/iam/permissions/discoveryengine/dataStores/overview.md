@@ -1,0 +1,180 @@
+# `dataStores`
+
+Permission group of the central IAM permission catalog. The permissions below exist exactly once globally; roles reference them.
+
+## Permissions
+
+### `discoveryengine.dataStores.completeQuery`
+
+Granted by 15 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/discoveryengine.admin`](../../../roles/predefined/discoveryengine/admin/overview.md)
+- [`roles/discoveryengine.agentspaceAdmin`](../../../roles/predefined/discoveryengine/agentspaceAdmin/overview.md)
+- [`roles/discoveryengine.agentspaceEditor`](../../../roles/predefined/discoveryengine/agentspaceEditor/overview.md)
+- [`roles/discoveryengine.agentspaceViewer`](../../../roles/predefined/discoveryengine/agentspaceViewer/overview.md)
+- [`roles/discoveryengine.editor`](../../../roles/predefined/discoveryengine/editor/overview.md)
+- [`roles/discoveryengine.serviceAgent`](../../../roles/predefined/discoveryengine/serviceAgent/overview.md)
+- [`roles/discoveryengine.viewer`](../../../roles/predefined/discoveryengine/viewer/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/seclm.serviceAgent`](../../../roles/predefined/seclm/serviceAgent/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `discoveryengine.dataStores.create`
+
+Granted by 8 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/ces.serviceAgent`](../../../roles/predefined/ces/serviceAgent/overview.md)
+- [`roles/dialogflow.serviceAgent`](../../../roles/predefined/dialogflow/serviceAgent/overview.md)
+- [`roles/discoveryengine.admin`](../../../roles/predefined/discoveryengine/admin/overview.md)
+- [`roles/discoveryengine.agentspaceAdmin`](../../../roles/predefined/discoveryengine/agentspaceAdmin/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `discoveryengine.dataStores.delete`
+
+Granted by 6 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/discoveryengine.admin`](../../../roles/predefined/discoveryengine/admin/overview.md)
+- [`roles/discoveryengine.agentspaceAdmin`](../../../roles/predefined/discoveryengine/agentspaceAdmin/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `discoveryengine.dataStores.enrollSolutions`
+
+Granted by 6 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/discoveryengine.admin`](../../../roles/predefined/discoveryengine/admin/overview.md)
+- [`roles/discoveryengine.agentspaceAdmin`](../../../roles/predefined/discoveryengine/agentspaceAdmin/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `discoveryengine.dataStores.get`
+
+Granted by 20 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/ces.serviceAgent`](../../../roles/predefined/ces/serviceAgent/overview.md)
+- [`roles/dialogflow.serviceAgent`](../../../roles/predefined/dialogflow/serviceAgent/overview.md)
+- [`roles/discoveryengine.admin`](../../../roles/predefined/discoveryengine/admin/overview.md)
+- [`roles/discoveryengine.agentspaceAdmin`](../../../roles/predefined/discoveryengine/agentspaceAdmin/overview.md)
+- [`roles/discoveryengine.agentspaceEditor`](../../../roles/predefined/discoveryengine/agentspaceEditor/overview.md)
+- [`roles/discoveryengine.agentspaceRestrictedUser`](../../../roles/predefined/discoveryengine/agentspaceRestrictedUser/overview.md)
+- [`roles/discoveryengine.agentspaceUser`](../../../roles/predefined/discoveryengine/agentspaceUser/overview.md)
+- [`roles/discoveryengine.agentspaceViewer`](../../../roles/predefined/discoveryengine/agentspaceViewer/overview.md)
+- [`roles/discoveryengine.editor`](../../../roles/predefined/discoveryengine/editor/overview.md)
+- [`roles/discoveryengine.podcastApiUser`](../../../roles/predefined/discoveryengine/podcastApiUser/overview.md)
+- [`roles/discoveryengine.user`](../../../roles/predefined/discoveryengine/user/overview.md)
+- [`roles/discoveryengine.viewer`](../../../roles/predefined/discoveryengine/viewer/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/seclm.serviceAgent`](../../../roles/predefined/seclm/serviceAgent/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `discoveryengine.dataStores.getIamPolicy`
+
+Granted by 12 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/discoveryengine.admin`](../../../roles/predefined/discoveryengine/admin/overview.md)
+- [`roles/discoveryengine.agentspaceAdmin`](../../../roles/predefined/discoveryengine/agentspaceAdmin/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/iam.securityAdmin`](../../../roles/predefined/iam/securityAdmin/overview.md)
+- [`roles/iam.securityAuditor`](../../../roles/predefined/iam/securityAuditor/overview.md)
+- [`roles/iam.securityReviewer`](../../../roles/predefined/iam/securityReviewer/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `discoveryengine.dataStores.list`
+
+Granted by 19 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/ces.serviceAgent`](../../../roles/predefined/ces/serviceAgent/overview.md)
+- [`roles/dialogflow.serviceAgent`](../../../roles/predefined/dialogflow/serviceAgent/overview.md)
+- [`roles/discoveryengine.admin`](../../../roles/predefined/discoveryengine/admin/overview.md)
+- [`roles/discoveryengine.agentspaceAdmin`](../../../roles/predefined/discoveryengine/agentspaceAdmin/overview.md)
+- [`roles/discoveryengine.agentspaceEditor`](../../../roles/predefined/discoveryengine/agentspaceEditor/overview.md)
+- [`roles/discoveryengine.agentspaceViewer`](../../../roles/predefined/discoveryengine/agentspaceViewer/overview.md)
+- [`roles/discoveryengine.editor`](../../../roles/predefined/discoveryengine/editor/overview.md)
+- [`roles/discoveryengine.viewer`](../../../roles/predefined/discoveryengine/viewer/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/iam.securityAdmin`](../../../roles/predefined/iam/securityAdmin/overview.md)
+- [`roles/iam.securityAuditor`](../../../roles/predefined/iam/securityAuditor/overview.md)
+- [`roles/iam.securityReviewer`](../../../roles/predefined/iam/securityReviewer/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/seclm.serviceAgent`](../../../roles/predefined/seclm/serviceAgent/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `discoveryengine.dataStores.listCustomModels`
+
+Granted by 13 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/discoveryengine.admin`](../../../roles/predefined/discoveryengine/admin/overview.md)
+- [`roles/discoveryengine.agentspaceAdmin`](../../../roles/predefined/discoveryengine/agentspaceAdmin/overview.md)
+- [`roles/discoveryengine.agentspaceEditor`](../../../roles/predefined/discoveryengine/agentspaceEditor/overview.md)
+- [`roles/discoveryengine.agentspaceViewer`](../../../roles/predefined/discoveryengine/agentspaceViewer/overview.md)
+- [`roles/discoveryengine.editor`](../../../roles/predefined/discoveryengine/editor/overview.md)
+- [`roles/discoveryengine.viewer`](../../../roles/predefined/discoveryengine/viewer/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `discoveryengine.dataStores.setIamPolicy`
+
+Granted by 5 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/discoveryengine.admin`](../../../roles/predefined/discoveryengine/admin/overview.md)
+- [`roles/discoveryengine.agentspaceAdmin`](../../../roles/predefined/discoveryengine/agentspaceAdmin/overview.md)
+- [`roles/iam.securityAdmin`](../../../roles/predefined/iam/securityAdmin/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+
+### `discoveryengine.dataStores.trainCustomModel`
+
+Granted by 8 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/discoveryengine.admin`](../../../roles/predefined/discoveryengine/admin/overview.md)
+- [`roles/discoveryengine.agentspaceAdmin`](../../../roles/predefined/discoveryengine/agentspaceAdmin/overview.md)
+- [`roles/discoveryengine.agentspaceEditor`](../../../roles/predefined/discoveryengine/agentspaceEditor/overview.md)
+- [`roles/discoveryengine.editor`](../../../roles/predefined/discoveryengine/editor/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `discoveryengine.dataStores.update`
+
+Granted by 6 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/discoveryengine.admin`](../../../roles/predefined/discoveryengine/admin/overview.md)
+- [`roles/discoveryengine.agentspaceAdmin`](../../../roles/predefined/discoveryengine/agentspaceAdmin/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+Catalog: [IAM permissions](../../overview.md)

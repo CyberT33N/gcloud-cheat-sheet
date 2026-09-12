@@ -1,0 +1,112 @@
+# `projects`
+
+Permission group of the central IAM permission catalog. The permissions below exist exactly once globally; roles reference them.
+
+## Permissions
+
+### `cloudkms.projects.showEffectiveAutokeyConfig`
+
+Granted by 72 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/alloydb.admin`](../../../roles/predefined/alloydb/admin/overview.md)
+- [`roles/apigee.admin`](../../../roles/predefined/apigee/admin/overview.md)
+- [`roles/apigee.editor`](../../../roles/predefined/apigee/editor/overview.md)
+- [`roles/apihub.admin`](../../../roles/predefined/apihub/admin/overview.md)
+- [`roles/apihub.provisioningAdmin`](../../../roles/predefined/apihub/provisioningAdmin/overview.md)
+- [`roles/artifactregistry.admin`](../../../roles/predefined/artifactregistry/admin/overview.md)
+- [`roles/backupdr.admin`](../../../roles/predefined/backupdr/admin/overview.md)
+- [`roles/bigquery.admin`](../../../roles/predefined/bigquery/admin/overview.md)
+- [`roles/bigquery.dataEditor`](../../../roles/predefined/bigquery/dataEditor/overview.md)
+- [`roles/bigquery.dataOwner`](../../../roles/predefined/bigquery/dataOwner/overview.md)
+- [`roles/bigquery.studioAdmin`](../../../roles/predefined/bigquery/studioAdmin/overview.md)
+- [`roles/bigquery.studioUser`](../../../roles/predefined/bigquery/studioUser/overview.md)
+- [`roles/bigquery.user`](../../../roles/predefined/bigquery/user/overview.md)
+- [`roles/bigtable.admin`](../../../roles/predefined/bigtable/admin/overview.md)
+- [`roles/cloudkms.admin`](../../../roles/predefined/cloudkms/admin/overview.md)
+- [`roles/cloudkms.autokeyAdmin`](../../../roles/predefined/cloudkms/autokeyAdmin/overview.md)
+- [`roles/cloudkms.autokeyUser`](../../../roles/predefined/cloudkms/autokeyUser/overview.md)
+- [`roles/cloudkms.viewer`](../../../roles/predefined/cloudkms/viewer/overview.md)
+- [`roles/cloudsql.admin`](../../../roles/predefined/cloudsql/admin/overview.md)
+- [`roles/composer.admin`](../../../roles/predefined/composer/admin/overview.md)
+- [`roles/composer.environmentAndStorageObjectAdmin`](../../../roles/predefined/composer/environmentAndStorageObjectAdmin/overview.md)
+- [`roles/composer.worker`](../../../roles/predefined/composer/worker/overview.md)
+- [`roles/compute.admin`](../../../roles/predefined/compute/admin/overview.md)
+- [`roles/compute.instanceAdmin`](../../../roles/predefined/compute/instanceAdmin/overview.md)
+- [`roles/compute.instanceAdmin.v1`](../../../roles/predefined/compute/instanceAdmin/v1/overview.md)
+- [`roles/compute.storageAdmin`](../../../roles/predefined/compute/storageAdmin/overview.md)
+- [`roles/container.admin`](../../../roles/predefined/container/admin/overview.md)
+- [`roles/container.clusterAdmin`](../../../roles/predefined/container/clusterAdmin/overview.md)
+- [`roles/dataflow.admin`](../../../roles/predefined/dataflow/admin/overview.md)
+- [`roles/dataflow.developer`](../../../roles/predefined/dataflow/developer/overview.md)
+- [`roles/dataproc.admin`](../../../roles/predefined/dataproc/admin/overview.md)
+- [`roles/dataproc.editor`](../../../roles/predefined/dataproc/editor/overview.md)
+- [`roles/dataproc.serverlessEditor`](../../../roles/predefined/dataproc/serverlessEditor/overview.md)
+- [`roles/datastream.admin`](../../../roles/predefined/datastream/admin/overview.md)
+- [`roles/dlp.orgdriver`](../../../roles/predefined/dlp/orgdriver/overview.md)
+- [`roles/dlp.projectdriver`](../../../roles/predefined/dlp/projectdriver/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/file.admin`](../../../roles/predefined/file/admin/overview.md)
+- [`roles/file.editor`](../../../roles/predefined/file/editor/overview.md)
+- [`roles/firebase.admin`](../../../roles/predefined/firebase/admin/overview.md)
+- [`roles/firebase.developAdmin`](../../../roles/predefined/firebase/developAdmin/overview.md)
+- [`roles/gkebackup.admin`](../../../roles/predefined/gkebackup/admin/overview.md)
+- [`roles/iam.dataScientist`](../../../roles/predefined/iam/dataScientist/overview.md)
+- [`roles/iam.databasesAdmin`](../../../roles/predefined/iam/databasesAdmin/overview.md)
+- [`roles/iam.devOps`](../../../roles/predefined/iam/devOps/overview.md)
+- [`roles/iam.infrastructureAdmin`](../../../roles/predefined/iam/infrastructureAdmin/overview.md)
+- [`roles/iam.mlEngineer`](../../../roles/predefined/iam/mlEngineer/overview.md)
+- [`roles/iam.networkAdmin`](../../../roles/predefined/iam/networkAdmin/overview.md)
+- [`roles/iam.securityAuditor`](../../../roles/predefined/iam/securityAuditor/overview.md)
+- [`roles/iam.siteReliabilityEngineer`](../../../roles/predefined/iam/siteReliabilityEngineer/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/memorystore.admin`](../../../roles/predefined/memorystore/admin/overview.md)
+- [`roles/notebooks.legacyAdmin`](../../../roles/predefined/notebooks/legacyAdmin/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/pubsub.admin`](../../../roles/predefined/pubsub/admin/overview.md)
+- [`roles/pubsub.editor`](../../../roles/predefined/pubsub/editor/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/redis.admin`](../../../roles/predefined/redis/admin/overview.md)
+- [`roles/run.sourceDeveloper`](../../../roles/predefined/run/sourceDeveloper/overview.md)
+- [`roles/secretmanager.admin`](../../../roles/predefined/secretmanager/admin/overview.md)
+- [`roles/securesourcemanager.admin`](../../../roles/predefined/securesourcemanager/admin/overview.md)
+- [`roles/securesourcemanager.instanceOwner`](../../../roles/predefined/securesourcemanager/instanceOwner/overview.md)
+- [`roles/spanner.admin`](../../../roles/predefined/spanner/admin/overview.md)
+- [`roles/spanner.databaseAdmin`](../../../roles/predefined/spanner/databaseAdmin/overview.md)
+- [`roles/storage.admin`](../../../roles/predefined/storage/admin/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/vmmigration.admin`](../../../roles/predefined/vmmigration/admin/overview.md)
+- [`roles/workflows.admin`](../../../roles/predefined/workflows/admin/overview.md)
+- [`roles/workflows.editor`](../../../roles/predefined/workflows/editor/overview.md)
+- [`roles/workstations.admin`](../../../roles/predefined/workstations/admin/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `cloudkms.projects.showEffectiveKajEnrollmentConfig`
+
+Granted by 9 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/cloudkms.admin`](../../../roles/predefined/cloudkms/admin/overview.md)
+- [`roles/cloudkms.keyAccessJustificationsEnrollmentConfigViewer`](../../../roles/predefined/cloudkms/keyAccessJustificationsEnrollmentConfigViewer/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+### `cloudkms.projects.showEffectiveKajPolicyConfig`
+
+Granted by 9 roles:
+
+- [`roles/admin`](../../../roles/basic/admin/overview.md)
+- [`roles/cloudkms.admin`](../../../roles/predefined/cloudkms/admin/overview.md)
+- [`roles/cloudkms.keyAccessJustificationsPolicyConfigAdmin`](../../../roles/predefined/cloudkms/keyAccessJustificationsPolicyConfigAdmin/overview.md)
+- [`roles/editor`](../../../roles/basic/editor/overview.md)
+- [`roles/iam.supportUser`](../../../roles/predefined/iam/supportUser/overview.md)
+- [`roles/owner`](../../../roles/basic/owner/overview.md)
+- [`roles/reader`](../../../roles/basic/reader/overview.md)
+- [`roles/viewer`](../../../roles/basic/viewer/overview.md)
+- [`roles/writer`](../../../roles/basic/writer/overview.md)
+
+Catalog: [IAM permissions](../../overview.md)

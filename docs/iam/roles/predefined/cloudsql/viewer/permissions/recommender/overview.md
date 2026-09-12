@@ -1,0 +1,38 @@
+# `roles/cloudsql.viewer` — `recommender` permissions
+
+`roles/cloudsql.viewer` grants 30 permissions in the `recommender` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`recommender.cloudsqlIdleInstanceRecommendations.get`](../../../../../../permissions/recommender/cloudsqlIdleInstanceRecommendations/overview.md)
+- [`recommender.cloudsqlIdleInstanceRecommendations.list`](../../../../../../permissions/recommender/cloudsqlIdleInstanceRecommendations/overview.md)
+- [`recommender.cloudsqlInstanceActivityInsights.get`](../../../../../../permissions/recommender/cloudsqlInstanceActivityInsights/overview.md)
+- [`recommender.cloudsqlInstanceActivityInsights.list`](../../../../../../permissions/recommender/cloudsqlInstanceActivityInsights/overview.md)
+- [`recommender.cloudsqlInstanceCpuUsageInsights.get`](../../../../../../permissions/recommender/cloudsqlInstanceCpuUsageInsights/overview.md)
+- [`recommender.cloudsqlInstanceCpuUsageInsights.list`](../../../../../../permissions/recommender/cloudsqlInstanceCpuUsageInsights/overview.md)
+- [`recommender.cloudsqlInstanceDiskUsageTrendInsights.get`](../../../../../../permissions/recommender/cloudsqlInstanceDiskUsageTrendInsights/overview.md)
+- [`recommender.cloudsqlInstanceDiskUsageTrendInsights.list`](../../../../../../permissions/recommender/cloudsqlInstanceDiskUsageTrendInsights/overview.md)
+- [`recommender.cloudsqlInstanceMemoryUsageInsights.get`](../../../../../../permissions/recommender/cloudsqlInstanceMemoryUsageInsights/overview.md)
+- [`recommender.cloudsqlInstanceMemoryUsageInsights.list`](../../../../../../permissions/recommender/cloudsqlInstanceMemoryUsageInsights/overview.md)
+- [`recommender.cloudsqlInstanceOomProbabilityInsights.get`](../../../../../../permissions/recommender/cloudsqlInstanceOomProbabilityInsights/overview.md)
+- [`recommender.cloudsqlInstanceOomProbabilityInsights.list`](../../../../../../permissions/recommender/cloudsqlInstanceOomProbabilityInsights/overview.md)
+- [`recommender.cloudsqlInstanceOutOfDiskRecommendations.get`](../../../../../../permissions/recommender/cloudsqlInstanceOutOfDiskRecommendations/overview.md)
+- [`recommender.cloudsqlInstanceOutOfDiskRecommendations.list`](../../../../../../permissions/recommender/cloudsqlInstanceOutOfDiskRecommendations/overview.md)
+- [`recommender.cloudsqlInstancePerformanceInsights.get`](../../../../../../permissions/recommender/cloudsqlInstancePerformanceInsights/overview.md)
+- [`recommender.cloudsqlInstancePerformanceInsights.list`](../../../../../../permissions/recommender/cloudsqlInstancePerformanceInsights/overview.md)
+- [`recommender.cloudsqlInstancePerformanceRecommendations.get`](../../../../../../permissions/recommender/cloudsqlInstancePerformanceRecommendations/overview.md)
+- [`recommender.cloudsqlInstancePerformanceRecommendations.list`](../../../../../../permissions/recommender/cloudsqlInstancePerformanceRecommendations/overview.md)
+- [`recommender.cloudsqlInstanceReliabilityInsights.get`](../../../../../../permissions/recommender/cloudsqlInstanceReliabilityInsights/overview.md)
+- [`recommender.cloudsqlInstanceReliabilityInsights.list`](../../../../../../permissions/recommender/cloudsqlInstanceReliabilityInsights/overview.md)
+- [`recommender.cloudsqlInstanceReliabilityRecommendations.get`](../../../../../../permissions/recommender/cloudsqlInstanceReliabilityRecommendations/overview.md)
+- [`recommender.cloudsqlInstanceReliabilityRecommendations.list`](../../../../../../permissions/recommender/cloudsqlInstanceReliabilityRecommendations/overview.md)
+- [`recommender.cloudsqlInstanceUnderprovisionedCpuUsageInsights.get`](../../../../../../permissions/recommender/cloudsqlInstanceUnderprovisionedCpuUsageInsights/overview.md)
+- [`recommender.cloudsqlInstanceUnderprovisionedCpuUsageInsights.list`](../../../../../../permissions/recommender/cloudsqlInstanceUnderprovisionedCpuUsageInsights/overview.md)
+- [`recommender.cloudsqlInstanceUnderprovisionedMemoryUsageInsights.get`](../../../../../../permissions/recommender/cloudsqlInstanceUnderprovisionedMemoryUsageInsights/overview.md)
+- [`recommender.cloudsqlInstanceUnderprovisionedMemoryUsageInsights.list`](../../../../../../permissions/recommender/cloudsqlInstanceUnderprovisionedMemoryUsageInsights/overview.md)
+- [`recommender.cloudsqlOverprovisionedInstanceRecommendations.get`](../../../../../../permissions/recommender/cloudsqlOverprovisionedInstanceRecommendations/overview.md)
+- [`recommender.cloudsqlOverprovisionedInstanceRecommendations.list`](../../../../../../permissions/recommender/cloudsqlOverprovisionedInstanceRecommendations/overview.md)
+- [`recommender.cloudsqlUnderProvisionedInstanceRecommendations.get`](../../../../../../permissions/recommender/cloudsqlUnderProvisionedInstanceRecommendations/overview.md)
+- [`recommender.cloudsqlUnderProvisionedInstanceRecommendations.list`](../../../../../../permissions/recommender/cloudsqlUnderProvisionedInstanceRecommendations/overview.md)
+
+Role: [`roles/cloudsql.viewer`](../../overview.md)

@@ -1,0 +1,16 @@
+# `roles/securitycenter.adminViewer` — `cloudsecurityscanner` permissions
+
+`roles/securitycenter.adminViewer` grants 8 permissions in the `cloudsecurityscanner` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`cloudsecurityscanner.crawledurls.list`](../../../../../../permissions/cloudsecurityscanner/crawledurls/overview.md)
+- [`cloudsecurityscanner.results.get`](../../../../../../permissions/cloudsecurityscanner/results/overview.md)
+- [`cloudsecurityscanner.results.list`](../../../../../../permissions/cloudsecurityscanner/results/overview.md)
+- [`cloudsecurityscanner.scanruns.get`](../../../../../../permissions/cloudsecurityscanner/scanruns/overview.md)
+- [`cloudsecurityscanner.scanruns.getSummary`](../../../../../../permissions/cloudsecurityscanner/scanruns/overview.md)
+- [`cloudsecurityscanner.scanruns.list`](../../../../../../permissions/cloudsecurityscanner/scanruns/overview.md)
+- [`cloudsecurityscanner.scans.get`](../../../../../../permissions/cloudsecurityscanner/scans/overview.md)
+- [`cloudsecurityscanner.scans.list`](../../../../../../permissions/cloudsecurityscanner/scans/overview.md)
+
+Role: [`roles/securitycenter.adminViewer`](../../overview.md)

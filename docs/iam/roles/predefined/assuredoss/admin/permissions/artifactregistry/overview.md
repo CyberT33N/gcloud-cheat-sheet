@@ -1,0 +1,41 @@
+# `roles/assuredoss.admin` — `artifactregistry` permissions
+
+`roles/assuredoss.admin` grants 33 permissions in the `artifactregistry` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`artifactregistry.attachments.get`](../../../../../../permissions/artifactregistry/attachments/overview.md)
+- [`artifactregistry.attachments.list`](../../../../../../permissions/artifactregistry/attachments/overview.md)
+- [`artifactregistry.dockerimages.get`](../../../../../../permissions/artifactregistry/dockerimages/overview.md)
+- [`artifactregistry.dockerimages.list`](../../../../../../permissions/artifactregistry/dockerimages/overview.md)
+- [`artifactregistry.files.download`](../../../../../../permissions/artifactregistry/files/overview.md)
+- [`artifactregistry.files.get`](../../../../../../permissions/artifactregistry/files/overview.md)
+- [`artifactregistry.files.list`](../../../../../../permissions/artifactregistry/files/overview.md)
+- [`artifactregistry.locations.get`](../../../../../../permissions/artifactregistry/locations/overview.md)
+- [`artifactregistry.locations.list`](../../../../../../permissions/artifactregistry/locations/overview.md)
+- [`artifactregistry.mavenartifacts.get`](../../../../../../permissions/artifactregistry/mavenartifacts/overview.md)
+- [`artifactregistry.mavenartifacts.list`](../../../../../../permissions/artifactregistry/mavenartifacts/overview.md)
+- [`artifactregistry.npmpackages.get`](../../../../../../permissions/artifactregistry/npmpackages/overview.md)
+- [`artifactregistry.npmpackages.list`](../../../../../../permissions/artifactregistry/npmpackages/overview.md)
+- [`artifactregistry.packages.get`](../../../../../../permissions/artifactregistry/packages/overview.md)
+- [`artifactregistry.packages.list`](../../../../../../permissions/artifactregistry/packages/overview.md)
+- [`artifactregistry.projectconfigs.get`](../../../../../../permissions/artifactregistry/projectconfigs/overview.md)
+- [`artifactregistry.projectsettings.get`](../../../../../../permissions/artifactregistry/projectsettings/overview.md)
+- [`artifactregistry.pythonpackages.get`](../../../../../../permissions/artifactregistry/pythonpackages/overview.md)
+- [`artifactregistry.pythonpackages.list`](../../../../../../permissions/artifactregistry/pythonpackages/overview.md)
+- [`artifactregistry.repositories.create`](../../../../../../permissions/artifactregistry/repositories/overview.md)
+- [`artifactregistry.repositories.downloadArtifacts`](../../../../../../permissions/artifactregistry/repositories/overview.md)
+- [`artifactregistry.repositories.exportArtifacts`](../../../../../../permissions/artifactregistry/repositories/overview.md)
+- [`artifactregistry.repositories.get`](../../../../../../permissions/artifactregistry/repositories/overview.md)
+- [`artifactregistry.repositories.list`](../../../../../../permissions/artifactregistry/repositories/overview.md)
+- [`artifactregistry.repositories.listEffectiveTags`](../../../../../../permissions/artifactregistry/repositories/overview.md)
+- [`artifactregistry.repositories.listTagBindings`](../../../../../../permissions/artifactregistry/repositories/overview.md)
+- [`artifactregistry.repositories.readViaVirtualRepository`](../../../../../../permissions/artifactregistry/repositories/overview.md)
+- [`artifactregistry.rules.get`](../../../../../../permissions/artifactregistry/rules/overview.md)
+- [`artifactregistry.rules.list`](../../../../../../permissions/artifactregistry/rules/overview.md)
+- [`artifactregistry.tags.get`](../../../../../../permissions/artifactregistry/tags/overview.md)
+- [`artifactregistry.tags.list`](../../../../../../permissions/artifactregistry/tags/overview.md)
+- [`artifactregistry.versions.get`](../../../../../../permissions/artifactregistry/versions/overview.md)
+- [`artifactregistry.versions.list`](../../../../../../permissions/artifactregistry/versions/overview.md)
+
+Role: [`roles/assuredoss.admin`](../../overview.md)

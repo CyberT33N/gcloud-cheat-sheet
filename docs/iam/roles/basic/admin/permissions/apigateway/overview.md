@@ -1,0 +1,43 @@
+# `roles/admin` — `apigateway` permissions
+
+`roles/admin` grants 35 permissions in the `apigateway` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`apigateway.apiconfigs.create`](../../../../../permissions/apigateway/apiconfigs/overview.md)
+- [`apigateway.apiconfigs.delete`](../../../../../permissions/apigateway/apiconfigs/overview.md)
+- [`apigateway.apiconfigs.get`](../../../../../permissions/apigateway/apiconfigs/overview.md)
+- [`apigateway.apiconfigs.getIamPolicy`](../../../../../permissions/apigateway/apiconfigs/overview.md)
+- [`apigateway.apiconfigs.list`](../../../../../permissions/apigateway/apiconfigs/overview.md)
+- [`apigateway.apiconfigs.setIamPolicy`](../../../../../permissions/apigateway/apiconfigs/overview.md)
+- [`apigateway.apiconfigs.update`](../../../../../permissions/apigateway/apiconfigs/overview.md)
+- [`apigateway.apis.create`](../../../../../permissions/apigateway/apis/overview.md)
+- [`apigateway.apis.createTagBinding`](../../../../../permissions/apigateway/apis/overview.md)
+- [`apigateway.apis.delete`](../../../../../permissions/apigateway/apis/overview.md)
+- [`apigateway.apis.deleteTagBinding`](../../../../../permissions/apigateway/apis/overview.md)
+- [`apigateway.apis.get`](../../../../../permissions/apigateway/apis/overview.md)
+- [`apigateway.apis.getIamPolicy`](../../../../../permissions/apigateway/apis/overview.md)
+- [`apigateway.apis.list`](../../../../../permissions/apigateway/apis/overview.md)
+- [`apigateway.apis.listEffectiveTags`](../../../../../permissions/apigateway/apis/overview.md)
+- [`apigateway.apis.listTagBindings`](../../../../../permissions/apigateway/apis/overview.md)
+- [`apigateway.apis.setIamPolicy`](../../../../../permissions/apigateway/apis/overview.md)
+- [`apigateway.apis.update`](../../../../../permissions/apigateway/apis/overview.md)
+- [`apigateway.gateways.create`](../../../../../permissions/apigateway/gateways/overview.md)
+- [`apigateway.gateways.createTagBinding`](../../../../../permissions/apigateway/gateways/overview.md)
+- [`apigateway.gateways.delete`](../../../../../permissions/apigateway/gateways/overview.md)
+- [`apigateway.gateways.deleteTagBinding`](../../../../../permissions/apigateway/gateways/overview.md)
+- [`apigateway.gateways.get`](../../../../../permissions/apigateway/gateways/overview.md)
+- [`apigateway.gateways.getIamPolicy`](../../../../../permissions/apigateway/gateways/overview.md)
+- [`apigateway.gateways.list`](../../../../../permissions/apigateway/gateways/overview.md)
+- [`apigateway.gateways.listEffectiveTags`](../../../../../permissions/apigateway/gateways/overview.md)
+- [`apigateway.gateways.listTagBindings`](../../../../../permissions/apigateway/gateways/overview.md)
+- [`apigateway.gateways.setIamPolicy`](../../../../../permissions/apigateway/gateways/overview.md)
+- [`apigateway.gateways.update`](../../../../../permissions/apigateway/gateways/overview.md)
+- [`apigateway.locations.get`](../../../../../permissions/apigateway/locations/overview.md)
+- [`apigateway.locations.list`](../../../../../permissions/apigateway/locations/overview.md)
+- [`apigateway.operations.cancel`](../../../../../permissions/apigateway/operations/overview.md)
+- [`apigateway.operations.delete`](../../../../../permissions/apigateway/operations/overview.md)
+- [`apigateway.operations.get`](../../../../../permissions/apigateway/operations/overview.md)
+- [`apigateway.operations.list`](../../../../../permissions/apigateway/operations/overview.md)
+
+Role: [`roles/admin`](../../overview.md)

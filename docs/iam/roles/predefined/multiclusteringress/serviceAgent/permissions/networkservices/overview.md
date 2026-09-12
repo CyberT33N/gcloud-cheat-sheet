@@ -1,0 +1,40 @@
+# `roles/multiclusteringress.serviceAgent` — `networkservices` permissions
+
+`roles/multiclusteringress.serviceAgent` grants 32 permissions in the `networkservices` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`networkservices.lbEdgeExtensions.create`](../../../../../../permissions/networkservices/lbEdgeExtensions/overview.md)
+- [`networkservices.lbEdgeExtensions.delete`](../../../../../../permissions/networkservices/lbEdgeExtensions/overview.md)
+- [`networkservices.lbEdgeExtensions.get`](../../../../../../permissions/networkservices/lbEdgeExtensions/overview.md)
+- [`networkservices.lbEdgeExtensions.list`](../../../../../../permissions/networkservices/lbEdgeExtensions/overview.md)
+- [`networkservices.lbEdgeExtensions.update`](../../../../../../permissions/networkservices/lbEdgeExtensions/overview.md)
+- [`networkservices.lbRouteExtensions.create`](../../../../../../permissions/networkservices/lbRouteExtensions/overview.md)
+- [`networkservices.lbRouteExtensions.delete`](../../../../../../permissions/networkservices/lbRouteExtensions/overview.md)
+- [`networkservices.lbRouteExtensions.get`](../../../../../../permissions/networkservices/lbRouteExtensions/overview.md)
+- [`networkservices.lbRouteExtensions.list`](../../../../../../permissions/networkservices/lbRouteExtensions/overview.md)
+- [`networkservices.lbRouteExtensions.update`](../../../../../../permissions/networkservices/lbRouteExtensions/overview.md)
+- [`networkservices.lbTrafficExtensions.create`](../../../../../../permissions/networkservices/lbTrafficExtensions/overview.md)
+- [`networkservices.lbTrafficExtensions.delete`](../../../../../../permissions/networkservices/lbTrafficExtensions/overview.md)
+- [`networkservices.lbTrafficExtensions.get`](../../../../../../permissions/networkservices/lbTrafficExtensions/overview.md)
+- [`networkservices.lbTrafficExtensions.list`](../../../../../../permissions/networkservices/lbTrafficExtensions/overview.md)
+- [`networkservices.lbTrafficExtensions.update`](../../../../../../permissions/networkservices/lbTrafficExtensions/overview.md)
+- [`networkservices.operations.get`](../../../../../../permissions/networkservices/operations/overview.md)
+- [`networkservices.serviceLbPolicies.create`](../../../../../../permissions/networkservices/serviceLbPolicies/overview.md)
+- [`networkservices.serviceLbPolicies.delete`](../../../../../../permissions/networkservices/serviceLbPolicies/overview.md)
+- [`networkservices.serviceLbPolicies.get`](../../../../../../permissions/networkservices/serviceLbPolicies/overview.md)
+- [`networkservices.serviceLbPolicies.list`](../../../../../../permissions/networkservices/serviceLbPolicies/overview.md)
+- [`networkservices.serviceLbPolicies.update`](../../../../../../permissions/networkservices/serviceLbPolicies/overview.md)
+- [`networkservices.tlsRoutes.create`](../../../../../../permissions/networkservices/tlsRoutes/overview.md)
+- [`networkservices.tlsRoutes.delete`](../../../../../../permissions/networkservices/tlsRoutes/overview.md)
+- [`networkservices.tlsRoutes.get`](../../../../../../permissions/networkservices/tlsRoutes/overview.md)
+- [`networkservices.tlsRoutes.list`](../../../../../../permissions/networkservices/tlsRoutes/overview.md)
+- [`networkservices.tlsRoutes.update`](../../../../../../permissions/networkservices/tlsRoutes/overview.md)
+- [`networkservices.wasmPlugins.create`](../../../../../../permissions/networkservices/wasmPlugins/overview.md)
+- [`networkservices.wasmPlugins.delete`](../../../../../../permissions/networkservices/wasmPlugins/overview.md)
+- [`networkservices.wasmPlugins.get`](../../../../../../permissions/networkservices/wasmPlugins/overview.md)
+- [`networkservices.wasmPlugins.list`](../../../../../../permissions/networkservices/wasmPlugins/overview.md)
+- [`networkservices.wasmPlugins.update`](../../../../../../permissions/networkservices/wasmPlugins/overview.md)
+- [`networkservices.wasmPlugins.use`](../../../../../../permissions/networkservices/wasmPlugins/overview.md)
+
+Role: [`roles/multiclusteringress.serviceAgent`](../../overview.md)

@@ -1,0 +1,43 @@
+# `roles/iam.supportUser` — `gkeonprem` permissions
+
+`roles/iam.supportUser` grants 35 permissions in the `gkeonprem` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`gkeonprem.bareMetalAdminClusters.connect`](../../../../../../permissions/gkeonprem/bareMetalAdminClusters/overview.md)
+- [`gkeonprem.bareMetalAdminClusters.get`](../../../../../../permissions/gkeonprem/bareMetalAdminClusters/overview.md)
+- [`gkeonprem.bareMetalAdminClusters.getIamPolicy`](../../../../../../permissions/gkeonprem/bareMetalAdminClusters/overview.md)
+- [`gkeonprem.bareMetalAdminClusters.list`](../../../../../../permissions/gkeonprem/bareMetalAdminClusters/overview.md)
+- [`gkeonprem.bareMetalAdminClusters.listEffectiveTags`](../../../../../../permissions/gkeonprem/bareMetalAdminClusters/overview.md)
+- [`gkeonprem.bareMetalAdminClusters.listTagBindings`](../../../../../../permissions/gkeonprem/bareMetalAdminClusters/overview.md)
+- [`gkeonprem.bareMetalAdminClusters.queryVersionConfig`](../../../../../../permissions/gkeonprem/bareMetalAdminClusters/overview.md)
+- [`gkeonprem.bareMetalClusters.get`](../../../../../../permissions/gkeonprem/bareMetalClusters/overview.md)
+- [`gkeonprem.bareMetalClusters.getIamPolicy`](../../../../../../permissions/gkeonprem/bareMetalClusters/overview.md)
+- [`gkeonprem.bareMetalClusters.list`](../../../../../../permissions/gkeonprem/bareMetalClusters/overview.md)
+- [`gkeonprem.bareMetalClusters.listEffectiveTags`](../../../../../../permissions/gkeonprem/bareMetalClusters/overview.md)
+- [`gkeonprem.bareMetalClusters.listTagBindings`](../../../../../../permissions/gkeonprem/bareMetalClusters/overview.md)
+- [`gkeonprem.bareMetalClusters.queryVersionConfig`](../../../../../../permissions/gkeonprem/bareMetalClusters/overview.md)
+- [`gkeonprem.bareMetalNodePools.get`](../../../../../../permissions/gkeonprem/bareMetalNodePools/overview.md)
+- [`gkeonprem.bareMetalNodePools.getIamPolicy`](../../../../../../permissions/gkeonprem/bareMetalNodePools/overview.md)
+- [`gkeonprem.bareMetalNodePools.list`](../../../../../../permissions/gkeonprem/bareMetalNodePools/overview.md)
+- [`gkeonprem.locations.get`](../../../../../../permissions/gkeonprem/locations/overview.md)
+- [`gkeonprem.locations.list`](../../../../../../permissions/gkeonprem/locations/overview.md)
+- [`gkeonprem.operations.get`](../../../../../../permissions/gkeonprem/operations/overview.md)
+- [`gkeonprem.operations.list`](../../../../../../permissions/gkeonprem/operations/overview.md)
+- [`gkeonprem.vmwareAdminClusters.connect`](../../../../../../permissions/gkeonprem/vmwareAdminClusters/overview.md)
+- [`gkeonprem.vmwareAdminClusters.get`](../../../../../../permissions/gkeonprem/vmwareAdminClusters/overview.md)
+- [`gkeonprem.vmwareAdminClusters.getIamPolicy`](../../../../../../permissions/gkeonprem/vmwareAdminClusters/overview.md)
+- [`gkeonprem.vmwareAdminClusters.list`](../../../../../../permissions/gkeonprem/vmwareAdminClusters/overview.md)
+- [`gkeonprem.vmwareAdminClusters.listEffectiveTags`](../../../../../../permissions/gkeonprem/vmwareAdminClusters/overview.md)
+- [`gkeonprem.vmwareAdminClusters.listTagBindings`](../../../../../../permissions/gkeonprem/vmwareAdminClusters/overview.md)
+- [`gkeonprem.vmwareClusters.get`](../../../../../../permissions/gkeonprem/vmwareClusters/overview.md)
+- [`gkeonprem.vmwareClusters.getIamPolicy`](../../../../../../permissions/gkeonprem/vmwareClusters/overview.md)
+- [`gkeonprem.vmwareClusters.list`](../../../../../../permissions/gkeonprem/vmwareClusters/overview.md)
+- [`gkeonprem.vmwareClusters.listEffectiveTags`](../../../../../../permissions/gkeonprem/vmwareClusters/overview.md)
+- [`gkeonprem.vmwareClusters.listTagBindings`](../../../../../../permissions/gkeonprem/vmwareClusters/overview.md)
+- [`gkeonprem.vmwareClusters.queryVersionConfig`](../../../../../../permissions/gkeonprem/vmwareClusters/overview.md)
+- [`gkeonprem.vmwareNodePools.get`](../../../../../../permissions/gkeonprem/vmwareNodePools/overview.md)
+- [`gkeonprem.vmwareNodePools.getIamPolicy`](../../../../../../permissions/gkeonprem/vmwareNodePools/overview.md)
+- [`gkeonprem.vmwareNodePools.list`](../../../../../../permissions/gkeonprem/vmwareNodePools/overview.md)
+
+Role: [`roles/iam.supportUser`](../../overview.md)

@@ -1,0 +1,41 @@
+# `roles/metastore.migrationAdmin` — `compute` permissions
+
+`roles/metastore.migrationAdmin` grants 33 permissions in the `compute` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`compute.autoscalers.create`](../../../../../../permissions/compute/autoscalers/overview.md)
+- [`compute.autoscalers.delete`](../../../../../../permissions/compute/autoscalers/overview.md)
+- [`compute.disks.create`](../../../../../../permissions/compute/disks/overview.md)
+- [`compute.disks.delete`](../../../../../../permissions/compute/disks/overview.md)
+- [`compute.forwardingRules.create`](../../../../../../permissions/compute/forwardingRules/overview.md)
+- [`compute.forwardingRules.delete`](../../../../../../permissions/compute/forwardingRules/overview.md)
+- [`compute.forwardingRules.use`](../../../../../../permissions/compute/forwardingRules/overview.md)
+- [`compute.instanceGroupManagers.create`](../../../../../../permissions/compute/instanceGroupManagers/overview.md)
+- [`compute.instanceGroupManagers.delete`](../../../../../../permissions/compute/instanceGroupManagers/overview.md)
+- [`compute.instanceGroupManagers.use`](../../../../../../permissions/compute/instanceGroupManagers/overview.md)
+- [`compute.instanceGroups.delete`](../../../../../../permissions/compute/instanceGroups/overview.md)
+- [`compute.instanceGroups.use`](../../../../../../permissions/compute/instanceGroups/overview.md)
+- [`compute.instanceTemplates.create`](../../../../../../permissions/compute/instanceTemplates/overview.md)
+- [`compute.instanceTemplates.delete`](../../../../../../permissions/compute/instanceTemplates/overview.md)
+- [`compute.instanceTemplates.get`](../../../../../../permissions/compute/instanceTemplates/overview.md)
+- [`compute.instanceTemplates.useReadOnly`](../../../../../../permissions/compute/instanceTemplates/overview.md)
+- [`compute.instances.create`](../../../../../../permissions/compute/instances/overview.md)
+- [`compute.instances.delete`](../../../../../../permissions/compute/instances/overview.md)
+- [`compute.instances.get`](../../../../../../permissions/compute/instances/overview.md)
+- [`compute.instances.setMetadata`](../../../../../../permissions/compute/instances/overview.md)
+- [`compute.machineTypes.list`](../../../../../../permissions/compute/machineTypes/overview.md)
+- [`compute.regionBackendServices.create`](../../../../../../permissions/compute/regionBackendServices/overview.md)
+- [`compute.regionBackendServices.delete`](../../../../../../permissions/compute/regionBackendServices/overview.md)
+- [`compute.regionBackendServices.use`](../../../../../../permissions/compute/regionBackendServices/overview.md)
+- [`compute.regionHealthChecks.create`](../../../../../../permissions/compute/regionHealthChecks/overview.md)
+- [`compute.regionHealthChecks.delete`](../../../../../../permissions/compute/regionHealthChecks/overview.md)
+- [`compute.regionHealthChecks.use`](../../../../../../permissions/compute/regionHealthChecks/overview.md)
+- [`compute.regionHealthChecks.useReadOnly`](../../../../../../permissions/compute/regionHealthChecks/overview.md)
+- [`compute.serviceAttachments.create`](../../../../../../permissions/compute/serviceAttachments/overview.md)
+- [`compute.serviceAttachments.delete`](../../../../../../permissions/compute/serviceAttachments/overview.md)
+- [`compute.subnetworks.get`](../../../../../../permissions/compute/subnetworks/overview.md)
+- [`compute.subnetworks.use`](../../../../../../permissions/compute/subnetworks/overview.md)
+- [`compute.zones.list`](../../../../../../permissions/compute/zones/overview.md)
+
+Role: [`roles/metastore.migrationAdmin`](../../overview.md)

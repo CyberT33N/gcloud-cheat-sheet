@@ -1,0 +1,43 @@
+# `roles/contactcenterinsights.authorizedEditor` — `contactcenterinsights` permissions
+
+`roles/contactcenterinsights.authorizedEditor` grants 35 permissions in the `contactcenterinsights` service area. Every permission links to its canonical page in the [central permission catalog](../../../../../../permissions/overview.md).
+
+## Granted permissions
+
+- [`contactcenterinsights.authorizedAnalyses.create`](../../../../../../permissions/contactcenterinsights/authorizedAnalyses/overview.md)
+- [`contactcenterinsights.authorizedAnalyses.delete`](../../../../../../permissions/contactcenterinsights/authorizedAnalyses/overview.md)
+- [`contactcenterinsights.authorizedAnalyses.get`](../../../../../../permissions/contactcenterinsights/authorizedAnalyses/overview.md)
+- [`contactcenterinsights.authorizedAnalyses.list`](../../../../../../permissions/contactcenterinsights/authorizedAnalyses/overview.md)
+- [`contactcenterinsights.authorizedAssessments.appeal`](../../../../../../permissions/contactcenterinsights/authorizedAssessments/overview.md)
+- [`contactcenterinsights.authorizedAssessments.create`](../../../../../../permissions/contactcenterinsights/authorizedAssessments/overview.md)
+- [`contactcenterinsights.authorizedAssessments.delete`](../../../../../../permissions/contactcenterinsights/authorizedAssessments/overview.md)
+- [`contactcenterinsights.authorizedAssessments.finalize`](../../../../../../permissions/contactcenterinsights/authorizedAssessments/overview.md)
+- [`contactcenterinsights.authorizedAssessments.get`](../../../../../../permissions/contactcenterinsights/authorizedAssessments/overview.md)
+- [`contactcenterinsights.authorizedAssessments.list`](../../../../../../permissions/contactcenterinsights/authorizedAssessments/overview.md)
+- [`contactcenterinsights.authorizedAssessments.publish`](../../../../../../permissions/contactcenterinsights/authorizedAssessments/overview.md)
+- [`contactcenterinsights.authorizedConversations.create`](../../../../../../permissions/contactcenterinsights/authorizedConversations/overview.md)
+- [`contactcenterinsights.authorizedConversations.delete`](../../../../../../permissions/contactcenterinsights/authorizedConversations/overview.md)
+- [`contactcenterinsights.authorizedConversations.generateSignedAudio`](../../../../../../permissions/contactcenterinsights/authorizedConversations/overview.md)
+- [`contactcenterinsights.authorizedConversations.get`](../../../../../../permissions/contactcenterinsights/authorizedConversations/overview.md)
+- [`contactcenterinsights.authorizedConversations.list`](../../../../../../permissions/contactcenterinsights/authorizedConversations/overview.md)
+- [`contactcenterinsights.authorizedConversations.update`](../../../../../../permissions/contactcenterinsights/authorizedConversations/overview.md)
+- [`contactcenterinsights.authorizedConversations.upload`](../../../../../../permissions/contactcenterinsights/authorizedConversations/overview.md)
+- [`contactcenterinsights.authorizedFeedbackLabels.create`](../../../../../../permissions/contactcenterinsights/authorizedFeedbackLabels/overview.md)
+- [`contactcenterinsights.authorizedFeedbackLabels.delete`](../../../../../../permissions/contactcenterinsights/authorizedFeedbackLabels/overview.md)
+- [`contactcenterinsights.authorizedFeedbackLabels.download`](../../../../../../permissions/contactcenterinsights/authorizedFeedbackLabels/overview.md)
+- [`contactcenterinsights.authorizedFeedbackLabels.get`](../../../../../../permissions/contactcenterinsights/authorizedFeedbackLabels/overview.md)
+- [`contactcenterinsights.authorizedFeedbackLabels.list`](../../../../../../permissions/contactcenterinsights/authorizedFeedbackLabels/overview.md)
+- [`contactcenterinsights.authorizedFeedbackLabels.update`](../../../../../../permissions/contactcenterinsights/authorizedFeedbackLabels/overview.md)
+- [`contactcenterinsights.authorizedFeedbackLabels.upload`](../../../../../../permissions/contactcenterinsights/authorizedFeedbackLabels/overview.md)
+- [`contactcenterinsights.authorizedNotes.create`](../../../../../../permissions/contactcenterinsights/authorizedNotes/overview.md)
+- [`contactcenterinsights.authorizedNotes.delete`](../../../../../../permissions/contactcenterinsights/authorizedNotes/overview.md)
+- [`contactcenterinsights.authorizedNotes.list`](../../../../../../permissions/contactcenterinsights/authorizedNotes/overview.md)
+- [`contactcenterinsights.authorizedNotes.update`](../../../../../../permissions/contactcenterinsights/authorizedNotes/overview.md)
+- [`contactcenterinsights.authorizedOperations.get`](../../../../../../permissions/contactcenterinsights/authorizedOperations/overview.md)
+- [`contactcenterinsights.authorizedOperations.list`](../../../../../../permissions/contactcenterinsights/authorizedOperations/overview.md)
+- [`contactcenterinsights.authorizedViewSets.get`](../../../../../../permissions/contactcenterinsights/authorizedViewSets/overview.md)
+- [`contactcenterinsights.authorizedViewSets.list`](../../../../../../permissions/contactcenterinsights/authorizedViewSets/overview.md)
+- [`contactcenterinsights.authorizedViews.get`](../../../../../../permissions/contactcenterinsights/authorizedViews/overview.md)
+- [`contactcenterinsights.authorizedViews.list`](../../../../../../permissions/contactcenterinsights/authorizedViews/overview.md)
+
+Role: [`roles/contactcenterinsights.authorizedEditor`](../../overview.md)
