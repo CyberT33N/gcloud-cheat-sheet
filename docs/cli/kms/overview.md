@@ -9,3 +9,11 @@
 ## Keys
 
 - [Keys](keys/overview.md)
+
+## Encrypt
+
+- [Encrypt](encrypt/overview.md)
+
+## Decrypt
+
+- [Decrypt](decrypt/overview.md)
