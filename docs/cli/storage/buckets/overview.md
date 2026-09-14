@@ -33,3 +33,13 @@ $bucket = "test-software-dep-evidence-archive" ; foreach ($p in 'test-software-d
 ```shell
 gcloud storage buckets get-iam-policy gs://test-software-dep-evidence-archive --flatten="bindings[].members" --filter="bindings.role=roles/storage.objectCreator" --format="value(bindings.members)"
 ```
+
+---
+
+### List
+
+```shell
+gcloud storage buckets list --project=test-software-dep-control --format="value(name)"
+```
+
+The leaf form: [list](list/overview.md)
