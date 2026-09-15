@@ -14,6 +14,8 @@ $bucket = "test-software-dep-evidence-archive" ; gcloud storage buckets create "
 $bucket = "test-software-dep-evidence-archive" ; gcloud storage buckets describe "gs://$bucket" --format="value(name,location,uniformBucketLevelAccess.enabled,publicAccessPrevention)" 2>&1
 ```
 
+The leaf form: [describe](describe/overview.md)
+
 
 ---
 
@@ -29,12 +31,14 @@ Role reference: [`roles/storage.objectCreator`](../../../iam/roles/predefined/st
 
 ---
 
-### get-iam-polic
+### get-iam-policy
 
 
 ```shell
 gcloud storage buckets get-iam-policy gs://test-software-dep-evidence-archive --flatten="bindings[].members" --filter="bindings.role=roles/storage.objectCreator" --format="value(bindings.members)"
 ```
+
+The leaf form: [get-iam-policy](get-iam-policy/overview.md)
 
 ---
 
