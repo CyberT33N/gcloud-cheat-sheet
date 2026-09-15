@@ -24,6 +24,8 @@ Multiple
 $bucket = "test-software-dep-evidence-archive" ; foreach ($p in 'test-software-dep-control','test-software-dep-intake','test-software-dep-quarantine','test-software-dep-approved','test-software-dep-evidence') { Write-Output "== $p"; $w = (gcloud logging sinks describe audit-to-evidence --project=$p --format="value(writerIdentity)") ; Write-Output "writer: $w" ; if ($w) { gcloud storage buckets add-iam-policy-binding "gs://$bucket" --member=$w --role=roles/storage.objectCreator --format=none 2>&1 | Select-Object -Last 1 ; Write-Output "bind exit=$LASTEXITCODE" } }
 ```
 
+Role reference: [`roles/storage.objectCreator`](../../../iam/roles/predefined/storage/objectCreator/overview.md) — the IAM roles area documents the full permission set of this role.
+
 
 ---
 

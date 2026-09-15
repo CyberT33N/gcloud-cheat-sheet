@@ -23,6 +23,12 @@ Binding rules for `docs/cli`, the `gcloud` command reference area.
 5. `## Verified example` — a real executed invocation with its proven result.
 6. Optional deep-dive sections for non-obvious behavior, failure modes, and troubleshooting findings.
 
+## IAM role and permission references
+
+- When added content describes roles or permissions covered by the IAM area under `docs/iam`, the owning IAM location is searched first: `docs/iam/roles/` for roles, `docs/iam/permissions/` for permissions. The location is derived from the official identifier (role ID segments, permission name segments) — never guessed.
+- If the location exists, the command page references it by link. Role and permission semantics are never duplicated into `docs/cli` (single source of truth per concept).
+- If the location does not exist, it is created in the IAM area before the command page is finalized — the [IAM conventions](../iam/CONVENTIONS.md) own the creation path — and then referenced by link.
+
 ## Verification
 
 - A command is documented only after it has been executed and its result verified against the live system (100% functional proof).

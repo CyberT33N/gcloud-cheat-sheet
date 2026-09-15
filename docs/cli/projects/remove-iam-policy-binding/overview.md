@@ -17,3 +17,5 @@ The removal targets exactly the member form that was granted and ends the just-i
 ```shell
 gcloud projects remove-iam-policy-binding test-software-dep-control --member="user:admin@test.software" --role="roles/run.admin"
 ```
+
+Role reference: [`roles/run.admin`](../../../iam/roles/predefined/run/admin/overview.md) — the IAM roles area documents the full permission set of this role.

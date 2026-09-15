@@ -18,7 +18,7 @@ gcloud compute firewall-rules create <RULE_NAME> --network=<NETWORK_NAME> --dire
 
 ## Architectural explanation
 
-Lower priority values win; the governed egress pair orders the allow rule before priority 1000 and the deny-all rule after it, so exactly the declared destination range remains reachable. The deny form uses `--action=DENY` with `--rules=all` instead of `--allow`. Creating firewall rules requires a role carrying `compute.firewalls.create` — `roles/compute.networkAdmin` does NOT carry it (proven via `gcloud iam roles describe`); the minimal canonical role is `roles/compute.securityAdmin`. The read-back half is [list](../list/overview.md) filtered to the network.
+Lower priority values win; the governed egress pair orders the allow rule before priority 1000 and the deny-all rule after it, so exactly the declared destination range remains reachable. The deny form uses `--action=DENY` with `--rules=all` instead of `--allow`. Creating firewall rules requires a role carrying `compute.firewalls.create` — [`roles/compute.networkAdmin`](../../../../iam/roles/predefined/compute/networkAdmin/overview.md) does NOT carry it (proven via `gcloud iam roles describe`); the minimal canonical role is [`roles/compute.securityAdmin`](../../../../iam/roles/predefined/compute/securityAdmin/overview.md). The read-back half is [list](../list/overview.md) filtered to the network.
 
 ## Verified example
 

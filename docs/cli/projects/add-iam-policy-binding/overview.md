@@ -18,4 +18,6 @@ The binding is project-scoped: the member receives the role on every resource of
 gcloud projects add-iam-policy-binding test-software-dep-control --member="user:admin@test.software" --role="roles/run.admin"
 ```
 
+Role reference: [`roles/run.admin`](../../../iam/roles/predefined/run/admin/overview.md) — the IAM roles area documents the full permission set of this role.
+
 The read-back runs over [get-iam-policy](../get-iam-policy/overview.md); the removal runs over [remove-iam-policy-binding](../remove-iam-policy-binding/overview.md).

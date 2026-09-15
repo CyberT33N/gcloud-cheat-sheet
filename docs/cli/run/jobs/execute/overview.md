@@ -10,7 +10,7 @@ gcloud run jobs execute <JOB_NAME> --project=<PROJECT_ID> --region=<REGION> --up
 
 ## Architectural explanation
 
-- `--update-env-vars` passes per-execution inputs as template overrides; the `^;^` prefix switches the key/value delimiter to `;`, so values may contain commas. This makes the call an override execution: it requires `run.jobs.runWithOverrides` on the job, not only `run.jobs.run`. The proven least-privilege role pair for a trigger identity is `roles/run.jobsExecutorWithOverrides` (carrying `run.jobs.run`, `run.jobs.runWithOverrides` and `run.executions.cancel`) plus `roles/run.viewer` for the status read-back — `roles/run.invoker` alone fails closed with `PERMISSION_DENIED: Permission 'run.jobs.runWithOverrides' denied`.
+- `--update-env-vars` passes per-execution inputs as template overrides; the `^;^` prefix switches the key/value delimiter to `;`, so values may contain commas. This makes the call an override execution: it requires `run.jobs.runWithOverrides` on the job, not only `run.jobs.run`. The proven least-privilege role pair for a trigger identity is [`roles/run.jobsExecutorWithOverrides`](../../../../iam/roles/predefined/run/jobsExecutorWithOverrides/overview.md) (carrying `run.jobs.run`, `run.jobs.runWithOverrides` and `run.executions.cancel`) plus [`roles/run.viewer`](../../../../iam/roles/predefined/run/viewer/overview.md) for the status read-back — [`roles/run.invoker`](../../../../iam/roles/predefined/run/invoker/overview.md) alone fails closed with `PERMISSION_DENIED: Permission 'run.jobs.runWithOverrides' denied`.
 - `--wait` is mandatory for the status proof: without it the command returns at execution start, not at its outcome.
 - `--format="value(name)"` reduces the answer to the execution resource name for the read-back over [executions describe](../executions/describe/overview.md).
 - The execution runs as the job's attached service account; the caller identity never enters the data plane.
@@ -23,7 +23,7 @@ gcloud run jobs execute dep-intake-fetch --project=test-software-dep-intake --re
 
 ## Troubleshooting
 
-**`PERMISSION_DENIED` on `run.jobs.runWithOverrides`.** The trigger identity holds `roles/run.invoker` only. Swap the binding to `roles/run.jobsExecutorWithOverrides` (add the new role first, then remove the old one) and retry; see [add-iam-policy-binding](../add-iam-policy-binding/overview.md) and [remove-iam-policy-binding](../remove-iam-policy-binding/overview.md).
+**`PERMISSION_DENIED` on `run.jobs.runWithOverrides`.** The trigger identity holds [`roles/run.invoker`](../../../../iam/roles/predefined/run/invoker/overview.md) only. Swap the binding to [`roles/run.jobsExecutorWithOverrides`](../../../../iam/roles/predefined/run/jobsExecutorWithOverrides/overview.md) (add the new role first, then remove the old one) and retry; see [add-iam-policy-binding](../add-iam-policy-binding/overview.md) and [remove-iam-policy-binding](../remove-iam-policy-binding/overview.md).
 
 **The execution starts but fails.** The invoke succeeded; the failure is inside the workload. Read the execution status over [executions describe](../executions/describe/overview.md) and the workload logs over `gcloud logging read` (see the logging read document).
 

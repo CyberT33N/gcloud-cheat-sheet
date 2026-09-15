@@ -18,4 +18,6 @@ Removes exactly the member/role pair that was granted and ends the resource-shar
 gcloud kms keys remove-iam-policy-binding dep-state-encryption --keyring=dep-control --location=europe-west3 --project=test-software-dep-control --member="user:admin@test.software" --role="roles/cloudkms.cryptoKeyEncrypterDecrypter" --format=none
 ```
 
+Role reference: [`roles/cloudkms.cryptoKeyEncrypterDecrypter`](../../../../iam/roles/predefined/cloudkms/cryptoKeyEncrypterDecrypter/overview.md) — the IAM roles area documents the full permission set of this role.
+
 Proven result: `Updated IAM policy for key [dep-state-encryption]`, and the read-back shows the empty policy.

@@ -17,3 +17,5 @@ The removal targets exactly the member form that was granted. For a role swap th
 ```shell
 gcloud run jobs remove-iam-policy-binding dep-intake-fetch --project=test-software-dep-intake --region=europe-west3 --member="serviceAccount:dep-intake-fetch-trigger@test-software-dep-intake.iam.gserviceaccount.com" --role="roles/run.invoker"
 ```
+
+Role reference: [`roles/run.invoker`](../../../../iam/roles/predefined/run/invoker/overview.md) — the IAM roles area documents the full permission set of this role.

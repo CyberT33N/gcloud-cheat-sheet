@@ -6,6 +6,8 @@
 gcloud iam service-accounts add-iam-policy-binding "dep-revocation-controller@test-software-dep-control.iam.gserviceaccount.com" --project=test-software-dep-control --role="roles/iam.workloadIdentityUser" --member="principalSet://iam.googleapis.com/projects/xxxxxxxxxxxx/locations/global/workloadIdentityPools/dep-control-github/attribute.environment/dep-revocation" --format=none
 ```
 
+Role reference: [`roles/iam.workloadIdentityUser`](../../../../iam/roles/predefined/iam/workloadIdentityUser/overview.md) — the IAM roles area documents the full permission set of this role.
+
 ## User member (time-boxed administration)
 
 ```shell
@@ -14,4 +16,4 @@ gcloud iam service-accounts add-iam-policy-binding dep-intake-fetcher@test-softw
 
 ## Architectural explanation
 
-The binding is service-account-scoped: the member receives the role on exactly this service account. `roles/iam.serviceAccountUser` carries `iam.serviceAccounts.actAs` — the permission to attach the identity to a resource (for example a Cloud Run job). The caller needs `iam.serviceAccounts.setIamPolicy` on the service account (for example via project-level `roles/iam.serviceAccountAdmin`). Every grant is proven by the read-back over [get-iam-policy](../get-iam-policy/overview.md) and removed after the phase over [remove-iam-policy-binding](../remove-iam-policy-binding/overview.md). The mutation's policy echo can be suppressed with the output-mode flag `--format=none`; the independent read-back stays the proof (verified in the controller-activation window).
+The binding is service-account-scoped: the member receives the role on exactly this service account. [`roles/iam.serviceAccountUser`](../../../../iam/roles/predefined/iam/serviceAccountUser/overview.md) carries `iam.serviceAccounts.actAs` — the permission to attach the identity to a resource (for example a Cloud Run job). The caller needs `iam.serviceAccounts.setIamPolicy` on the service account (for example via project-level [`roles/iam.serviceAccountAdmin`](../../../../iam/roles/predefined/iam/serviceAccountAdmin/overview.md)). Every grant is proven by the read-back over [get-iam-policy](../get-iam-policy/overview.md) and removed after the phase over [remove-iam-policy-binding](../remove-iam-policy-binding/overview.md). The mutation's policy echo can be suppressed with the output-mode flag `--format=none`; the independent read-back stays the proof (verified in the controller-activation window).

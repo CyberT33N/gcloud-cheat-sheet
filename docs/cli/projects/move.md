@@ -10,6 +10,8 @@
 gcloud config set account test@gmail.com --quiet ; gcloud projects add-iam-policy-binding test-software-dep-control --member="user:admin@test.software" --role="roles/owner" --format=none ; Write-Output "grant-owner exit=$LASTEXITCODE" ; gcloud projects remove-iam-policy-binding test-software-dep-control --member="user:test@gmail.com" --role="roles/owner" --format=none ; Write-Output "remove-owner exit=$LASTEXITCODE" ; Write-Output "--- remaining bindings on control:" ; gcloud projects get-iam-policy test-software-dep-control --flatten="bindings[].members" --format="value(bindings.role,bindings.members)"
 ```
 
+Role reference: [`roles/owner`](../../iam/roles/basic/owner/overview.md) — the IAM roles area documents the full permission set of this role.
+
 
 3. Then move:
 ```shell
@@ -18,7 +20,7 @@ gcloud beta projects move test-software-dep-control --folder=xxxxxxxxxxxxxx --qu
 
 `gcloud beta projects move` is broken: the implementation reads through the deprecated Resource Manager v1 API (403 for owner and admin alike, proven via debug trace). The migration succeeded via the v3 REST method `projects.move` with the same identity (admin@test.software); the access token was used only in-process and was never printed or persisted. Same operation, same governance, working transport.
 
-Bound move preconditions (official v3 documentation): on a project without a parent, the caller additionally needs `resourcemanager.projects.setIamPolicy` and `resourcemanager.projects.update` — solved via `roles/resourcemanager.projectIamAdmin` + `roles/editor` for the org admin (plus `roles/logging.configWriter` for the sinks). The previously suspected domain restriction was not the blocker; it also did not block the logging service agents.
+Bound move preconditions (official v3 documentation): on a project without a parent, the caller additionally needs `resourcemanager.projects.setIamPolicy` and `resourcemanager.projects.update` — solved via [`roles/resourcemanager.projectIamAdmin`](../../iam/roles/predefined/resourcemanager/projectIamAdmin/overview.md) + [`roles/editor`](../../iam/roles/basic/editor/overview.md) for the org admin (plus [`roles/logging.configWriter`](../../iam/roles/predefined/logging/configWriter/overview.md) for the sinks). The previously suspected domain restriction was not the blocker; it also did not block the logging service agents.
 
 
 Alternative via REST:

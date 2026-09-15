@@ -12,4 +12,4 @@ gcloud artifacts files list --repository=go-dependencies-evidence --location=eur
 
 - The file-level inventory of a repository: every stored object with its composed identity `<package>:<version>:<path>`, its size and its owning package version — the form that proves which governed objects exist and at which exact coordinates.
 - Narrow the inventory with `--package` and `--version` when the repository carries many objects (see the command help for the filter flags).
-- The caller needs a role carrying `artifactregistry.files.list` on the repository (proven: `roles/artifactregistry.writer` carries it).
+- The caller needs a role carrying `artifactregistry.files.list` on the repository (proven: [`roles/artifactregistry.writer`](../../../../iam/roles/predefined/artifactregistry/writer/overview.md) carries it).

@@ -12,7 +12,7 @@ gcloud services list --enabled --project=<PROJECT_ID> --filter="name:<API_NAME>"
 
 `gcloud services list --enabled` reads the Service Usage surface of the target project and returns the enabled API services. The `--filter="name:<API_NAME>"` predicate narrows the answer to exactly one service, and `--format="value(name)"` reduces the output to the bare resource name — the composition yields a scriptable proof: empty output means the API is not enabled, one line means it is. This is the read-back half of every API activation and the preflight check before any operation that depends on a service.
 
-The read requires `serviceusage.services.list` on the target project (for example via a time-boxed `roles/serviceusage.serviceUsageAdmin` grant); in a hardened project without standing user roles the call fails closed with `AUTH_PERMISSION_DENIED` until such a grant exists.
+The read requires `serviceusage.services.list` on the target project (for example via a time-boxed [`roles/serviceusage.serviceUsageAdmin`](../../../iam/roles/predefined/serviceusage/serviceUsageAdmin/overview.md) grant); in a hardened project without standing user roles the call fails closed with `AUTH_PERMISSION_DENIED` until such a grant exists.
 
 ### Verified example (Cloud Run API)
 

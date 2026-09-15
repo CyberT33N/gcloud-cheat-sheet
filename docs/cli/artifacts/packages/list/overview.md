@@ -12,4 +12,4 @@ gcloud artifacts packages list --repository=go-dependencies-evidence --location=
 
 - The inventory form of a repository: it proves which package coordinates exist — and before a governed fill it proves that the intended target coordinates are still absent (append-only discipline).
 - The output carries the package name plus create and update times; `--filter` and `--limit` narrow larger inventories (see the command help).
-- The caller needs a role carrying `artifactregistry.packages.list` on the repository (proven: `roles/artifactregistry.writer` carries it).
+- The caller needs a role carrying `artifactregistry.packages.list` on the repository (proven: [`roles/artifactregistry.writer`](../../../../iam/roles/predefined/artifactregistry/writer/overview.md) carries it).

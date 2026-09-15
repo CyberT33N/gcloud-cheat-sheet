@@ -11,7 +11,7 @@ gcloud run jobs create <JOB_NAME> --project=<PROJECT_ID> --region=<REGION> --ima
 ## Architectural explanation
 
 - `--image` binds the container image; the governed form is the full immutable `@sha256:` digest reference of a release-class registry, never a tag.
-- `--service-account` attaches the execution identity the workload runs as; the caller needs `iam.serviceAccounts.actAs` on that identity (for example via a resource-scoped `roles/iam.serviceAccountUser` binding) plus `run.jobs.create` on the project (via `roles/run.admin`).
+- `--service-account` attaches the execution identity the workload runs as; the caller needs `iam.serviceAccounts.actAs` on that identity (for example via a resource-scoped [`roles/iam.serviceAccountUser`](../../../../iam/roles/predefined/iam/serviceAccountUser/overview.md) binding) plus `run.jobs.create` on the project (via [`roles/run.admin`](../../../../iam/roles/predefined/run/admin/overview.md)).
 - `--labels` carries the governance classification of the job.
 - `--set-env-vars` with the `^;^` prefix switches the key/value delimiter to `;`, so values may contain commas and other list metacharacters. Static configuration belongs here; execution-time inputs belong to `gcloud run jobs execute --update-env-vars`.
 - The job is created in the project that owns it; the image may live in another project (see the troubleshooting entry).
@@ -24,7 +24,7 @@ gcloud run jobs create dep-intake-fetch --project=test-software-dep-intake --reg
 
 ## Troubleshooting
 
-**`ContainerPermissionDenied` on a cross-project image.** The image pull at creation and execution time is performed by the Cloud Run Service Agent of the job's project (`service-<PROJECT_NUMBER>@serverless-robot-prod.iam.gserviceaccount.com`), not by the job's service account. When the image lives in another project, that agent needs `roles/artifactregistry.reader` on the source repository:
+**`ContainerPermissionDenied` on a cross-project image.** The image pull at creation and execution time is performed by the Cloud Run Service Agent of the job's project (`service-<PROJECT_NUMBER>@serverless-robot-prod.iam.gserviceaccount.com`), not by the job's service account. When the image lives in another project, that agent needs [`roles/artifactregistry.reader`](../../../../iam/roles/predefined/artifactregistry/reader/overview.md) on the source repository:
 
 ```shell
 gcloud artifacts repositories add-iam-policy-binding <REPOSITORY_NAME> --project=<IMAGE_PROJECT_ID> --location=<REGION> --member="serviceAccount:service-<JOB_PROJECT_NUMBER>@serverless-robot-prod.iam.gserviceaccount.com" --role="roles/artifactregistry.reader"

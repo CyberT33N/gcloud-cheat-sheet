@@ -18,4 +18,4 @@ Returns the key-level IAM policy. A key without any binding answers with an empt
 gcloud kms keys get-iam-policy dep-state-encryption --keyring=dep-control --location=europe-west3 --project=test-software-dep-control --format=json
 ```
 
-Proven result during a just-in-time window: one binding of `user:admin@test.software` with `roles/cloudkms.cryptoKeyEncrypterDecrypter`; after the removal the policy answers with no `bindings` at all.
+Proven result during a just-in-time window: one binding of `user:admin@test.software` with [`roles/cloudkms.cryptoKeyEncrypterDecrypter`](../../../../iam/roles/predefined/cloudkms/cryptoKeyEncrypterDecrypter/overview.md); after the removal the policy answers with no `bindings` at all.
