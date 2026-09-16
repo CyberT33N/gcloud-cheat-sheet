@@ -28,6 +28,14 @@ $bucket = "test-software-dep-evidence-archive" ; foreach ($p in 'test-software-d
 
 Role reference: [`roles/storage.objectCreator`](../../../iam/roles/predefined/storage/objectCreator/overview.md) — the IAM roles area documents the full permission set of this role.
 
+The leaf form: [add-iam-policy-binding](add-iam-policy-binding/overview.md)
+
+---
+
+### remove-iam-policy-binding
+
+The leaf form: [remove-iam-policy-binding](remove-iam-policy-binding/overview.md)
+
 
 ---
 
