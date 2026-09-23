@@ -21,3 +21,7 @@ gcloud projects add-iam-policy-binding test-software-dep-control --member="user:
 Role reference: [`roles/run.admin`](../../../iam/roles/predefined/run/admin/overview.md) — the IAM roles area documents the full permission set of this role.
 
 The read-back runs over [get-iam-policy](../get-iam-policy/overview.md); the removal runs over [remove-iam-policy-binding](../remove-iam-policy-binding/overview.md).
+
+## Troubleshooting: role not grantable at project level
+
+Some roles are not grantable on the project resource at all: the bind fails with `INVALID_ARGUMENT: Role <ROLE> is not supported for this resource`. Verified with `roles/orgpolicy.policyAdmin`: organization-policy administration binds above the project — grant the role on the organization (or the owning folder) over [organizations add-iam-policy-binding](../../organizations/overview.md), never on the project. The grant remains a time-boxed window form with the same role-content proof, read-back and removal discipline; only the resource level changes.
