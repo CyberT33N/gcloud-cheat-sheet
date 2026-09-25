@@ -25,3 +25,7 @@ The read-back runs over [get-iam-policy](../get-iam-policy/overview.md); the rem
 ## Troubleshooting: role not grantable at project level
 
 Some roles are not grantable on the project resource at all: the bind fails with `INVALID_ARGUMENT: Role <ROLE> is not supported for this resource`. Verified with `roles/orgpolicy.policyAdmin`: organization-policy administration binds above the project — grant the role on the organization (or the owning folder) over [organizations add-iam-policy-binding](../../organizations/overview.md), never on the project. The grant remains a time-boxed window form with the same role-content proof, read-back and removal discipline; only the resource level changes.
+
+## Troubleshooting: conditions are rejected on primitive roles
+
+A binding that combines `--condition` with a primitive (basic) role — `roles/owner`, `roles/editor`, `roles/viewer` — is rejected by the platform: `googleapi: Error 400: LintValidationUnits/BindingRoleAllowConditionCheck Error: Conditions can't be set on primitive roles., badRequest`. The `--condition` flag documentation states the restriction ("`--role` cannot be a basic role"); the live proof was produced from an OpenTofu apply of an equivalent `google_project_iam_member` (the same IAM policy write path). Time-bound or otherwise conditioned bindings require a non-primitive role (predefined or custom); a primitive role can only ever be bound unconditionally.
