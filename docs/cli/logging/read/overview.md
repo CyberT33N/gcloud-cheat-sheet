@@ -26,3 +26,18 @@ gcloud logging read "resource.type=cloud_run_job AND resource.labels.job_name=de
 ```shell
 gcloud logging read "logName:cloudaudit.googleapis.com AND protoPayload.status.code=7 AND protoPayload.authenticationInfo.principalEmail=<SERVICE_ACCOUNT_EMAIL>" --project=test-software-dep-intake --limit=5 --freshness=2h --format=json
 ```
+
+## Troubleshooting: timestamp-literal filters fail at the Windows PowerShell boundary
+
+A filter carrying a timestamp literal (for example `timestamp>="2026-09-24T00:00:00Z"`) passed directly from PowerShell fails with `ERROR: (gcloud.logging.read) INVALID_ARGUMENT: Unparseable filter: syntax error at line 1, column <n>, token ':'` — the value-carrying argument is mangled at the native-command boundary before it reaches the API. Two proven forms (verified with Google Cloud SDK 580.0.0 on windows_amd64):
+
+- Use `--freshness=<duration>` instead of a timestamp literal and keep the default `--order=desc` (the help surface binds: freshness works only with DESC ordering and with filters that carry no timestamp); reverse client-side for a chronological view.
+- Or carry the exact filter through a `cmd /c` subshell with `\"` escaping:
+
+```powershell
+cmd /c 'gcloud logging read "logName:\"cloudaudit.googleapis.com\" AND protoPayload.methodName:\"SetIamPolicy\" AND timestamp>=\"<RFC3339_FROM>\" AND timestamp<=\"<RFC3339_TO>\"" --project=<PROJECT_ID> --limit=<N> --order=asc --format=json'
+```
+
+## Deep dive: IAM-mutation forensics over the admin activity log
+
+Verified pattern for "who changed the IAM policy" questions: read the project's admin activity audit log with `logName:"cloudaudit.googleapis.com" AND protoPayload.methodName:"SetIamPolicy"` and project each entry to `timestamp`, `protoPayload.authenticationInfo.principalEmail`, and the role set inside `protoPayload.request.policy.bindings`. Two verified lessons: (1) the project log also carries resource-level `SetIamPolicy` entries of other services in the project (for example `cloudkms.googleapis.com` key policies) — distinguish on `protoPayload.serviceName` before comparing policy contents, or a key-level entry reads as an empty project policy; (2) a removal that reports `Policy binding with the specified principal, role, and condition not found!` means the binding was already absent — the audit timeline then shows which earlier `SetIamPolicy` call removed it and under which identity.
